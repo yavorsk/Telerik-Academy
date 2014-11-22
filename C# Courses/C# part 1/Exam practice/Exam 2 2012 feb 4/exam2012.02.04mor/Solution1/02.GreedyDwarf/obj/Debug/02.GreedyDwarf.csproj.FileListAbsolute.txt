@@ -1,0 +1,6 @@
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 2 2012.02.4 morning\exam2012.02.04mor\Solution1\02.GreedyDwarf\bin\Debug\02.GreedyDwarf.exe.config
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 2 2012.02.4 morning\exam2012.02.04mor\Solution1\02.GreedyDwarf\obj\Debug\02.GreedyDwarf.csprojResolveAssemblyReference.cache
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 2 2012.02.4 morning\exam2012.02.04mor\Solution1\02.GreedyDwarf\bin\Debug\02.GreedyDwarf.exe
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 2 2012.02.4 morning\exam2012.02.04mor\Solution1\02.GreedyDwarf\bin\Debug\02.GreedyDwarf.pdb
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 2 2012.02.4 morning\exam2012.02.04mor\Solution1\02.GreedyDwarf\obj\Debug\02.GreedyDwarf.exe
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 2 2012.02.4 morning\exam2012.02.04mor\Solution1\02.GreedyDwarf\obj\Debug\02.GreedyDwarf.pdb

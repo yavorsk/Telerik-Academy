@@ -1,0 +1,6 @@
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 2 2012.02.4 morning\exam2012.02.04mor\Solution1\01.Kaspichan numbers\bin\Debug\01.Kaspichan numbers.exe.config
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 2 2012.02.4 morning\exam2012.02.04mor\Solution1\01.Kaspichan numbers\bin\Debug\01.Kaspichan numbers.exe
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 2 2012.02.4 morning\exam2012.02.04mor\Solution1\01.Kaspichan numbers\bin\Debug\01.Kaspichan numbers.pdb
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 2 2012.02.4 morning\exam2012.02.04mor\Solution1\01.Kaspichan numbers\obj\Debug\01.Kaspichan numbers.csprojResolveAssemblyReference.cache
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 2 2012.02.4 morning\exam2012.02.04mor\Solution1\01.Kaspichan numbers\obj\Debug\01.Kaspichan numbers.exe
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 2 2012.02.4 morning\exam2012.02.04mor\Solution1\01.Kaspichan numbers\obj\Debug\01.Kaspichan numbers.pdb

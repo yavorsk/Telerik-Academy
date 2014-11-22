@@ -1,0 +1,5 @@
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 1 2012 dec 29\exam29dec\04.UkFlag\bin\Debug\04.UkFlag.exe.config
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 1 2012 dec 29\exam29dec\04.UkFlag\bin\Debug\04.UkFlag.exe
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 1 2012 dec 29\exam29dec\04.UkFlag\bin\Debug\04.UkFlag.pdb
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 1 2012 dec 29\exam29dec\04.UkFlag\obj\Debug\04.UkFlag.exe
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 1 2012 dec 29\exam29dec\04.UkFlag\obj\Debug\04.UkFlag.pdb

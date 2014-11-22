@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.ShipDamage", "01.ShipDamage\01.ShipDamage.csproj", "{537395FD-BE66-4AE3-99E4-8FD122EC6A8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{B92BEC57-1ACA-4BE8-973E-BE83327D84D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FallDown", "FallDown\FallDown.csproj", "{C8A686F0-4D53-45FA-8727-68F599FD977A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{537395FD-BE66-4AE3-99E4-8FD122EC6A8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{537395FD-BE66-4AE3-99E4-8FD122EC6A8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{537395FD-BE66-4AE3-99E4-8FD122EC6A8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{537395FD-BE66-4AE3-99E4-8FD122EC6A8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B92BEC57-1ACA-4BE8-973E-BE83327D84D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B92BEC57-1ACA-4BE8-973E-BE83327D84D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B92BEC57-1ACA-4BE8-973E-BE83327D84D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B92BEC57-1ACA-4BE8-973E-BE83327D84D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8A686F0-4D53-45FA-8727-68F599FD977A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8A686F0-4D53-45FA-8727-68F599FD977A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8A686F0-4D53-45FA-8727-68F599FD977A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8A686F0-4D53-45FA-8727-68F599FD977A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

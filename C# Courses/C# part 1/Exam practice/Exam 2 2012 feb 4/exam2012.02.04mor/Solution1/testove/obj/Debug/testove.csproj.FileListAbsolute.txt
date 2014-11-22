@@ -1,0 +1,6 @@
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 2 2012.02.4 morning\exam2012.02.04mor\Solution1\testove\bin\Debug\testove.exe.config
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 2 2012.02.4 morning\exam2012.02.04mor\Solution1\testove\bin\Debug\testove.exe
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 2 2012.02.4 morning\exam2012.02.04mor\Solution1\testove\bin\Debug\testove.pdb
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 2 2012.02.4 morning\exam2012.02.04mor\Solution1\testove\obj\Debug\testove.exe
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 2 2012.02.4 morning\exam2012.02.04mor\Solution1\testove\obj\Debug\testove.pdb
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 2 2012.02.4 morning\exam2012.02.04mor\Solution1\testove\obj\Debug\testove.csprojResolveAssemblyReference.cache

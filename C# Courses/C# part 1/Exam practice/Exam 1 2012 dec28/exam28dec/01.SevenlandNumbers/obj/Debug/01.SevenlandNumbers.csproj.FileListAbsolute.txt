@@ -1,0 +1,6 @@
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 1 2012 dec28\exam28dec\01.SevenlandNumbers\bin\Debug\01.SevenlandNumbers.exe.config
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 1 2012 dec28\exam28dec\01.SevenlandNumbers\bin\Debug\01.SevenlandNumbers.exe
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 1 2012 dec28\exam28dec\01.SevenlandNumbers\bin\Debug\01.SevenlandNumbers.pdb
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 1 2012 dec28\exam28dec\01.SevenlandNumbers\obj\Debug\01.SevenlandNumbers.csprojResolveAssemblyReference.cache
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 1 2012 dec28\exam28dec\01.SevenlandNumbers\obj\Debug\01.SevenlandNumbers.exe
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 1 2012 dec28\exam28dec\01.SevenlandNumbers\obj\Debug\01.SevenlandNumbers.pdb

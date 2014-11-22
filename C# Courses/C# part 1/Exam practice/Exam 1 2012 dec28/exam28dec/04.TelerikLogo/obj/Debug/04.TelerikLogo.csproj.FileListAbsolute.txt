@@ -1,0 +1,6 @@
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 1 2012 dec28\exam28dec\04.TelerikLogo\bin\Debug\04.TelerikLogo.exe.config
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 1 2012 dec28\exam28dec\04.TelerikLogo\bin\Debug\04.TelerikLogo.exe
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 1 2012 dec28\exam28dec\04.TelerikLogo\bin\Debug\04.TelerikLogo.pdb
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 1 2012 dec28\exam28dec\04.TelerikLogo\obj\Debug\04.TelerikLogo.csprojResolveAssemblyReference.cache
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 1 2012 dec28\exam28dec\04.TelerikLogo\obj\Debug\04.TelerikLogo.exe
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 1 2012 dec28\exam28dec\04.TelerikLogo\obj\Debug\04.TelerikLogo.pdb

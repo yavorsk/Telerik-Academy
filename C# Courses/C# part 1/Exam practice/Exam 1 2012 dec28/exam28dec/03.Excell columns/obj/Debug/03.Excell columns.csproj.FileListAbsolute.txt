@@ -1,0 +1,6 @@
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 1 2012 dec28\exam28dec\03.Excell columns\bin\Debug\03.Excell columns.exe.config
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 1 2012 dec28\exam28dec\03.Excell columns\bin\Debug\03.Excell columns.exe
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 1 2012 dec28\exam28dec\03.Excell columns\bin\Debug\03.Excell columns.pdb
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 1 2012 dec28\exam28dec\03.Excell columns\obj\Debug\03.Excell columns.csprojResolveAssemblyReference.cache
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 1 2012 dec28\exam28dec\03.Excell columns\obj\Debug\03.Excell columns.exe
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 1 2012 dec28\exam28dec\03.Excell columns\obj\Debug\03.Excell columns.pdb

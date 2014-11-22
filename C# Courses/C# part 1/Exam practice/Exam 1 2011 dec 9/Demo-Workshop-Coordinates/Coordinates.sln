@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartesianSystem", "CartesianSystem\CartesianSystem.csproj", "{A536B088-7574-42DB-8CE0-4573ACB273DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShipDamage", "ShipDamage\ShipDamage.csproj", "{832A397F-D46C-41A5-990B-DF4968D7C413}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FighterAttack", "FighterAttack\FighterAttack.csproj", "{E5FFC16A-CAFA-418E-BF3D-990CD153E6C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A536B088-7574-42DB-8CE0-4573ACB273DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A536B088-7574-42DB-8CE0-4573ACB273DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A536B088-7574-42DB-8CE0-4573ACB273DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A536B088-7574-42DB-8CE0-4573ACB273DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{832A397F-D46C-41A5-990B-DF4968D7C413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{832A397F-D46C-41A5-990B-DF4968D7C413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{832A397F-D46C-41A5-990B-DF4968D7C413}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{832A397F-D46C-41A5-990B-DF4968D7C413}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5FFC16A-CAFA-418E-BF3D-990CD153E6C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5FFC16A-CAFA-418E-BF3D-990CD153E6C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5FFC16A-CAFA-418E-BF3D-990CD153E6C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5FFC16A-CAFA-418E-BF3D-990CD153E6C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 1 2012 dec 29\exam29dec\05.AngryBits\bin\Debug\05.AngryBits.exe.config
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 1 2012 dec 29\exam29dec\05.AngryBits\bin\Debug\05.AngryBits.exe
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 1 2012 dec 29\exam29dec\05.AngryBits\bin\Debug\05.AngryBits.pdb
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 1 2012 dec 29\exam29dec\05.AngryBits\obj\Debug\05.AngryBits.csprojResolveAssemblyReference.cache
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 1 2012 dec 29\exam29dec\05.AngryBits\obj\Debug\05.AngryBits.exe
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 1 2012 dec 29\exam29dec\05.AngryBits\obj\Debug\05.AngryBits.pdb

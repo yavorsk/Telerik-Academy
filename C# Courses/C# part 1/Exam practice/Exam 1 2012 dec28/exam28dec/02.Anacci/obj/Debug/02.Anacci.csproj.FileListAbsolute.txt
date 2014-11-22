@@ -1,0 +1,6 @@
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 1 2012 dec28\exam28dec\02.Anacci\bin\Debug\02.Anacci.exe.config
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 1 2012 dec28\exam28dec\02.Anacci\bin\Debug\02.Anacci.exe
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 1 2012 dec28\exam28dec\02.Anacci\bin\Debug\02.Anacci.pdb
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 1 2012 dec28\exam28dec\02.Anacci\obj\Debug\02.Anacci.csprojResolveAssemblyReference.cache
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 1 2012 dec28\exam28dec\02.Anacci\obj\Debug\02.Anacci.exe
+C:\Users\yavor\Google Диск\TelerikAcademy\C# part 1\exam practice\exam 1 2012 dec28\exam28dec\02.Anacci\obj\Debug\02.Anacci.pdb
