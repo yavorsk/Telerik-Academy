@@ -1,0 +1,5 @@
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\9. Combinatorics\problems HW\HW\CombinatoricsProblems\ColouredTrees\bin\Debug\ColouredTrees.exe.config
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\9. Combinatorics\problems HW\HW\CombinatoricsProblems\ColouredTrees\bin\Debug\ColouredTrees.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\9. Combinatorics\problems HW\HW\CombinatoricsProblems\ColouredTrees\bin\Debug\ColouredTrees.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\9. Combinatorics\problems HW\HW\CombinatoricsProblems\ColouredTrees\obj\Debug\ColouredTrees.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\9. Combinatorics\problems HW\HW\CombinatoricsProblems\ColouredTrees\obj\Debug\ColouredTrees.pdb

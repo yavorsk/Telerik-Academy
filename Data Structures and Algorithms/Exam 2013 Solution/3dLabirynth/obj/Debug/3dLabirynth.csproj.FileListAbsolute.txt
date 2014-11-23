@@ -1,0 +1,6 @@
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\Exam 2013 Solution\Exam2013\3dLabirynth\bin\Debug\3dLabirynth.exe.config
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\Exam 2013 Solution\Exam2013\3dLabirynth\bin\Debug\3dLabirynth.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\Exam 2013 Solution\Exam2013\3dLabirynth\bin\Debug\3dLabirynth.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\Exam 2013 Solution\Exam2013\3dLabirynth\obj\Debug\3dLabirynth.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\Exam 2013 Solution\Exam2013\3dLabirynth\obj\Debug\3dLabirynth.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\Exam 2013 Solution\Exam2013\3dLabirynth\obj\Debug\3dLabirynth.csprojResolveAssemblyReference.cache

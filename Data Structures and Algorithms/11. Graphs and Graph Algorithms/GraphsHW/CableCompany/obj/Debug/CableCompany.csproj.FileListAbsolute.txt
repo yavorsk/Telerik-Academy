@@ -1,0 +1,5 @@
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\11. Graphs and Graph Algorithms\HW\GraphsHW\CableCompany\bin\Debug\CableCompany.exe.config
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\11. Graphs and Graph Algorithms\HW\GraphsHW\CableCompany\bin\Debug\CableCompany.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\11. Graphs and Graph Algorithms\HW\GraphsHW\CableCompany\bin\Debug\CableCompany.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\11. Graphs and Graph Algorithms\HW\GraphsHW\CableCompany\obj\Debug\CableCompany.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\11. Graphs and Graph Algorithms\HW\GraphsHW\CableCompany\obj\Debug\CableCompany.pdb

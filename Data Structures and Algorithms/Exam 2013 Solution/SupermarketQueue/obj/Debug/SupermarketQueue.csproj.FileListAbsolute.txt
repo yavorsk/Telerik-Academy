@@ -1,0 +1,8 @@
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\Exam 2013 Solution\Exam2013\SupermarketQueue\bin\Debug\SupermarketQueue.exe.config
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\Exam 2013 Solution\Exam2013\SupermarketQueue\bin\Debug\SupermarketQueue.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\Exam 2013 Solution\Exam2013\SupermarketQueue\bin\Debug\SupermarketQueue.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\Exam 2013 Solution\Exam2013\SupermarketQueue\bin\Debug\PowerCollections.dll
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\Exam 2013 Solution\Exam2013\SupermarketQueue\bin\Debug\PowerCollections.xml
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\Exam 2013 Solution\Exam2013\SupermarketQueue\obj\Debug\SupermarketQueue.csprojResolveAssemblyReference.cache
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\Exam 2013 Solution\Exam2013\SupermarketQueue\obj\Debug\SupermarketQueue.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\Exam 2013 Solution\Exam2013\SupermarketQueue\obj\Debug\SupermarketQueue.pdb

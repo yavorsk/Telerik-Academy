@@ -1,0 +1,5 @@
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\7. Recursion\HW\Recursion\06.SubsetOfStrings\bin\Debug\06.SubsetOfStrings.exe.config
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\7. Recursion\HW\Recursion\06.SubsetOfStrings\bin\Debug\06.SubsetOfStrings.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\7. Recursion\HW\Recursion\06.SubsetOfStrings\bin\Debug\06.SubsetOfStrings.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\7. Recursion\HW\Recursion\06.SubsetOfStrings\obj\Debug\06.SubsetOfStrings.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\7. Recursion\HW\Recursion\06.SubsetOfStrings\obj\Debug\06.SubsetOfStrings.pdb

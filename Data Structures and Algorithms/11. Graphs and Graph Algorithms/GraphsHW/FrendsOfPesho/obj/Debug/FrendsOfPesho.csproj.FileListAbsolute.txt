@@ -1,0 +1,6 @@
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\11. Graphs and Graph Algorithms\HW\GraphsHW\FrendsOfPesho\bin\Debug\FrendsOfPesho.exe.config
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\11. Graphs and Graph Algorithms\HW\GraphsHW\FrendsOfPesho\obj\Debug\FrendsOfPesho.csprojResolveAssemblyReference.cache
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\11. Graphs and Graph Algorithms\HW\GraphsHW\FrendsOfPesho\bin\Debug\FrendsOfPesho.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\11. Graphs and Graph Algorithms\HW\GraphsHW\FrendsOfPesho\bin\Debug\FrendsOfPesho.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\11. Graphs and Graph Algorithms\HW\GraphsHW\FrendsOfPesho\obj\Debug\FrendsOfPesho.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\11. Graphs and Graph Algorithms\HW\GraphsHW\FrendsOfPesho\obj\Debug\FrendsOfPesho.pdb

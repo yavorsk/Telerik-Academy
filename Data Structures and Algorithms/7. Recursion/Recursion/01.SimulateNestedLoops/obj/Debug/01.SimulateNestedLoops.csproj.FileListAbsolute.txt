@@ -1,0 +1,6 @@
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\7. Recursion\HW\Recursion\01.SimulateNestedLoops\bin\Debug\01.SimulateNestedLoops.exe.config
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\7. Recursion\HW\Recursion\01.SimulateNestedLoops\bin\Debug\01.SimulateNestedLoops.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\7. Recursion\HW\Recursion\01.SimulateNestedLoops\bin\Debug\01.SimulateNestedLoops.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\7. Recursion\HW\Recursion\01.SimulateNestedLoops\obj\Debug\01.SimulateNestedLoops.csprojResolveAssemblyReference.cache
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\7. Recursion\HW\Recursion\01.SimulateNestedLoops\obj\Debug\01.SimulateNestedLoops.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\7. Recursion\HW\Recursion\01.SimulateNestedLoops\obj\Debug\01.SimulateNestedLoops.pdb

@@ -1,0 +1,6 @@
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\7. Recursion\HW\Recursion\05.GenerateVariations\bin\Debug\05.GenerateVariations.exe.config
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\7. Recursion\HW\Recursion\05.GenerateVariations\bin\Debug\05.GenerateVariations.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\7. Recursion\HW\Recursion\05.GenerateVariations\bin\Debug\05.GenerateVariations.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\7. Recursion\HW\Recursion\05.GenerateVariations\obj\Debug\05.GenerateVariations.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\7. Recursion\HW\Recursion\05.GenerateVariations\obj\Debug\05.GenerateVariations.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\7. Recursion\HW\Recursion\05.GenerateVariations\obj\Debug\05.GenerateVariations.csprojResolveAssemblyReference.cache

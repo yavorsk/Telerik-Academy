@@ -1,0 +1,6 @@
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\7. Recursion\HW\Recursion\07.LabirynthMAtrix\bin\Debug\07.LabirynthMAtrix.exe.config
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\7. Recursion\HW\Recursion\07.LabirynthMAtrix\obj\Debug\07.LabirynthMAtrix.csprojResolveAssemblyReference.cache
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\7. Recursion\HW\Recursion\07.LabirynthMAtrix\bin\Debug\07.LabirynthMAtrix.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\7. Recursion\HW\Recursion\07.LabirynthMAtrix\bin\Debug\07.LabirynthMAtrix.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\7. Recursion\HW\Recursion\07.LabirynthMAtrix\obj\Debug\07.LabirynthMAtrix.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\7. Recursion\HW\Recursion\07.LabirynthMAtrix\obj\Debug\07.LabirynthMAtrix.pdb

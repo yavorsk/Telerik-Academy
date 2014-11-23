@@ -1,0 +1,6 @@
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\Exam 2013 Solution\Exam2013\Frames2\bin\Debug\Frames2.exe.config
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\Exam 2013 Solution\Exam2013\Frames2\obj\Debug\Frames2.csprojResolveAssemblyReference.cache
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\Exam 2013 Solution\Exam2013\Frames2\bin\Debug\Frames2.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\Exam 2013 Solution\Exam2013\Frames2\bin\Debug\Frames2.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\Exam 2013 Solution\Exam2013\Frames2\obj\Debug\Frames2.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\Exam 2013 Solution\Exam2013\Frames2\obj\Debug\Frames2.pdb

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnapsackProblem", "ConsoleApplication1\KnapsackProblem.csproj", "{41C2ABE1-2054-4A1E-B1F0-B3AC129ED97B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimumEditDistance", "MinimumEditDistance\MinimumEditDistance.csproj", "{64C9D057-6567-4F07-BA7A-B4FC6F599C9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sums", "Sums\Sums.csproj", "{D70E2B47-B703-47D7-B622-FE24109651A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41C2ABE1-2054-4A1E-B1F0-B3AC129ED97B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41C2ABE1-2054-4A1E-B1F0-B3AC129ED97B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41C2ABE1-2054-4A1E-B1F0-B3AC129ED97B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41C2ABE1-2054-4A1E-B1F0-B3AC129ED97B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64C9D057-6567-4F07-BA7A-B4FC6F599C9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64C9D057-6567-4F07-BA7A-B4FC6F599C9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64C9D057-6567-4F07-BA7A-B4FC6F599C9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64C9D057-6567-4F07-BA7A-B4FC6F599C9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D70E2B47-B703-47D7-B622-FE24109651A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D70E2B47-B703-47D7-B622-FE24109651A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D70E2B47-B703-47D7-B622-FE24109651A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D70E2B47-B703-47D7-B622-FE24109651A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

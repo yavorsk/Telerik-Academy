@@ -1,0 +1,6 @@
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\7. Recursion\HW\Recursion\02.GenerateCombinations\bin\Debug\02.GenerateCombinations.exe.config
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\7. Recursion\HW\Recursion\02.GenerateCombinations\bin\Debug\02.GenerateCombinations.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\7. Recursion\HW\Recursion\02.GenerateCombinations\bin\Debug\02.GenerateCombinations.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\7. Recursion\HW\Recursion\02.GenerateCombinations\obj\Debug\02.GenerateCombinations.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\7. Recursion\HW\Recursion\02.GenerateCombinations\obj\Debug\02.GenerateCombinations.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\7. Recursion\HW\Recursion\02.GenerateCombinations\obj\Debug\02.GenerateCombinations.csprojResolveAssemblyReference.cache

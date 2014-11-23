@@ -1,0 +1,6 @@
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\9. Combinatorics\problems HW\HW\CombinatoricsProblems\PermutationsWRepetition\bin\Debug\PermutationsWRepetition.exe.config
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\9. Combinatorics\problems HW\HW\CombinatoricsProblems\PermutationsWRepetition\bin\Debug\PermutationsWRepetition.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\9. Combinatorics\problems HW\HW\CombinatoricsProblems\PermutationsWRepetition\bin\Debug\PermutationsWRepetition.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\9. Combinatorics\problems HW\HW\CombinatoricsProblems\PermutationsWRepetition\obj\Debug\PermutationsWRepetition.csprojResolveAssemblyReference.cache
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\9. Combinatorics\problems HW\HW\CombinatoricsProblems\PermutationsWRepetition\obj\Debug\PermutationsWRepetition.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\9. Combinatorics\problems HW\HW\CombinatoricsProblems\PermutationsWRepetition\obj\Debug\PermutationsWRepetition.pdb

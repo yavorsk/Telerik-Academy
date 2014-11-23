@@ -1,0 +1,6 @@
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\7. Recursion\HW\Recursion\05.1.VariationsWithRepetition\bin\Debug\05.1.VariationsWithRepetition.exe.config
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\7. Recursion\HW\Recursion\05.1.VariationsWithRepetition\bin\Debug\05.1.VariationsWithRepetition.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\7. Recursion\HW\Recursion\05.1.VariationsWithRepetition\bin\Debug\05.1.VariationsWithRepetition.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\7. Recursion\HW\Recursion\05.1.VariationsWithRepetition\obj\Debug\05.1.VariationsWithRepetition.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\7. Recursion\HW\Recursion\05.1.VariationsWithRepetition\obj\Debug\05.1.VariationsWithRepetition.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\7. Recursion\HW\Recursion\05.1.VariationsWithRepetition\obj\Debug\05.1.VariationsWithRepetition.csprojResolveAssemblyReference.cache

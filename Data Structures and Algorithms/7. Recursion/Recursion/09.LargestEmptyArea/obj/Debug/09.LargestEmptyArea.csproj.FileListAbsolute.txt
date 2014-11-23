@@ -1,0 +1,5 @@
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\7. Recursion\HW\Recursion\09.LargestEmptyArea\bin\Debug\09.LargestEmptyArea.exe.config
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\7. Recursion\HW\Recursion\09.LargestEmptyArea\bin\Debug\09.LargestEmptyArea.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\7. Recursion\HW\Recursion\09.LargestEmptyArea\bin\Debug\09.LargestEmptyArea.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\7. Recursion\HW\Recursion\09.LargestEmptyArea\obj\Debug\09.LargestEmptyArea.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Structures and Algorithms\7. Recursion\HW\Recursion\09.LargestEmptyArea\obj\Debug\09.LargestEmptyArea.pdb
