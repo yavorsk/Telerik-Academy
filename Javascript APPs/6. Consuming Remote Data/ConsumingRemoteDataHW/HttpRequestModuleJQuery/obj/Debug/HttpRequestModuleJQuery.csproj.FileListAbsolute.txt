@@ -1,0 +1,6 @@
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript APPs\6. Consuming Remote Data\HW\ConsumingRemoteDataHW\HttpRequestModuleJQuery\bin\HttpRequestModuleJQuery.dll.config
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript APPs\6. Consuming Remote Data\HW\ConsumingRemoteDataHW\HttpRequestModuleJQuery\bin\HttpRequestModuleJQuery.dll
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript APPs\6. Consuming Remote Data\HW\ConsumingRemoteDataHW\HttpRequestModuleJQuery\bin\HttpRequestModuleJQuery.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript APPs\6. Consuming Remote Data\HW\ConsumingRemoteDataHW\HttpRequestModuleJQuery\obj\Debug\HttpRequestModuleJQuery.dll
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript APPs\6. Consuming Remote Data\HW\ConsumingRemoteDataHW\HttpRequestModuleJQuery\obj\Debug\HttpRequestModuleJQuery.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript APPs\6. Consuming Remote Data\HW\ConsumingRemoteDataHW\HttpRequestModuleJQuery\obj\Debug\HttpRequestModuleJQuery.csprojResolveAssemblyReference.cache

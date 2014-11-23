@@ -1,0 +1,60 @@
+﻿body div,
+body h1,
+body h3,
+body ul,
+body li,
+body button,
+body label,
+body input,
+body p {
+  margin: 0;
+  padding: 0;
+}
+body #posts-content {
+  width: 300px;
+  height: 600px;
+  border: 1px solid black;
+  float: left;
+  zoom: 1;
+  margin: 10px;
+}
+body #posts-content:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+}
+body #posts-content #posts {
+  width: 280px;
+  height: 400px;
+  margin: 10px;
+  overflow: scroll;
+  border: 1px solid black;
+}
+body #posts-content button {
+  display: block;
+  width: 200px;
+  margin: 10px;
+}
+body #user-inter-content {
+  width: 300px;
+  height: 600px;
+  border: 1px solid black;
+  float: left;
+  zoom: 1;
+  margin: 10px;
+}
+body #user-inter-content:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+}
+body #user-inter-content #main-div button {
+  display: block;
+}
+body .post-entry {
+  margin: 2px;
+  border: 1px solid black;
+}
+/*# sourceMappingURL=styles.css.map */

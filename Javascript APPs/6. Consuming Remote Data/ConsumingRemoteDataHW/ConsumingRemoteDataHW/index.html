@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Http request module</title>
+    <script src="libs/q.js"></script>
+    <script src="scripts/httpRequester.js"></script>
+</head>
+<body>
+    <div>Check the console :)</div>
+    <script>
+        var url = "http://localhost:3000/students"
+        var headerOptions = {
+            contentType: 'application/json',
+            accept: 'application/json',
+        };
+        
+        var studentSasho = {
+            name: "Sasho Sashev",
+            grade: 4
+        };
+
+        var studentKatso = {
+            name: "Katso Katsov",
+            grade: 2
+        };
+
+        var studentShosho = {
+            name: "Shosho Shoshev",
+            grade: 6
+        };
+
+        var studentJoro = {
+            name: "Joro Jorev",
+            grade: 10
+        };
+
+        httpRequester.postJSON(url, headerOptions, studentSasho)
+            .then(httpRequester.postJSON(url, headerOptions, studentKatso))
+            .then(httpRequester.postJSON(url, headerOptions, studentShosho))
+            .then(httpRequester.postJSON(url, headerOptions, studentJoro));
+
+        httpRequester.getJSON(url, headerOptions)
+            .then(function (data) {
+                console.log(JSON.parse(data));
+            },
+            function (error) {
+                console.log(error)
+            })
+    </script>
+</body>
+</html>

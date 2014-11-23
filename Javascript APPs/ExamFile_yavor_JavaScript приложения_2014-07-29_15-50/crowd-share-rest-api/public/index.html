@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Crowd Share</title>
+    <script src="js/libs/jquery-2.1.1.js"></script>
+    <script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/sha1.js"></script>
+    <script src="js/libs/require.js" data-main="js/main"></script>
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="wrapper">
+        <div id="posts-content">
+            <div id="posts"></div>
+            <button id="by-date-asc-btn">Sort by Date ascending</button>
+            <button id="by-date-desc-btn">Sort by Date descending</button>
+            <button id="by-title-asc-btn">Sort by Title ascending</button>
+            <button id="by-title-desc-btn">Sort by Title descending</button>
+        </div>
+        <div id="user-inter-content"></div>
+    </div>
+    <script type="x-mustache-template" id="post-entries-template">
+        {{#postEntries}}
+        <div class="post-entry">
+            <strong>Title: {{{title}}}</strong>
+            <p>{{{body}}}</p>
+            <span>posted on {{{postDate}}} by <strong>{{{user.username}}}</strong></span>
+        </div>
+        {{/postEntries}}
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Teeest</title>
+    <link href="libs/mocha.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="mocha"></div>
+    <script src="libs/chai.js"></script>
+    <script src="libs/mocha.js"></script>
+    <script type="text/javascript">
+        mocha.setup('bdd');
+        expect = chai.expect;
+    </script>
+    <script src="sum.js"></script>
+    <script src="sum.tests.js"></script>
+    <script type="text/javascript">
+        mocha.run();
+    </script>
+</body>
+</html>

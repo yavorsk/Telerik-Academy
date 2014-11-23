@@ -1,0 +1,15 @@
+﻿<div id="chatroom-container">
+    <div id="chat-holder"></div>
+    <input type="text" id="input-message" />
+    <button id="send-btn">Send</button>
+    <button id="sign-out-btn">Sign out</button>
+</div>
+<script type="x-mustache-template" id="chat-entries-template">
+    <ul>
+        {{#chatEntries}}
+        <li>
+            <strong>{{{by}}}</strong> : {{{text}}}
+        </li>
+        {{/chatEntries}}
+    </ul>
+</script>

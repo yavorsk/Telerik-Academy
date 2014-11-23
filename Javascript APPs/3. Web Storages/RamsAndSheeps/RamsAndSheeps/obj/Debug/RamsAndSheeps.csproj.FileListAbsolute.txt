@@ -1,0 +1,6 @@
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript APPs\3. Web Storages\HW RamsAndSheeps\RamsAndSheeps\RamsAndSheeps\bin\RamsAndSheeps.dll.config
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript APPs\3. Web Storages\HW RamsAndSheeps\RamsAndSheeps\RamsAndSheeps\bin\RamsAndSheeps.dll
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript APPs\3. Web Storages\HW RamsAndSheeps\RamsAndSheeps\RamsAndSheeps\bin\RamsAndSheeps.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript APPs\3. Web Storages\HW RamsAndSheeps\RamsAndSheeps\RamsAndSheeps\obj\Debug\RamsAndSheeps.csprojResolveAssemblyReference.cache
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript APPs\3. Web Storages\HW RamsAndSheeps\RamsAndSheeps\RamsAndSheeps\obj\Debug\RamsAndSheeps.dll
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript APPs\3. Web Storages\HW RamsAndSheeps\RamsAndSheeps\RamsAndSheeps\obj\Debug\RamsAndSheeps.pdb

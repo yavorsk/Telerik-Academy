@@ -1,0 +1,70 @@
+﻿.clearfix() {
+    zoom: 1;
+
+    &:after {
+        content: "";
+        display: block;
+        height: 0;
+        clear: both;
+    }
+}
+
+body {
+    div, ol, li, button, input, p {
+        margin: 0;
+        padding: 0;
+        font-family: 'Century Gothic', futura, 'URW Gothic L', Verdana, sans-serif;
+    }
+
+    #wrapper {
+        border: 1px solid gray;
+        .clearfix;
+        padding: 10px;
+        width: 660px;
+
+        #left-panel {
+            float: left;
+            width: 200px;
+            height: 400px;
+            border-right: 1px solid black;
+            margin-left: 10px;
+
+            button {
+                display: block;
+                width: 90%;
+                margin-top: 3px;
+            }
+
+            ol {
+                margin-left: 20px;
+                margin-top: 10px;
+                font-size: 0.8em;
+            }
+        }
+
+        #right-panel {
+            float: left;
+            padding-left: 20px;
+            .clearfix;
+
+            input {
+                width: 60px;
+            }
+
+            button {
+                margin-left: 10px;
+                width: 140px;
+            }
+
+            p {
+                margin-top: 5px;
+                font-size: 0.7em;
+            }
+
+            ol {
+                margin-left: 20px;
+                font-size: 0.9em;
+            }
+        }
+    }
+}

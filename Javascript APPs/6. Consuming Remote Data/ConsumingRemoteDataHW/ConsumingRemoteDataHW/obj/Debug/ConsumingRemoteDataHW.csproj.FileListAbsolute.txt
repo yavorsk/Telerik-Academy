@@ -1,0 +1,6 @@
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript APPs\6. Consuming Remote Data\HW\ConsumingRemoteDataHW\ConsumingRemoteDataHW\bin\ConsumingRemoteDataHW.dll.config
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript APPs\6. Consuming Remote Data\HW\ConsumingRemoteDataHW\ConsumingRemoteDataHW\bin\ConsumingRemoteDataHW.dll
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript APPs\6. Consuming Remote Data\HW\ConsumingRemoteDataHW\ConsumingRemoteDataHW\bin\ConsumingRemoteDataHW.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript APPs\6. Consuming Remote Data\HW\ConsumingRemoteDataHW\ConsumingRemoteDataHW\obj\Debug\ConsumingRemoteDataHW.csprojResolveAssemblyReference.cache
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript APPs\6. Consuming Remote Data\HW\ConsumingRemoteDataHW\ConsumingRemoteDataHW\obj\Debug\ConsumingRemoteDataHW.dll
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript APPs\6. Consuming Remote Data\HW\ConsumingRemoteDataHW\ConsumingRemoteDataHW\obj\Debug\ConsumingRemoteDataHW.pdb

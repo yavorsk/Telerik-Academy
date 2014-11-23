@@ -1,0 +1,70 @@
+﻿.clearfix() {
+    zoom: 1;
+
+    &:after {
+        content: "";
+        display: block;
+        height: 0;
+        clear: both;
+    }
+}
+
+body {
+    div, h1, h3, ul, li, button, label, input, p {
+        margin: 0;
+        padding: 0;
+        font-family: 'Century Gothic', futura, 'URW Gothic L', Verdana, sans-serif;
+    }
+
+    #sorry-message {
+        font-size: 0.8em;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    #main-content {
+
+
+        #login-container {
+            height: 300px;
+            width: 500px;
+            border: 1px solid black;
+
+            h3 {
+                text-align: center;
+            }
+
+            form {
+                margin-top: 140px;
+                margin-left: 40px;
+            }
+        }
+
+        #chatroom-container {
+            height: 300px;
+            width: 500px;
+            border: 1px solid black;
+
+            #chat-holder {
+                margin: 5px;
+                margin-bottom: 10px;
+                height: 250px;
+                overflow: auto;
+                border: 1px solid black;
+
+                ul {
+                    margin: 5px;
+                }
+            }
+
+            input {
+                margin-left: 5px;
+                width: 235px;
+            }
+
+            button {
+                width: 120px;
+            }
+        }
+    }
+}

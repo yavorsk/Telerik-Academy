@@ -1,0 +1,60 @@
+﻿.clearfix() {
+    zoom: 1;
+
+    &:after {
+        content: "";
+        display: block;
+        height: 0;
+        clear: both;
+    }
+}
+
+body {
+    div, h1, h3, ul, li, button, label, input, p {
+        margin: 0;
+        padding: 0;
+    }
+
+    #posts-content {
+        width: 300px;
+        height: 600px;
+        border: 1px solid black;
+        float: left;
+        .clearfix();
+        margin: 10px;
+
+        #posts {
+            width: 280px;
+            height: 400px;
+            margin: 10px;
+            overflow: scroll;
+            border: 1px solid black;
+        }
+
+        button {
+            display: block;
+            width: 200px;
+            margin: 10px;
+        }
+    }
+
+    #user-inter-content {
+        width: 300px;
+        height: 600px;
+        border: 1px solid black;
+        float: left;
+        .clearfix();
+        margin: 10px;
+
+        #main-div {
+            button {
+                display: block;
+            }
+        }
+    }
+
+    .post-entry {
+        margin: 2px;
+        border: 1px solid black;
+    }
+}

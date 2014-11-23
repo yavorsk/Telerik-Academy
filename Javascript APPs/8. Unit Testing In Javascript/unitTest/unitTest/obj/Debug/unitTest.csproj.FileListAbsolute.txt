@@ -1,0 +1,5 @@
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript APPs\8. Unit Testing In Javascript\test\unitTest\unitTest\bin\unitTest.dll.config
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript APPs\8. Unit Testing In Javascript\test\unitTest\unitTest\bin\unitTest.dll
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript APPs\8. Unit Testing In Javascript\test\unitTest\unitTest\bin\unitTest.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript APPs\8. Unit Testing In Javascript\test\unitTest\unitTest\obj\Debug\unitTest.dll
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript APPs\8. Unit Testing In Javascript\test\unitTest\unitTest\obj\Debug\unitTest.pdb

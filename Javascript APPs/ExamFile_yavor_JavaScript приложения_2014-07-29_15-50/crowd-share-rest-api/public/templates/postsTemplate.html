@@ -1,0 +1,9 @@
+﻿<script type="x-mustache-template" id="post-entries-template">
+    {{#postEntries}}
+    <div class="post-entry">
+        <strong>{{{title}}}</strong>
+        <p>{{{body}}}</p>
+        <span>posted on {{{postDate}}} by <strong>{{{user.username}}}</strong></span>
+    </div>
+    {{/postEntries}}
+</script>

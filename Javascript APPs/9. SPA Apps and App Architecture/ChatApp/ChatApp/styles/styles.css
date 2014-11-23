@@ -1,0 +1,53 @@
+﻿body div,
+body h1,
+body h3,
+body ul,
+body li,
+body button,
+body label,
+body input,
+body p {
+  margin: 0;
+  padding: 0;
+  font-family: 'Century Gothic', futura, 'URW Gothic L', Verdana, sans-serif;
+}
+body #sorry-message {
+  font-size: 0.8em;
+  display: block;
+  margin-bottom: 10px;
+}
+body #main-content #login-container {
+  height: 300px;
+  width: 500px;
+  border: 1px solid black;
+}
+body #main-content #login-container h3 {
+  text-align: center;
+}
+body #main-content #login-container form {
+  margin-top: 140px;
+  margin-left: 40px;
+}
+body #main-content #chatroom-container {
+  height: 300px;
+  width: 500px;
+  border: 1px solid black;
+}
+body #main-content #chatroom-container #chat-holder {
+  margin: 5px;
+  margin-bottom: 10px;
+  height: 250px;
+  overflow: auto;
+  border: 1px solid black;
+}
+body #main-content #chatroom-container #chat-holder ul {
+  margin: 5px;
+}
+body #main-content #chatroom-container input {
+  margin-left: 5px;
+  width: 235px;
+}
+body #main-content #chatroom-container button {
+  width: 120px;
+}
+/*# sourceMappingURL=styles.css.map */

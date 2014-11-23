@@ -1,0 +1,5 @@
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript APPs\6. Consuming Remote Data\HW\ConsumingRemoteDataHW\DeleteStudentExtension\bin\DeleteStudentExtension.dll.config
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript APPs\6. Consuming Remote Data\HW\ConsumingRemoteDataHW\DeleteStudentExtension\bin\DeleteStudentExtension.dll
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript APPs\6. Consuming Remote Data\HW\ConsumingRemoteDataHW\DeleteStudentExtension\bin\DeleteStudentExtension.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript APPs\6. Consuming Remote Data\HW\ConsumingRemoteDataHW\DeleteStudentExtension\obj\Debug\DeleteStudentExtension.dll
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript APPs\6. Consuming Remote Data\HW\ConsumingRemoteDataHW\DeleteStudentExtension\obj\Debug\DeleteStudentExtension.pdb

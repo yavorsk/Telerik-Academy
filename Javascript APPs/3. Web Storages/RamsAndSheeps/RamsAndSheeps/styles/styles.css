@@ -1,0 +1,66 @@
+﻿body div,
+body ol,
+body li,
+body button,
+body input,
+body p {
+  margin: 0;
+  padding: 0;
+  font-family: 'Century Gothic', futura, 'URW Gothic L', Verdana, sans-serif;
+}
+body #wrapper {
+  border: 1px solid gray;
+  zoom: 1;
+  padding: 10px;
+  width: 660px;
+}
+body #wrapper:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+}
+body #wrapper #left-panel {
+  float: left;
+  width: 200px;
+  height: 400px;
+  border-right: 1px solid black;
+  margin-left: 10px;
+}
+body #wrapper #left-panel button {
+  display: block;
+  width: 90%;
+  margin-top: 3px;
+}
+body #wrapper #left-panel ol {
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 0.8em;
+}
+body #wrapper #right-panel {
+  float: left;
+  padding-left: 20px;
+  zoom: 1;
+}
+body #wrapper #right-panel:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+}
+body #wrapper #right-panel input {
+  width: 60px;
+}
+body #wrapper #right-panel button {
+  margin-left: 10px;
+  width: 140px;
+}
+body #wrapper #right-panel p {
+  margin-top: 5px;
+  font-size: 0.7em;
+}
+body #wrapper #right-panel ol {
+  margin-left: 20px;
+  font-size: 0.9em;
+}
+/*# sourceMappingURL=styles.css.map */
