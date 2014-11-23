@@ -1,0 +1,6 @@
+C:\Users\yavor\Desktop\1. War Machines\WarMachines-Skeleton\WarMachines\bin\Debug\WarMachines.exe.config
+C:\Users\yavor\Desktop\1. War Machines\WarMachines-Skeleton\WarMachines\obj\Debug\WarMachines.csprojResolveAssemblyReference.cache
+C:\Users\yavor\Desktop\1. War Machines\WarMachines-Skeleton\WarMachines\bin\Debug\WarMachines.exe
+C:\Users\yavor\Desktop\1. War Machines\WarMachines-Skeleton\WarMachines\bin\Debug\WarMachines.pdb
+C:\Users\yavor\Desktop\1. War Machines\WarMachines-Skeleton\WarMachines\obj\Debug\WarMachines.exe
+C:\Users\yavor\Desktop\1. War Machines\WarMachines-Skeleton\WarMachines\obj\Debug\WarMachines.pdb

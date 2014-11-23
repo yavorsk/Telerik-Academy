@@ -1,0 +1,6 @@
+C:\Users\yavor\Google Drive\TelerikAcademy\OOP\OOP Principles pt.2\HW OOP principles II\OOPPrinciples2\3.UserRangeExeption\bin\Debug\3.UserRangeExeption.exe.config
+C:\Users\yavor\Google Drive\TelerikAcademy\OOP\OOP Principles pt.2\HW OOP principles II\OOPPrinciples2\3.UserRangeExeption\bin\Debug\3.UserRangeExeption.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\OOP\OOP Principles pt.2\HW OOP principles II\OOPPrinciples2\3.UserRangeExeption\bin\Debug\3.UserRangeExeption.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\OOP\OOP Principles pt.2\HW OOP principles II\OOPPrinciples2\3.UserRangeExeption\obj\Debug\3.UserRangeException.csprojResolveAssemblyReference.cache
+C:\Users\yavor\Google Drive\TelerikAcademy\OOP\OOP Principles pt.2\HW OOP principles II\OOPPrinciples2\3.UserRangeExeption\obj\Debug\3.UserRangeExeption.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\OOP\OOP Principles pt.2\HW OOP principles II\OOPPrinciples2\3.UserRangeExeption\obj\Debug\3.UserRangeExeption.pdb

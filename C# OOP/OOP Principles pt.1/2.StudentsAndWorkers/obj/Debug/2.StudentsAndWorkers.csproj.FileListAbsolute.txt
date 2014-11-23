@@ -1,0 +1,6 @@
+C:\Users\yavor\Google Drive\TelerikAcademy\OOP\OOP Principles pt.1\HW-OOP-principles pt.1\OOPPrinciplesPt1\2.StudentsAndWorkers\bin\Debug\2.StudentsAndWorkers.exe.config
+C:\Users\yavor\Google Drive\TelerikAcademy\OOP\OOP Principles pt.1\HW-OOP-principles pt.1\OOPPrinciplesPt1\2.StudentsAndWorkers\bin\Debug\2.StudentsAndWorkers.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\OOP\OOP Principles pt.1\HW-OOP-principles pt.1\OOPPrinciplesPt1\2.StudentsAndWorkers\bin\Debug\2.StudentsAndWorkers.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\OOP\OOP Principles pt.1\HW-OOP-principles pt.1\OOPPrinciplesPt1\2.StudentsAndWorkers\obj\Debug\2.StudentsAndWorkers.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\OOP\OOP Principles pt.1\HW-OOP-principles pt.1\OOPPrinciplesPt1\2.StudentsAndWorkers\obj\Debug\2.StudentsAndWorkers.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\OOP\OOP Principles pt.1\HW-OOP-principles pt.1\OOPPrinciplesPt1\2.StudentsAndWorkers\obj\Debug\2.StudentsAndWorkers.csprojResolveAssemblyReference.cache

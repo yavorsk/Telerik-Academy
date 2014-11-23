@@ -1,0 +1,6 @@
+C:\Users\yavor\Google Drive\TelerikAcademy\OOP\OOP Principles pt.2\HW OOP principles II\OOPPrinciples2\2.Bank\bin\Debug\2.Bank.exe.config
+C:\Users\yavor\Google Drive\TelerikAcademy\OOP\OOP Principles pt.2\HW OOP principles II\OOPPrinciples2\2.Bank\bin\Debug\2.Bank.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\OOP\OOP Principles pt.2\HW OOP principles II\OOPPrinciples2\2.Bank\bin\Debug\2.Bank.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\OOP\OOP Principles pt.2\HW OOP principles II\OOPPrinciples2\2.Bank\obj\Debug\2.Bank.csprojResolveAssemblyReference.cache
+C:\Users\yavor\Google Drive\TelerikAcademy\OOP\OOP Principles pt.2\HW OOP principles II\OOPPrinciples2\2.Bank\obj\Debug\2.Bank.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\OOP\OOP Principles pt.2\HW OOP principles II\OOPPrinciples2\2.Bank\obj\Debug\2.Bank.pdb

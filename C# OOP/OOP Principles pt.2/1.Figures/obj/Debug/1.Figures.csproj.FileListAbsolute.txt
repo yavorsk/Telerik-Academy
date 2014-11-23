@@ -1,0 +1,6 @@
+C:\Users\yavor\Google Drive\TelerikAcademy\OOP\OOP Principles pt.2\HW OOP principles II\OOPPrinciples2\1.Figures\bin\Debug\1.Figures.exe.config
+C:\Users\yavor\Google Drive\TelerikAcademy\OOP\OOP Principles pt.2\HW OOP principles II\OOPPrinciples2\1.Figures\obj\Debug\1.Figures.csprojResolveAssemblyReference.cache
+C:\Users\yavor\Google Drive\TelerikAcademy\OOP\OOP Principles pt.2\HW OOP principles II\OOPPrinciples2\1.Figures\bin\Debug\1.Figures.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\OOP\OOP Principles pt.2\HW OOP principles II\OOPPrinciples2\1.Figures\bin\Debug\1.Figures.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\OOP\OOP Principles pt.2\HW OOP principles II\OOPPrinciples2\1.Figures\obj\Debug\1.Figures.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\OOP\OOP Principles pt.2\HW OOP principles II\OOPPrinciples2\1.Figures\obj\Debug\1.Figures.pdb

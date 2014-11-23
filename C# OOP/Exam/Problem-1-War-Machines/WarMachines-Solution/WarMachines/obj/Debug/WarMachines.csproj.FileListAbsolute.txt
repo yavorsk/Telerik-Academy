@@ -1,0 +1,9 @@
+C:\Projects\OOP Exam Tasks\WarMachines-Solution\WarMachines\bin\Debug\WarMachines.exe.config
+C:\Projects\OOP Exam Tasks\WarMachines-Solution\WarMachines\bin\Debug\WarMachines.exe
+C:\Projects\OOP Exam Tasks\WarMachines-Solution\WarMachines\bin\Debug\WarMachines.pdb
+C:\Projects\OOP Exam Tasks\WarMachines-Solution\WarMachines\obj\Debug\WarMachines.csprojResolveAssemblyReference.cache
+C:\Projects\OOP Exam Tasks\WarMachines-Solution\WarMachines\obj\Debug\WarMachines.exe
+C:\Projects\OOP Exam Tasks\WarMachines-Solution\WarMachines\obj\Debug\WarMachines.pdb
+C:\Users\yavor\Desktop\Problem-1-War-Machines\WarMachines-Solution\WarMachines\bin\Debug\WarMachines.exe.config
+C:\Users\yavor\Desktop\Problem-1-War-Machines\WarMachines-Solution\WarMachines\obj\Debug\WarMachines.exe
+C:\Users\yavor\Desktop\Problem-1-War-Machines\WarMachines-Solution\WarMachines\obj\Debug\WarMachines.pdb

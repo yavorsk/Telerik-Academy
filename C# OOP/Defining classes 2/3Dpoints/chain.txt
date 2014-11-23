@@ -1,0 +1,2 @@
+Point coordinates:X = 0, Y = 0, Z = 0;
+Point coordinates:X = 3, Y = 2, Z = 1;
