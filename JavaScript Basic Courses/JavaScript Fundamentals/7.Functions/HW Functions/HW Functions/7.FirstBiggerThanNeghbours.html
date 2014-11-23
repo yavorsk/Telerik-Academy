@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>First bigger than neighbours</title>
+    <!--7.Write a Function that returns the index of the first element in array
+            that is bigger than its neighbors, or -1, if there’s no such element.
+            Use the function from the previous exercise.-->
+    <link href="styles/js-console.css" rel="stylesheet" />
+    <style>
+        input {
+            margin: 10px;
+        }
+
+        a {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <label for="array">Enter sequence of integers separated by ',':</label>
+    <input type="text" id="array" />
+    <a href="#" id="print-digit" onclick="onFindFirstBiggerBtnClick()">Find first bigger than neighbours</a>
+    <br />
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+
+    <script>
+        function isBiggerThanNeighbours(elIndex, arr) {
+            if (elIndex == 0 || elIndex == arr.length - 1) {
+                return false;
+            }
+            else {
+                if ((arr[elIndex] > arr[elIndex + 1]) && (arr[elIndex] > arr[elIndex - 1])) {
+                    return true;
+                }
+                else {
+                    return false;
+                }
+            }
+        }
+
+        function onFindFirstBiggerBtnClick() {
+            var givenArrayStr = jsConsole.read("#array");
+            var givenArray = givenArrayStr.split(",");
+
+            var result;
+
+            for (var i = 0; i < givenArray.length; i++) {
+                givenArray[i] = parseInt(givenArray[i]);
+            }
+
+            for (var i = 1; i < givenArray.length-1; i++) {
+                if (isBiggerThanNeighbours(i, givenArray)) {
+                    result = i;
+                    break;
+                }
+                else {
+                    if (i == givenArray.length - 2) {
+                        result = -1;
+                    }
+                }
+            }
+            
+            jsConsole.writeLine("Index of the first element that is bigger than its neghbours: "+result);
+        }
+    </script>
+</body>
+</html>

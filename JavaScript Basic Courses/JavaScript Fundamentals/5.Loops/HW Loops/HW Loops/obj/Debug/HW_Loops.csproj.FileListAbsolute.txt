@@ -1,0 +1,6 @@
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript Fundamentals\5.Loops\HW Loops\HW Loops\HW Loops\bin\HW_Loops.dll.config
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript Fundamentals\5.Loops\HW Loops\HW Loops\HW Loops\bin\HW_Loops.dll
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript Fundamentals\5.Loops\HW Loops\HW Loops\HW Loops\bin\HW_Loops.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript Fundamentals\5.Loops\HW Loops\HW Loops\HW Loops\obj\Debug\HW_Loops.csprojResolveAssemblyReference.cache
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript Fundamentals\5.Loops\HW Loops\HW Loops\HW Loops\obj\Debug\HW_Loops.dll
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript Fundamentals\5.Loops\HW Loops\HW Loops\HW Loops\obj\Debug\HW_Loops.pdb

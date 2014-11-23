@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Find longest sequence of increasing elements</title>
+    <!--4.Write a script that finds the maximal increasing sequence in an array.
+            Example: {3, 2, 3, 4, 2, 2, 4}  {2, 3, 4}.-->
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        var myArr = [3, 2, 3, 4, 2, 2, 4];
+
+        var indexOfLongestSeq = 0;
+        var maxLength = 0;
+
+        for (var i = 0; i < myArr.length - 1; i++) {
+
+            var indexCurrent = i;
+            var currentLength = 1;
+
+            for (var j = i; j < myArr.length - 1; j++) {
+                if (myArr[j] < myArr[j + 1]) {
+                    currentLength++;
+                }
+                else {
+                    break;
+                }
+            }
+
+            if (maxLength < currentLength) {
+                maxLength = currentLength;
+                indexOfLongestSeq = i;
+            }
+        }
+
+        jsConsole.writeLine("Length of the longest subsequence: " + maxLength);
+        jsConsole.writeLine("Index of the first element of the longest subsequence: " + indexOfLongestSeq);
+        jsConsole.writeLine("Longest subsequence of increasing elements: " + myArr.filter(getElementsOfLongestSeq).join(", "))
+
+        function getElementsOfLongestSeq(element, index) {
+            return (indexOfLongestSeq <= index && index <= (indexOfLongestSeq + maxLength - 1));
+        }
+    </script>
+</body>
+</html>

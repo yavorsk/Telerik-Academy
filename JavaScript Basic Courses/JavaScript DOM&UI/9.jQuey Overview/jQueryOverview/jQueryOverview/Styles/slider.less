@@ -1,0 +1,41 @@
+﻿.clearfix() {
+    zoom: 1;
+
+    &:after {
+        content: "";
+        display: block;
+        height: 0;
+        clear: both;
+    }
+}
+
+body {
+    background-color: black;
+
+    button {
+        float: left;
+    }
+
+    #slider {
+        position: relative;
+        width: 800px;
+        height: 600px;
+        float: left;
+
+        .slide {
+            //background-color: blue;
+            position: absolute;
+            display: none;
+            top: 0px;
+            left: 0px;
+            width: 800px;
+            height: 600px;
+        }
+    }
+
+    #lorem {
+        background-color: gray;
+        font-family: 'Arial Black', Gadget, sans-serif;
+        font-size: 20px;
+    }
+}

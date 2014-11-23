@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Bigger than neighbours</title>
+    <!--6.Write a function that checks if the element at given position in given array of integers
+            is bigger than its two neighbors (when such exist).-->
+    <link href="styles/js-console.css" rel="stylesheet" />
+    <style>
+        input {
+            margin: 10px;
+        }
+
+        a {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <label for="array">Enter sequence of integers separated by ',':</label>
+    <input type="text" id="array" />
+    <label for="number">Enter a integer number to check:</label>
+    <input type="text" id="number" />
+    <a href="#" id="print-digit" onclick="onCheckIfBiggerBtnClick()">Check Number</a>
+    <br />
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+
+    <script>
+        function isBiggerThanNeighbours(elIndex, arr) {
+            if (elIndex == 0 || elIndex == arr.length - 1) {
+                return false;
+            }
+            else {
+                if ((arr[elIndex] > arr[elIndex + 1]) && (arr[elIndex] > arr[elIndex - 1])) {
+                    return true;
+                }
+                else {
+                    return false;
+                }
+            }
+        }
+
+        function onCheckIfBiggerBtnClick() {
+            var givenArrayStr = jsConsole.read("#array");
+            var givenArray = givenArrayStr.split(",");
+
+            for (var i = 0; i < givenArray.length; i++) {
+                givenArray[i] = parseInt(givenArray[i]);
+            }
+
+            var number = jsConsole.readInteger("#number");
+
+            var elIndex = givenArray.indexOf(number);
+
+            if (elIndex < 0) {
+                jsConsole.writeLine("element not found!");
+                return;
+            }
+
+            jsConsole.writeLine(isBiggerThanNeighbours(elIndex, givenArray));
+        }
+    </script>
+</body>
+</html>

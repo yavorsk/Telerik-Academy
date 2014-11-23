@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Table</title>
+    <script src="lib/handlebars.min.js"></script>
+    <style>
+        table, td, th {
+            border-collapse: collapse;
+            border: 1px solid black;
+        }
+        tr:nth-of-type(2n+1) {
+            background-color: lightgray;
+        }
+        th {
+            color:white;
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div id="container"></div>
+    <script type="text/x-handlebars-template" id="table-template">
+        <table>
+            <tr>
+                <th>N</th>
+                <th>Title</th>
+                <th>Date#1</th>
+                <th>Date#2</th>
+            </tr>
+            {{#courses}}
+            <tr>
+                <td>{{number}}</td>
+                <td>{{title}}</td>
+                <td>{{firstDate}}</td>
+                <td>{{secondDate}}</td>
+            </tr>
+            {{/courses}}
+        </table>
+    </script>
+    <script src="scripts/table.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Has property function</title>
+    <link href="Styles/js-console.css" rel="stylesheet" />
+    <!--4. Write a function that checks if a given object contains a given property
+            var obj  = …;
+            var hasProp = hasProperty(obj,"length");-->
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="Scripts/js-console.js"></script>
+    <script src="Scripts/1.LinesAndPoints.js"></script>
+    <script src="Scripts/4.HasProperty.js"></script>
+    <script>
+        //tests
+        var myPoint1 = pointBuilder(4, 3);
+        var myPoint2 = pointBuilder(1, 2);
+        var mySegment = segmentBuilder(myPoint1, myPoint2);
+
+        jsConsole.writeLine(hasProperty(mySegment, 'length'));
+
+    </script>
+</body>
+</html>

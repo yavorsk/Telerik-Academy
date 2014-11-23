@@ -1,0 +1,29 @@
+﻿label {
+    width: 110px;
+    text-align: right;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+input[type=text] {
+    border: 1px solid black;
+    padding: 5px 15px;
+    background-color: black;
+    color: white;
+    font-family: Consolas;
+    margin-bottom: 5px;
+    width: 60px;
+}
+
+a {
+    color: black;
+    border: 1px solid black;
+    padding: 5px 15px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 15px 0;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }

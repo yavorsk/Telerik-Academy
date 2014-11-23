@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Print all from 1 to N</title>
+    <!-- 1. Write a script that prints all the numbers from 1 to N-->
+    <link href="styles/js-console.css" rel="stylesheet" />
+    <style>
+        input {
+            margin: 10px;
+        }
+        a {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <label for="number">Enter a number:</label>
+    <input type="text" id="number" />
+    <a href="#" id="print-numbers" onclick="onPrintNumbersBtnClick()">Print Numbers</a>
+    <br />
+    <div id="console">
+    </div>
+    <script src="scripts/js-console.js">
+    </script>
+
+    <script>
+        function onPrintNumbersBtnClick() {
+            var number = jsConsole.readInteger("#number");
+
+            for (var i = 1; i <= number; i++) {
+                jsConsole.writeLine(i);
+            }
+        }
+    </script>
+</body>
+</html>

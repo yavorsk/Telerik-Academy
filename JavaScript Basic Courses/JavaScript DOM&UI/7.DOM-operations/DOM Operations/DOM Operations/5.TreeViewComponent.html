@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Tree view component</title>
+    <!--*Create a TreeView component
+    Initially only the top items must be visible
+    On item click
+    If its children are hidden (collapsed), they must be made visible (expanded)
+    If its children are visible (expanded), they must be made hidden (collapsed)
+    Research about events-->
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <ul class="visible" id="mainUL">
+        <li>
+            Item
+        </li>
+        <li>
+            Item
+            <ul class="hidden">
+                <li>
+                    Sub item
+                </li>
+                <li>
+                    Sub item
+                    <ul class="hidden">
+                        <li>
+                            Sub item
+                        </li>
+                        <li>
+                            Sub item
+                        </li>
+                        <li>
+                            Sub item
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Sub item
+                </li>
+            </ul>
+        </li>
+        <li>
+            Item
+            <ul class="hidden">
+                <li>
+                    Sub item
+                </li>
+                <li>
+                    Sub item
+                    <ul class="hidden">
+                        <li>
+                            Sub item
+                        </li>
+                        <li>
+                            Sub item
+                        </li>
+                        <li>
+                            Sub item
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Sub item
+                </li>
+            </ul>
+        </li>
+        <li>
+            Item
+            <ul class="hidden">
+                <li>
+                    Sub item
+                </li>
+                <li>
+                    Sub item
+                    <ul class="hidden">
+                        <li>
+                            Sub item
+                        </li>
+                        <li>
+                            Sub item
+                        </li>
+                        <li>
+                            Sub item
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Sub item
+                </li>
+            </ul>
+        </li>
+        <li>
+            Item
+        </li>
+        <li>
+            Item
+            <ul class="hidden">
+                <li>
+                    Sub item
+                </li>
+                <li>
+                    Sub item
+                    <ul class="hidden">
+                        <li>
+                            Sub item
+                        </li>
+                        <li>
+                            Sub item
+                        </li>
+                        <li>
+                            Sub item
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Sub item
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <script src="Scripts/5.treeComponent.js"></script>
+</body>
+</html>

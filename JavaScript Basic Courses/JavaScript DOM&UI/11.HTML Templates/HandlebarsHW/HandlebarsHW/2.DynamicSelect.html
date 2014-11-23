@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>DynamicSelect</title>
+    <script src="lib/handlebars.min.js"></script>
+    <!--Create a dynamic select using Handlebars.js
+    The options in the select should be generated based on a collection of JavaScript objects-->
+
+</head>
+<body> 
+    <div id="container"></div>
+    <script type="text/x-handlebars-template" id="select-template">
+        <select>
+            {{#each items}}
+            <option value="{{value}}">{{text}}</option>
+            {{/each}}
+        </select>
+    </script>
+    <script src="scripts/dynamicSelect.js"></script>
+</body>
+</html>

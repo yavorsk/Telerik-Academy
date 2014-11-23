@@ -1,0 +1,6 @@
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript DOM&UI\11.HTML Templates\HandlebarsHW\HandlebarsHW\HandlebarsHW\bin\HandlebarsHW.dll.config
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript DOM&UI\11.HTML Templates\HandlebarsHW\HandlebarsHW\HandlebarsHW\bin\HandlebarsHW.dll
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript DOM&UI\11.HTML Templates\HandlebarsHW\HandlebarsHW\HandlebarsHW\bin\HandlebarsHW.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript DOM&UI\11.HTML Templates\HandlebarsHW\HandlebarsHW\HandlebarsHW\obj\Debug\HandlebarsHW.csprojResolveAssemblyReference.cache
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript DOM&UI\11.HTML Templates\HandlebarsHW\HandlebarsHW\HandlebarsHW\obj\Debug\HandlebarsHW.dll
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript DOM&UI\11.HTML Templates\HandlebarsHW\HandlebarsHW\HandlebarsHW\obj\Debug\HandlebarsHW.pdb

@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Fading plugin</title>
+    <script src="lib/jquery-1.11.1.min.js"></script>
+    <link href="styles/fadingStyles.css" rel="stylesheet" />
+    <!--*Create a jQuery plugin for fading in/fading out message box
+    Creates a message box
+        var msgBox = $('#message-box').messageBox();
+    Show a success/error message in the box
+    Showing is done by setting the opacity of the message from 0 to 1 in an interval of 1 second
+    The message disappears after 3 seconds
+        msgBox.success('Success message');
+        msgBox.error('Error message');-->
+
+</head>
+<body>
+    <button id="error-btn">Error</button>
+    <button id="success-btn">Success</button>
+
+    <div id="message-box"></div>
+    <script src="scripts/fadingPlugin.js"></script>
+</body>
+</html>

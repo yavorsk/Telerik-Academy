@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Group Persons</title>
+    <link href="Styles/js-console.css" rel="stylesheet" />
+    <!--6. Write a function that groups an array of persons by age, first or last name.
+        The function must return an associative array, with keys - the groups,
+        and values -arrays with persons in this groups
+      Use function overloading (i.e. just one function)
+            var persons = {…};
+            var groupedByFname = group(persons,"firstname");
+            var groupedByAge= group(persons,"age");
+                -->
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="Scripts/js-console.js"></script>
+    <script src="Scripts/5.FindYoungest.js"></script>
+    <script src="Scripts/6.GroupPersons.js"></script>
+    <script>
+        //tests
+        var gosho = personBuilder('Gosho', 'Petrov', 32);
+        var ivan = personBuilder('Bay', 'Ivan', 81);
+        var jonny = personBuilder('Jonny', 'Penkove', 32);
+        var evlogi = personBuilder('Evlogi', 'Panov', 22);
+        var gosho2 = personBuilder('Gosho', 'Ivanov', 14);
+        var gosho3 = personBuilder('Gosho', 'Goshev', 32);
+        var kolio = personBuilder('Kolio', 'Ivanov', 14);
+
+        var persons = [gosho, ivan, jonny, evlogi, gosho2, gosho3, kolio];
+
+        var groupedByFName = group(persons, 'firstName');
+        var groupedByLName = group(persons, 'lastName');
+        var groupedByAge = group(persons, 'age');
+
+        jsConsole.writeLine('Number of persons who are 14 years old: ' + groupedByAge[14].length);
+        jsConsole.writeLine('Number of persons who are 22 years old: ' + groupedByAge[22].length);
+        jsConsole.writeLine('Number of persons who are 32 years old: ' + groupedByAge[32].length);
+        jsConsole.writeLine('Number of persons who are 81 years old: ' + groupedByAge[81].length);
+
+        debugger; //you can check the content of the arrays in the browser debugging tool
+    </script>
+</body>
+</html>

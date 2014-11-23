@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Insert element before or after</title>
+    <script src="lib/jquery-1.11.1.min.js"></script>
+    <!--Using jQuery implement functionality to insert a DOM element before or after another element-->
+    <style>
+        #initial {
+            background-color: dodgerblue;
+            display: block;
+        }
+
+        #container {
+            width: 120px;
+        }
+
+        .newElement {
+            background-color: darkred;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <button id="beforeBtn">Add before</button>
+    <button id="afterBtn">Add after</button>
+    <div id="container">
+        <span id="initial">Initial span</span>
+    </div>
+    <script src="Scripts/insertElement.js"></script>
+</body>
+</html>

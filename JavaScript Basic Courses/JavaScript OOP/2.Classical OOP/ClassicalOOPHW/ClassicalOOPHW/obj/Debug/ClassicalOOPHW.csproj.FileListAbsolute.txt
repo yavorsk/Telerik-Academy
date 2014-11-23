@@ -1,0 +1,6 @@
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript OOP\2.Classical OOP\Classical-OOP-HW\ClassicalOOPHW\ClassicalOOPHW\bin\ClassicalOOPHW.dll.config
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript OOP\2.Classical OOP\Classical-OOP-HW\ClassicalOOPHW\ClassicalOOPHW\bin\ClassicalOOPHW.dll
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript OOP\2.Classical OOP\Classical-OOP-HW\ClassicalOOPHW\ClassicalOOPHW\bin\ClassicalOOPHW.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript OOP\2.Classical OOP\Classical-OOP-HW\ClassicalOOPHW\ClassicalOOPHW\obj\Debug\ClassicalOOPHW.csprojResolveAssemblyReference.cache
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript OOP\2.Classical OOP\Classical-OOP-HW\ClassicalOOPHW\ClassicalOOPHW\obj\Debug\ClassicalOOPHW.dll
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript OOP\2.Classical OOP\Classical-OOP-HW\ClassicalOOPHW\ClassicalOOPHW\obj\Debug\ClassicalOOPHW.pdb

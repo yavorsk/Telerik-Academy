@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Slider</title>
+    <script src="lib/jquery-1.11.1.min.js"></script>
+    <link href="Styles/slider.css" rel="stylesheet" />
+    <!--Create a slider control using jQuery
+    The slider can have many slides
+    Only one slide is visible at a time
+    Each slide contains HTML code
+    i.e. it can contain images, forms, divs, headers, links, etc…
+    Implement functionality for changing the visible slide after 5 seconds
+    Create buttons for next and previous slide-->
+</head>
+<body>
+    <button id="previous">Previous</button>
+    <div id="slider">
+        <div id="burgas" class="slide active"><img src="Images/burgas.jpg" /></div>
+        <div id="dubai" class="slide"><img src="Images/dubai.jpg" /></div>
+        <div id="london" class="slide"><img src="Images/london.jpg" /></div>
+        <div id="newyork" class="slide"><img src="Images/newyork.jpg" /></div>
+        <div id="paris" class="slide"><img src="Images/paris.jpg" /></div>
+        <div id="varna" class="slide"><img src="Images/varna.jpg" /></div>
+        <div id="lorem" class="slide">
+            <h1>LOREM IPSUM</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <br />
+            <a href="#">This is a link</a>
+        </div>
+    </div>
+    <button id="next">Next</button>
+    <script src="Scripts/slider.js"></script>
+</body>
+</html>

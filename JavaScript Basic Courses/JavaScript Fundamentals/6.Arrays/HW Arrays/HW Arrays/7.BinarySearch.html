@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Binary search in an array</title>
+    <!--7.Write a program that finds the index of given element in a sorted array of integers
+            by using the binary search algorithm (find it in Wikipedia)-->
+    <link href="styles/js-console.css" rel="stylesheet" />
+    <style>
+        input {
+            margin: 10px;
+        }
+
+        a {
+            color: black;
+        }
+    </style>
+
+</head>
+<body>
+    <label for="element">enter element of the array to search:</label>
+    <input type="text" id="element" />
+    <a href="#" id="print-index" onclick="onBinarySearchBtnClick(givenArr)">print index</a>
+    <br />
+
+    <div id="console"></div>
+    <script src="scripts/js-console.js"></script>
+
+    <script>
+        var givenArr = [-1, 0, 1, 2, 3, 4, 5, 6, 9, 10, 13, 17, 20, 22];
+        jsConsole.writeLine("Given array:");
+        jsConsole.writeLine(givenArr.join(", "));
+
+        function onBinarySearchBtnClick(myArr) {
+
+            var searchedElement = jsConsole.readInteger("#element");
+
+            var lowerBound = 0;
+            var higherBound = myArr.length - 1;
+
+            while (lowerBound != higherBound) {
+                var midIndex = lowerBound + Math.floor((higherBound - lowerBound) / 2);
+
+                if (searchedElement == myArr[midIndex]) {
+                    higherBound = midIndex;
+                    lowerBound = midIndex;
+                }
+                if (searchedElement < myArr[midIndex]) {
+                    higherBound = midIndex - 1;
+                }
+                else if (searchedElement > myArr[midIndex]) {
+                    lowerBound = midIndex + 1;
+                }
+            }
+
+            jsConsole.writeLine("index of element " + searchedElement + " is "+ higherBound);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript DOM&UI\8.EventModel\EventModelHW\EventModelHW\EventModelHW\bin\EventModelHW.dll.config
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript DOM&UI\8.EventModel\EventModelHW\EventModelHW\EventModelHW\bin\EventModelHW.dll
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript DOM&UI\8.EventModel\EventModelHW\EventModelHW\EventModelHW\bin\EventModelHW.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript DOM&UI\8.EventModel\EventModelHW\EventModelHW\EventModelHW\obj\Debug\EventModelHW.csprojResolveAssemblyReference.cache
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript DOM&UI\8.EventModel\EventModelHW\EventModelHW\EventModelHW\obj\Debug\EventModelHW.dll
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript DOM&UI\8.EventModel\EventModelHW\EventModelHW\EventModelHW\obj\Debug\EventModelHW.pdb

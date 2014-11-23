@@ -1,0 +1,6 @@
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript DOM&UI\9.jQuey Overview\jQueryHW\jQueryOverview\jQueryOverview\bin\jQueryOverview.dll.config
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript DOM&UI\9.jQuey Overview\jQueryHW\jQueryOverview\jQueryOverview\bin\jQueryOverview.dll
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript DOM&UI\9.jQuey Overview\jQueryHW\jQueryOverview\jQueryOverview\bin\jQueryOverview.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript DOM&UI\9.jQuey Overview\jQueryHW\jQueryOverview\jQueryOverview\obj\Debug\jQueryOverview.csprojResolveAssemblyReference.cache
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript DOM&UI\9.jQuey Overview\jQueryHW\jQueryOverview\jQueryOverview\obj\Debug\jQueryOverview.dll
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript DOM&UI\9.jQuey Overview\jQueryHW\jQueryOverview\jQueryOverview\obj\Debug\jQueryOverview.pdb

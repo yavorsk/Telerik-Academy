@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Sorting an array with selection sort algorithm</title>
+    <!--Sorting an array means to arrange its elements in increasing order. Write a script to sort an array.
+            Use the "selection sort" algorithm: Find the smallest element, move it at the first position,
+        find the smallest from the rest, move it at the second position, etc.
+        Hint: Use a second array-->
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        var myArr = [20, 1, 10, 5, 17, 3, 13, 0, -1, 4, 6, 3, 9];
+
+        jsConsole.writeLine("Initial array:");
+        jsConsole.writeLine(myArr.join(", "));
+
+        for (var i = 0; i < myArr.length; i++) {
+
+            var minElementIndex = i;
+
+            for (var j = i+1; j < myArr.length; j++) {
+                if (myArr[minElementIndex] > myArr[j]) {
+                    minElementIndex = j;
+                }
+            }
+
+            var temp = myArr[i];
+            myArr[i] = myArr[minElementIndex];
+            myArr[minElementIndex] = temp;
+        }
+
+        jsConsole.writeLine("Sorted array:");
+        jsConsole.writeLine(myArr.join(", "));
+    </script>
+</body>
+</html>

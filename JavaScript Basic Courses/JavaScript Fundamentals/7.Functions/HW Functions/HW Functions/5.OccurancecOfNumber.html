@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Occurance of a number in array</title>
+    <!--5.Write a function that counts how many times given number appears in given array.
+        Write a test function to check if the function is working correctly.-->
+    <link href="styles/js-console.css" rel="stylesheet" />
+    <style>
+        input {
+            margin: 10px;
+        }
+
+        a {
+            color: black;
+        }
+        #number, #expected-output {
+            width: 30px;
+        }
+    </style>
+</head>
+<body>
+    <label for="array">Enter sequence of integers separated by ',':</label>
+    <input type="text" id="array" />
+    <br />
+    <label for="number">Enter a integer number to search:</label>
+    <input type="text" id="number" />
+    <label for="expected-output">Enter expected number of occurances:</label>
+    <input type="text" id="expected-output" />
+    <a href="#" id="print-digit" onclick="onTestFunctionBtnClick()">Test function</a>
+
+    <br />
+
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+
+    <script>
+        function occurancesOfNumber(number, arr) {
+            var numberOfOccurances = 0;
+
+            for (var i = 0; i < arr.length; i++) {
+                if (number == arr[i]) {
+                    numberOfOccurances++
+                }
+            }
+
+            return numberOfOccurances;
+        }
+
+        function onTestFunctionBtnClick() {
+            var givenArrayStr = jsConsole.read("#array");
+            var givenArray = givenArrayStr.split(",");
+
+            var number = jsConsole.readInteger("#number");
+
+            var output = occurancesOfNumber(number, givenArray);
+
+            jsConsole.writeLine("Result given by the function: " + output);
+
+            var expectedResult = jsConsole.readInteger("#expected-output");
+
+            if (expectedResult == output) {
+                jsConsole.writeLine("Correct answer!");
+            }
+            else {
+                jsConsole.writeLine("Wrong answer!");
+            }
+        }
+    </script>
+</body>
+</html>

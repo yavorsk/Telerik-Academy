@@ -1,0 +1,6 @@
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript Fundamentals\3.Operators and Expressions\HW Ops&Expr\HWOpsAndexpr\HWOpsAndexpr\bin\HWOpsAndexpr.dll.config
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript Fundamentals\3.Operators and Expressions\HW Ops&Expr\HWOpsAndexpr\HWOpsAndexpr\bin\HWOpsAndexpr.dll
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript Fundamentals\3.Operators and Expressions\HW Ops&Expr\HWOpsAndexpr\HWOpsAndexpr\bin\HWOpsAndexpr.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript Fundamentals\3.Operators and Expressions\HW Ops&Expr\HWOpsAndexpr\HWOpsAndexpr\obj\Debug\HWOpsAndexpr.csprojResolveAssemblyReference.cache
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript Fundamentals\3.Operators and Expressions\HW Ops&Expr\HWOpsAndexpr\HWOpsAndexpr\obj\Debug\HWOpsAndexpr.dll
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript Fundamentals\3.Operators and Expressions\HW Ops&Expr\HWOpsAndexpr\HWOpsAndexpr\obj\Debug\HWOpsAndexpr.pdb

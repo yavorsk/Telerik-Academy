@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Number of divs in a web page</title>
+    <!--4.Write a function to count the number of divs on the web page-->
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <div>
+        <div>
+            <div></div>
+        </div>
+    </div>
+    <div></div>
+    <div></div>
+
+    <script>
+        function countDivs() {
+            var htmlElement = "div";
+            var arrOfElements = document.getElementsByTagName(htmlElement);
+            var numberOfElements = arrOfElements.length;
+
+            jsConsole.writeLine("Number of " + htmlElement + " elements in  the current web page: " + numberOfElements);
+        }
+        
+        countDivs();
+    </script>
+</body>
+</html>

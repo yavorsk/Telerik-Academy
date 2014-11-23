@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Last digit as a word</title>
+    <!--1.Write a function that returns the last digit of given integer as an English word.
+            Examples: 512  "two", 1024  "four", 12309  "nine"-->
+    <link href="styles/js-console.css" rel="stylesheet" />
+    <style>
+        input {
+            margin: 10px;
+        }
+
+        a {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <label for="number">Enter an integer:</label>
+    <input type="text" id="number" />
+    <a href="#" id="print-digit" onclick="onPrintDigitBtnClick()">print last digit</a>
+
+    <br />
+
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script src="scripts/1.LastDigit.js"></script>
+    <script>
+        function onPrintDigitBtnClick() {
+            var num = jsConsole.readInteger("#number");
+
+            var result = getLastDigitWord(num);
+
+            jsConsole.writeLine(result);
+        }
+    </script>
+</body>
+</html>

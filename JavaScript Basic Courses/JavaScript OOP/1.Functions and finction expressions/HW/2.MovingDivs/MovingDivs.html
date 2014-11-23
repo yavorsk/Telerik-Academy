@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Moving divs</title>
+    <style>
+        #container {
+            zoom: 1;
+            border: 2px solid black;
+            width: 1200px;
+            height: 600px;
+            position: relative;
+        }
+
+            #container:after {
+                content: "";
+                display: block;
+                height: 0;
+                clear: both;
+            }
+    </style>
+</head>
+<body>
+    <a href="#" id="add-on-rect">Add div with rectangular trajectory</a>
+    <a href="#" id="add-on-ellipse">Add div with ellipse trajectory</a>
+    <div id="container"></div>
+    <script src="movingDivsModule.js"></script>
+</body>
+</html>

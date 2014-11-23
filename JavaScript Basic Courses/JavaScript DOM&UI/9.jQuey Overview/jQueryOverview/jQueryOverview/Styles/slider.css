@@ -1,0 +1,26 @@
+﻿body {
+  background-color: black;
+}
+body button {
+  float: left;
+}
+body #slider {
+  position: relative;
+  width: 800px;
+  height: 600px;
+  float: left;
+}
+body #slider .slide {
+  position: absolute;
+  display: none;
+  top: 0px;
+  left: 0px;
+  width: 800px;
+  height: 600px;
+}
+body #lorem {
+  background-color: gray;
+  font-family: 'Arial Black', Gadget, sans-serif;
+  font-size: 20px;
+}
+/*# sourceMappingURL=slider.css.map */

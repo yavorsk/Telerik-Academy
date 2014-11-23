@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Drop down plugin</title>
+    <script src="lib/jquery-1.11.1.min.js"></script>
+    <!--Create a jQuery plugin for creating dropdown list
+    <select id="dropdown">
+        <option value="1">One</option>
+        <option value="2">Two</option>
+    </select>
+    Produces the following HTML:
+    <select id="dropdown" style="display: none">…</select>
+    <div class="dropdown-list-container">
+        <ul class="dropdown-list-options">
+            <li class="dropdown-list-option" data-value="0">One</li>
+            …
+        </ul>
+    </div>
+
+    And make it work as SELECT node
+    Selecting an one of the generated LI nodes, selects the corresponding OPTION node
+    So $('#dropdown:selected') works-->
+    <style>
+        li.selected {
+            background-color: aqua;
+        }
+        #wrapper {
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <select id="dropdown">
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+            <option value="4">Four</option>
+            <option value="5">Five</option>
+            <option value="6">Six</option>
+        </select>
+    </div>
+    <script src="scripts/pluginDropDownList.js"></script>
+</body>
+</html>

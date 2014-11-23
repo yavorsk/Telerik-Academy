@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Number of occurances of a word in a text</title>
+    <!--3.Write a function that finds all the occurrences of  a word in a text
+            The search can be case sensitive or case insensitive
+            Use function overloading-->
+    <link href="styles/js-console.css" rel="stylesheet" />
+    <style>
+        input, textarea, #buttons, label {
+            display: block;
+            float: left;
+            margin: 10px;
+        }
+
+        a {
+            color: black;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <label for="word">Enter a word to search for:</label>
+        <input type="text" id="word" />
+        <label for="text">Enter text:</label>
+        <textarea id="text"></textarea>
+        <div id="buttons">
+            <a href="#" onclick="onPrintOccCIBtnClick()">Find occurances - case insensitive</a>
+            <a href="#" onclick="onPrintOccCSBtnClick()">Find occurances - case sensitive</a>
+        </div>
+    </div>
+    <br />
+
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script src="scripts/3.FindOccurancesOfWord.js"></script>
+    <script>
+        function onPrintOccCSBtnClick() {
+            var inputText = jsConsole.read("#text");
+            var searchedWord = jsConsole.read("#word");
+            var caseSensitive = true;
+            var numberOfOccurances = findOccurancesOfWord(inputText, searchedWord, caseSensitive);
+            jsConsole.writeLine("The number of occurances of the word '" + searchedWord + "' is " + numberOfOccurances);
+        }
+
+        function onPrintOccCIBtnClick() {
+            var inputText = jsConsole.read("#text");
+            var searchedWord = jsConsole.read("#word");
+            var numberOfOccurances = findOccurancesOfWord(inputText, searchedWord);
+            jsConsole.writeLine("The number of occurances of the word '" + searchedWord + "' is " + numberOfOccurances);
+        }
+    </script>
+</body>
+</html>

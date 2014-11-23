@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Combo Box</title>
+    <style>
+        img {
+            width: 150px;
+        }
+        .city-item {
+            border: 1px solid black;
+            padding: 5px;
+            width: 160px;
+        }
+    </style>
+    <script src="scripts/libs/require.js" data-main="scripts/app"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="city-item selected"></div>
+    </div>
+    <script id="city-template" type="text/x-handlebars-template">
+        <div class="city-item" id="city-item-{{id}}">
+            <strong class="city-name">{{name}}</strong><p class="city-country">{{country}}</p>
+            <img src="{{cityUrl}}" />
+        </div>
+    </script>
+</body>
+</html>

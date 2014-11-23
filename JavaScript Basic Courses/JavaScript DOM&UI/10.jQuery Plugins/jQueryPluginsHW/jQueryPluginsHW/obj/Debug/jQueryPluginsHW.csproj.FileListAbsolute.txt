@@ -1,0 +1,6 @@
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript DOM&UI\10.jQuery Plugins\jQueryPluginsHW\jQueryPluginsHW\jQueryPluginsHW\bin\jQueryPluginsHW.dll.config
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript DOM&UI\10.jQuery Plugins\jQueryPluginsHW\jQueryPluginsHW\jQueryPluginsHW\bin\jQueryPluginsHW.dll
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript DOM&UI\10.jQuery Plugins\jQueryPluginsHW\jQueryPluginsHW\jQueryPluginsHW\bin\jQueryPluginsHW.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript DOM&UI\10.jQuery Plugins\jQueryPluginsHW\jQueryPluginsHW\jQueryPluginsHW\obj\Debug\jQueryPluginsHW.csprojResolveAssemblyReference.cache
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript DOM&UI\10.jQuery Plugins\jQueryPluginsHW\jQueryPluginsHW\jQueryPluginsHW\obj\Debug\jQueryPluginsHW.dll
+C:\Users\yavor\Google Drive\TelerikAcademy\Javascript DOM&UI\10.jQuery Plugins\jQueryPluginsHW\jQueryPluginsHW\jQueryPluginsHW\obj\Debug\jQueryPluginsHW.pdb

@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Compare two char arrays</title>
+    <!--2.Write a script that compares two char arrays lexicographically (letter by letter).-->
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        var charArr1 = ["z", "h", "d", "h", "o", "i", "r", "s", "t", "u", "A"];
+        var charArr2 = ["Z", "h", "g", "k", "y", "l", "q", "r", "y", "v", "a"];
+
+        for (var i = 0; i < charArr1.length; i++) {
+            if (charArr1[i] > charArr2[i]) {
+                jsConsole.writeLine("charArr1[" + i + "]=" + charArr1[i] + "  >  " + "charArr2[" + i + "]=" + charArr2[i])
+            }
+            else if (charArr1[i] < charArr2[i]) {
+                jsConsole.writeLine("charArr1[" + i + "]=" + charArr1[i] + "  <  " + "charArr2[" + i + "]=" + charArr2[i])
+            }
+            else if (charArr1[i] = charArr2[i]) {
+                jsConsole.writeLine("charArr1[" + i + "]=" + charArr1[i] + "  =  " + "charArr2[" + i + "]=" + charArr2[i])
+            }    
+        }
+    </script>
+</body>
+</html>

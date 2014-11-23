@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Deep copy of an object</title>
+    <link href="Styles/js-console.css" rel="stylesheet" />
+    <!--3. Write a function that makes a deep copy of an object
+            The function should work for both primitive and reference types. -->
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="Scripts/js-console.js"></script>
+    <script src="Scripts/1.LinesAndPoints.js"></script>
+    <script src="Scripts/3.DeepCopyObj.js"></script>
+    <script>
+        //tests
+        var myPoint1 = pointBuilder(4, 3);
+        var myPoint2 = pointBuilder(1, 2);
+        var mySegment = segmentBuilder(myPoint1, myPoint2);
+
+        jsConsole.writeLine(myPoint1.toString());
+        jsConsole.writeLine(mySegment.toString());
+
+        //deep copy of point object:
+        var newPoint = deepCopy(myPoint1);
+
+        jsConsole.writeLine(newPoint.toString());
+        myPoint1.coordX = 9;
+        myPoint1.coordX = 10;
+        jsConsole.writeLine(myPoint1.toString());
+        jsConsole.writeLine(newPoint.toString());
+
+        jsConsole.writeLine('--------------------');
+        //deep copy of segment object:
+        var newSegment = deepCopy(mySegment);
+        jsConsole.writeLine(newSegment.toString());
+        mySegment.pt1 = newPoint;
+        jsConsole.writeLine(mySegment.toString());
+        jsConsole.writeLine(newSegment.toString());
+
+        jsConsole.writeLine('--------------------');
+        //shallow copy of segment object:
+        var newSegment2 = newSegment;
+        jsConsole.writeLine(newSegment.toString());
+        jsConsole.writeLine(newSegment2.toString());
+        var point3 = pointBuilder(12, 12);
+        newSegment.pt1 = point3;
+        jsConsole.writeLine(newSegment.toString());
+        jsConsole.writeLine(newSegment2.toString());
+    </script>
+</body>
+</html>
