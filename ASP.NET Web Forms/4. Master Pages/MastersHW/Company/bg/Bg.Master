@@ -1,0 +1,20 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" MasterPageFile="~/Site.Master" %>
+
+<asp:Content ContentPlaceHolderID="ContentPlaceHolderHeader" runat="server">
+    <div class="home-link"><a href="/">Начало</a></div>
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="ContentPlaceHolderPageContent"
+    ID="ContentPage" runat="server">
+    <header id="users-area">Сайтът на български</header>
+    <aside class="users-sidebar">
+        <ul>
+            <li><a href="BgHome.aspx">Начало</a></li>
+            <li><a href="BgAbout.aspx">За нас</a></li>
+            <li><a href="BgContacts.aspx">Контакти</a></li>
+        </ul>
+    </aside>
+    <div class="content"> 
+        <asp:ContentPlaceHolder ID="ContentPlaceHolderBg" runat="server" />
+    </div>
+</asp:Content>

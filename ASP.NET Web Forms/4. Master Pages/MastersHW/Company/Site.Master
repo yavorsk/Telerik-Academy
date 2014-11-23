@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Company.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+
+<head runat="server">
+    <title>International company site</title>
+    <link href="site.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolderHeader" runat="server">
+        </asp:ContentPlaceHolder>
+        <div>My Company's web site</div>
+    </header>
+
+    <form id="FormMain" runat="server">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolderPageContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+
+    <footer>(c) 2014 – Shosho productions</footer>
+</body>
+
+</html>

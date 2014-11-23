@@ -1,0 +1,21 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="En.master.cs" 
+    Inherits="Company.en.En" MasterPageFile="~/Site.Master" %>
+
+<asp:Content ContentPlaceHolderID="ContentPlaceHolderHeader" runat="server">
+    <div class="home-link"><a href="/">Home</a></div>
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="ContentPlaceHolderPageContent"
+    ID="ContentPage" runat="server">
+    <header id="users-area">Site in english</header>
+    <aside class="users-sidebar">
+        <ul>
+            <li><a href="EnHome.aspx">Home</a></li>
+            <li><a href="EnAbout.aspx">About</a></li>
+            <li><a href="EnContacts.aspx">Contacts</a></li>
+        </ul>
+    </aside>
+    <div class="content"> 
+        <asp:ContentPlaceHolder ID="ContentPlaceHolderEn" runat="server" />
+    </div>
+</asp:Content>
