@@ -1,0 +1,152 @@
+1. Projects 
+	- class library .Data;
+	- class library .Models;
+	- asp.net web project .WebApi with individual user accounts; (indentity models)
+	- wcf service application .Wcf;
+2. Ot indentity models premestvame: applicationUser -> v .Models , applicationDbContext -> .Data; Refferences ot microsoft identity... (0:20 от видеото)
+3. Classes in .Models;
+4. Add DbSet in dbContext. excluding applicationUsers;
+5. Migrations
+	- package manager console -> enable-migrations (for [Project].Data)
+	- Configuration() -> 	this.AutomaticMigrationsEnabled = true;
+							this.AutomaticMigrationDataLossAllowed = true;
+	- Database.SetInitializer(new MigrateDatabaseToLatestVersion<ApplicationDbContext, Configuration>());
+		(in the constructor of the dbContext)
+	- Connection string everywhere;
+6. Folder Repositories in .Data
+	- IRepository<T> 	IQueryable<T> All();
+						T Find(object id);
+						void Add(T entity);
+						void Update(T entity);
+						T Delete(T entity);
+						T Delete(object id);
+						int SaveChanges();
+						
+						(All, Find, Add, Update, Delete(T), Delete(id), int SaveChanges)
+	- EfRepository<T> : IRepository<T> where T Class 
+			podavame Dbcontext, IdbSet, ChangeState(entity, entityState)
+7. Unit Of Work (moje da ima dva razlichni - za WebApi i Wcf)
+	I....Data -> interface
+	.....Data : I....Data -> implementation
+		- Irepositories
+		- Dictionary<type, object>
+		- GetRepository<T>
+8. BaseController : ApiController 
+	-	protected IArticlesData data;
+		public BaseApiController(IArticlesData data)
+		{
+			this.data = data;
+		}
+	- dobavia ninject.web.webapi (through nuget Ninject OWIN host for web api 2)
+		- GitHub link: https://github.com/ninject/Ninject.Web.Common/wiki/Setting-up-a-OWIN-WebApi-application
+		- Add namespaces:
+			using Ninject;
+			using Ninject.Web.Common.OwinHost;
+			using Ninject.Web.WebApi.OwinHost;
+		- Startup.cs -> 
+			app.UseNinjectMiddleware(CreateKernel).UseNinjectWebApi(GlobalConfiguration.Configuration) -in-> public void Configuration(IAppBuilder app);
+			//From TicTacToe Demo:
+			private static StandardKernel CreateKernel()
+			{
+				var kernel = new StandardKernel();
+				kernel.Load(Assembly.GetExecutingAssembly());
+				RegisterMappings(kernel);
+				return kernel;
+			}
+
+			private static void RegisterMappings(StandardKernel kernel)
+			{
+				kernel.Bind<ITicTacToeData>().To<TicTacToeData>().WithConstructorArgument("context",c => new TicTacToeDbContext());
+				kernel.Bind<IGameResultValidator>().To<GameResultValidator>();
+				kernel.Bind<IUserIdProvider>().To<AspNetUserIdProvider>();
+			}
+		- RegisterMappings(kernel)
+			kernel.Bind<IData>().To<Data>().WithConstructorArgument("context", c => new DbContext());
+9. CORS
+	- nuget -> add Microsoft ASP.NET Web API 2.2 Cross-Origin . . ..
+	- WebApiConfig.cs --> Register() --> config.EnableCors(new EnableCorsAttribute("*", "*", "*"));
+	- Global.asax -->
+		protected void Application_BeginRequest(object sender, EventArgs e)
+		{
+		Response.Headers.Add("Access-Control-Allow-Origin", "*");
+		}
+10. IdentityConfig - correct the restrictions over the user passwords;
+11. Routing
+	- new Route: 
+			config.Routes.MapHttpRoute(
+                name: "Users",
+                routeTemplate: "api/users/{action}",
+                defaults: new
+                {
+                    controller = "Users"
+                }
+            );
+		* by default endpointa na login/register e api/Account (AccountController) vyv videoto Evlogi go promenia na api/Users;
+		* Evlogi commnents the code for ninget dependancy resolver in order for default page of web api to be displayed
+		* vyv web-server.js --> DEFAULT_PORT = port na localhost;
+12. Controllers
+	- Register user (POST to /api/Account/Register)
+		Email,Password,ConfirmPassword (Headers)
+	- User login WebAPI (POST to /Token)
+		grant_type=password,username,password (Headers) (returns access token, save it!)
+	- When logged in Add header "Authorization" with value "Bearer [access_token]"
+	- pravim DataModels na baza neshtata koito poluchavame kato vhod ot primernite http requests
+	- [Authorize] ako metodyt ne e publichen! samo za lognati useri;
+	- var userID = this.User.Identity.GetUserId(); (with using Microsoft.ASpNet.Identity)
+13. WCF service
+	- addvame nov Wcf service
+	- in [service].svc dobaviame: Factoryactory="System.ServiceModel.Activation.WebServiceHostFactory"
+	- v	[ServiceInterface] dobaviame atribut [WebGet(UriTemplate="")] ("api/...." - kakvoto se iziskva po zadanie)
+	- v Web.config dobaviame (evlogi sakomentna systestvuvastia <system.serviceModel>, no mai ne e nujno):
+			<system.serviceModel>
+				<standardEndpoints>
+				  <webHttpEndpoint>
+					<standardEndpoint helpEnabled="true" defaultOutgoingResponseFormat="Json" />
+				  </webHttpEndpoint>
+				</standardEndpoints>
+			  </system.serviceModel>
+	- okolo 4:30 ot videoto
+14. Tests
+	- Unit test project
+	- 4:44 ot videoto
+	- mockvame repository i unit of work (sys JustMock)
+		var repo - Mock.Create<IRepository<Article>>(); 	(mockvame repositoryto)
+		Aticle[] articles = {}; 	(pravim s fake masiv ot artikles i go pylnim s GenerateValidArticles())
+		Mock.Arrange(() => rep.All()).Returns(() => articles.AsQueryable());
+		var data = Mock.Create<IArticlesData>(); (mokvame UOW)
+		Mock.Arrange(() => data.Articles).Returns(() => repo);
+		var  controller = new ArticlesController(data) (syzdavame kontrolera, koito she testvame)
+		this.SetupController(controller);
+		
+		var actionResult = controller.Get();
+		var response = actionResult.ExecuteAsync(CancellationToken.none).Result; -> vzimame response message
+		var content = response.Content.ReadAsAsync<IEnumerable<ArticleDataModel>>().Result;
+	- dobaviame: 
+		private void SetupController(ApiController controller)
+        {
+            string serverUrl = "http://test-url.com";
+
+            //Setup the Request object of the controller
+            var request = new HttpRequestMessage()
+            {
+                RequestUri = new Uri(serverUrl)
+            };
+            controller.Request = request;
+
+            //Setup the configuration of the controller
+            var config = new HttpConfiguration();
+            config.Routes.MapHttpRoute(
+                name: "DefaultApi",
+                routeTemplate: "api/{controller}/{id}",				default API!!!
+                defaults: new { id = RouteParameter.Optional });
+            controller.Configuration = config;
+            
+            //Apply the routes of the controller
+            controller.RequestContext.RouteData =
+                new HttpRouteData(
+                    route: new HttpRoute(),
+                    values: new HttpRouteValueDictionary
+                    {
+                        { "controller", "bugs" }
+                    });
+        }

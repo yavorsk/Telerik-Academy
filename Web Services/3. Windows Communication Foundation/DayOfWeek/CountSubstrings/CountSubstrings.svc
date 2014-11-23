@@ -1,0 +1,2 @@
+﻿<%@ ServiceHost Service="WcfServiceCountStrings.Library.StringCountService"
+    Language="C#" %>

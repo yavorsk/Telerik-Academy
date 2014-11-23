@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DayOfWeek", "DayOfWeek\DayOfWeek.csproj", "{E58F4EAB-E230-43F0-8E07-A63911E93E92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DayOfWeekConsoleClient", "DayOfWeekConsoleClient\DayOfWeekConsoleClient.csproj", "{76735E57-EEF1-4273-933B-4F0AD8EEC46D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E58F4EAB-E230-43F0-8E07-A63911E93E92} = {E58F4EAB-E230-43F0-8E07-A63911E93E92}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServiceCountStrings.Library", "WcfServiceCountStrings.Library\WcfServiceCountStrings.Library.csproj", "{3FFDF663-2409-499D-B11D-FA485C65CAFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountSubstrings", "CountSubstrings\CountSubstrings.csproj", "{FDB872F2-897A-42D2-AA11-BE3473EFFE0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountSubstringsConsumer", "CountSubstringsConsumer\CountSubstringsConsumer.csproj", "{FC94E375-B2DA-460C-91E1-8317FEA3FE33}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FDB872F2-897A-42D2-AA11-BE3473EFFE0D} = {FDB872F2-897A-42D2-AA11-BE3473EFFE0D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E58F4EAB-E230-43F0-8E07-A63911E93E92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E58F4EAB-E230-43F0-8E07-A63911E93E92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E58F4EAB-E230-43F0-8E07-A63911E93E92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E58F4EAB-E230-43F0-8E07-A63911E93E92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76735E57-EEF1-4273-933B-4F0AD8EEC46D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76735E57-EEF1-4273-933B-4F0AD8EEC46D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76735E57-EEF1-4273-933B-4F0AD8EEC46D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76735E57-EEF1-4273-933B-4F0AD8EEC46D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FFDF663-2409-499D-B11D-FA485C65CAFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FFDF663-2409-499D-B11D-FA485C65CAFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FFDF663-2409-499D-B11D-FA485C65CAFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FFDF663-2409-499D-B11D-FA485C65CAFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDB872F2-897A-42D2-AA11-BE3473EFFE0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDB872F2-897A-42D2-AA11-BE3473EFFE0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDB872F2-897A-42D2-AA11-BE3473EFFE0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDB872F2-897A-42D2-AA11-BE3473EFFE0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC94E375-B2DA-460C-91E1-8317FEA3FE33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC94E375-B2DA-460C-91E1-8317FEA3FE33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC94E375-B2DA-460C-91E1-8317FEA3FE33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC94E375-B2DA-460C-91E1-8317FEA3FE33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
