@@ -1,0 +1,66 @@
+﻿body,
+div,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-seri;
+  font-size: 16px;
+}
+body div#wrapper {
+  width: 960px;
+}
+body div#wrapper > div {
+  width: 680px;
+  background: #cccccc;
+  padding: 10px 10px;
+  margin: 15px 15px;
+  border-radius: 5px;
+  zoom: 1;
+}
+body div#wrapper > div:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+}
+body div#wrapper > div div.holder {
+  float: left;
+}
+body div#wrapper > div div.holder img {
+  border-radius: 5px;
+  width: 550px;
+  height: 414px;
+}
+body div#wrapper > div div.playlist {
+  float: left;
+}
+body div#wrapper > div div.playlist ul {
+  margin-left: 5px;
+}
+body div#wrapper > div div.playlist ul li {
+  border-bottom: 1px solid black;
+  display: block;
+  margin-left: 5px;
+  padding-bottom: 5px;
+}
+body div#wrapper > div div.playlist ul li a {
+  text-decoration: none;
+}
+body div#wrapper > div div.playlist ul li img {
+  width: 92px;
+  height: 70px;
+  margin-left: 17px;
+  margin-right: 11px;
+  margin-top: 5px;
+  display: block;
+  border-radius: 10px;
+}
+body div#wrapper > div div.playlist ul li span {
+  margin-left: 8px;
+  color: black;
+  font-weight: bold;
+}
+/*# sourceMappingURL=task2.css.map */

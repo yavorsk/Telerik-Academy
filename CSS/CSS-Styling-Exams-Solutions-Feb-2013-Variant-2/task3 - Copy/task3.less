@@ -1,0 +1,81 @@
+﻿.linearGradient(@color1, @location1, @color2, @location2) {
+    background: @color1; /* Old browsers */
+    background: -moz-linear-gradient(top, @color1 @location1, @color2 @location2); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(@location1,@color1), color-stop( @location2,@color2)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, @color1 @location1,@color2 @location2); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, @color1 @location1,@color2 @location2); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, @color1 @location1,@color2 @location2); /* IE10+ */
+    background: linear-gradient(to bottom, @color1 @location1,@color2 @location2); /* W3C */
+}
+
+body, form, fieldset, label, input, button, div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, 'DejaVu Sans', sans-serif;
+    font-size: 16px;
+
+    div#wrapper {
+        width: 960px;
+        color: #333;
+
+        form {
+            margin-top: 25px;
+            margin-left: 25px;
+            border: 1px solid #333333;
+            border-radius: 15px;
+            width: 380px;
+            .linearGradient(#68d1ff, 0%, #8cfffb, 100%);
+            text-align: right;
+            padding: 15px;
+
+            fieldset {
+                border: 3px solid #333333;
+                border-radius: 5px;
+                padding: 5px 15px;
+
+                legend {
+                    font-size: 1.3em;
+                    font-style: italic;
+                    padding: 0 15px;
+                }
+
+                input {
+                    width: 149px;
+                    border: 1px solid #008fce;
+                    border-radius: 5px;
+                    .linearGradient(#69d2ff, 0%, #8bfefb, 100%);
+                    padding: 5px 15px;
+                    margin-top: 1px;
+                    outline: none;
+
+                    &[type="number"] {
+                        padding: 5px;
+                        width: 35px;
+                    }
+                }
+            }
+
+            input[type="radio"] {
+                margin: 7px 0;
+                display: inline-block;
+            }
+
+            button, input[type="reset"]{
+                padding: 5px 15px;
+                font-size: 1.2em;
+                border:none;
+                border-bottom: 1px solid black;
+                border-radius: 5px;
+                .linearGradient(#36c2ff,0,#8bfefb, 100%);
+                margin-top: 11px;
+
+                &:hover{
+                    background: #9be1ff;
+                }
+            }
+        }
+    }
+}

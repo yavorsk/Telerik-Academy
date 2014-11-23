@@ -1,0 +1,95 @@
+﻿body,
+div,
+aside,
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+  font-size: 16px;
+}
+body div#wrapper {
+  width: 960px;
+}
+body div#wrapper aside {
+  margin-top: 10px;
+  margin-left: 20px;
+  border: none;
+  border-radius: 10px;
+  height: 227px;
+  width: 185px;
+  padding: 5px 15px 0;
+  background: #d29bff;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #d29bff 0%, #8977ff 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d29bff), color-stop(100%, #8977ff));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #d29bff 0%, #8977ff 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #d29bff 0%, #8977ff 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #d29bff 0%, #8977ff 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #d29bff 0%, #8977ff 100%);
+  /* W3C */
+}
+body div#wrapper aside > ul {
+  list-style-type: none;
+  margin-top: 0px;
+}
+body div#wrapper aside > ul > li {
+  padding: 5px 15px;
+  border-bottom: 1px solid #9d00ff;
+  position: relative;
+}
+body div#wrapper aside > ul > li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.4em;
+}
+body div#wrapper aside > ul > li > ul {
+  display: none;
+}
+body div#wrapper aside > ul > li:last-of-type {
+  border-bottom: none;
+}
+body div#wrapper aside > ul > li:hover {
+  border: 1px solid #9d00ff;
+  border-radius: 5px;
+}
+body div#wrapper aside > ul > li:hover ul {
+  display: block;
+}
+body div#wrapper aside > ul > li ul {
+  list-style-type: none;
+  position: absolute;
+  left: 191px;
+  top: -4px;
+  border: none;
+  border-radius: 10px;
+  width: 212px;
+  padding: 5px 5px 5px 20px;
+  background: url(/imgs/arrow.png) no-repeat 5px 15px #b5aaff;
+}
+body div#wrapper aside > ul > li ul li {
+  padding: 5px 15px 5px 20px;
+  border-bottom: 1px solid #9d00ff;
+  position: relative;
+}
+body div#wrapper aside > ul > li ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.1em;
+}
+body div#wrapper aside > ul > li ul li:last-of-type {
+  border-bottom: none;
+}
+body div#wrapper aside > ul > li ul li:hover {
+  border: 1px solid #9d00ff;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=task1.css.map */

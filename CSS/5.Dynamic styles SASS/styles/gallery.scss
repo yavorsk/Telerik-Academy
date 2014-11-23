@@ -1,0 +1,43 @@
+body
+{
+	background-color: black;
+
+	nav {
+		margin-top: 10px;
+		text-align: center;
+
+		label img {
+			opacity: 0.6;
+			transition: opacity 1s, box-shadow 1s;
+			
+			&:hover {
+				opacity: 1;
+				box-shadow: 0px 0px 30px gray;
+			}
+		}
+	}
+
+	label {
+		margin-left: 10px;
+	}
+
+	div input {
+		display: none;
+
+		&:checked + img {
+			opacity: 1;
+		}
+	}
+
+	div img {
+		position: absolute;
+		top: 140px;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		opacity: 0;
+
+		transition: opacity 1.5s;
+	}
+}

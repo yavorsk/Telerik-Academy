@@ -1,0 +1,6 @@
+C:\Users\yavor\Google Drive\TelerikAcademy\HTML\3. Forms in HTML\HW-forms\HWForms\HWForms\bin\HWForms.dll.config
+C:\Users\yavor\Google Drive\TelerikAcademy\HTML\3. Forms in HTML\HW-forms\HWForms\HWForms\bin\HWForms.dll
+C:\Users\yavor\Google Drive\TelerikAcademy\HTML\3. Forms in HTML\HW-forms\HWForms\HWForms\bin\HWForms.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\HTML\3. Forms in HTML\HW-forms\HWForms\HWForms\obj\Debug\HWForms.csprojResolveAssemblyReference.cache
+C:\Users\yavor\Google Drive\TelerikAcademy\HTML\3. Forms in HTML\HW-forms\HWForms\HWForms\obj\Debug\HWForms.dll
+C:\Users\yavor\Google Drive\TelerikAcademy\HTML\3. Forms in HTML\HW-forms\HWForms\HWForms\obj\Debug\HWForms.pdb

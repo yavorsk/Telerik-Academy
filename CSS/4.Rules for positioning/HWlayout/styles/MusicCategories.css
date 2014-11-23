@@ -1,0 +1,78 @@
+﻿body {
+    background-color: #eeeeee;
+    font-family: 'Arial Unicode MS';
+}
+
+/*http://css-tricks.com/all-about-floats/
+http://www.barelyfitz.com/screencast/html-training/css/positioning/*/
+
+header h1 {
+    margin-left: 15px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+section, article, div, input, img, p {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    width: 351px;
+    padding: 15px;
+    margin: 15px;
+    background-color: white;
+    border: 1px solid #999999;
+    position: relative;
+    font-size: 12px;
+}
+
+    section p {
+        margin-bottom: 30px;
+    }
+
+    section .img_container {
+        float: left;
+        margin-right: 15px;
+    }
+
+.img_container img {
+    display: block;
+}
+
+
+section form {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+    section form input[type=button] {
+        color: white;
+        border: none;
+        font-size: 11px;
+    }
+
+    section form input.listen_button {
+        background: url(../img/button1.png) no-repeat white;
+        width: 73px;
+        height: 25px;
+    }
+
+    section form input.add_button {
+        background: url(../img/button1.png) no-repeat white;
+        width: 60px;
+        height: 25px;
+    }
+
+.clearfix {
+    zoom: 1;
+}
+
+    .clearfix:after {
+        content: "";
+        display: block;
+        clear: both;
+        height: 0;
+    }

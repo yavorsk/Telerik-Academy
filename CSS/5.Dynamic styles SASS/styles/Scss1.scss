@@ -1,0 +1,255 @@
+$gradient-top-color: #D693FF;
+$gradient-bottom-color: #9215F2;
+$input-background-color: #b35ef3;
+
+@mixin gradient-background($background-color-top: #fff, $background-color-bottom: #aaa ) {
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, $background-color-top),
+		color-stop(0.13, $background-color-bottom)
+	);
+	background-image: -o-linear-gradient(bottom, $background-color-top 0%, $background-color-bottom 13%);
+	background-image: -moz-linear-gradient(bottom, $background-color-top 0%, $background-color-bottom 13%);
+	background-image: -webkit-linear-gradient(bottom, $background-color-top 0%, $background-color-bottom 13%);
+	background-image: -ms-linear-gradient(bottom, $background-color-top 0%, $background-color-bottom 13%);
+	background-image: linear-gradient(to bottom, $background-color-top 0%, $background-color-bottom 13%);
+}
+
+@mixin border ($border-background-color, $border-thickness, $border-line-style, $border-color, $border-radius-size) {
+	background-color: $border-background-color;
+	border: $border-thickness $border-line-style $border-color;
+	border-radius: $border-radius-size;
+}
+
+@mixin clearfix {
+	zoom: 1;
+	&:after {
+		display: block;
+		content: "";
+		height: 0;
+		clear: both;
+	}
+}
+
+* {
+margin :0;
+padding: 0;
+}
+
+body
+{
+	@include gradient-background($gradient-top-color, $gradient-bottom-color);
+	color: white;
+
+	header {
+		padding: 25px 15px 5px 15px;
+
+		div#logo-container {
+			float: left;
+		}
+
+		div#reg-form-container {
+			float: right;
+			position: relative;
+			right: 5%;
+			top: 50%;
+
+			form div {
+				text-align: right;
+			}
+
+			form div input {
+				height: 16px;
+				width: 127px;
+				margin: 5px;
+				padding: 2px 5px;
+				@include border($input-background-color, 1px, solid, black, 10px);
+			}
+
+			form button {
+				@include border($input-background-color, 1px, solid, black, 10px);
+				border-style: outset;
+				font-weight: bold;
+				padding: 5px 8px;
+				color: white;
+
+				&:hover {
+					background-color: #8949b9;
+					border-style: inset;
+				}
+			}
+		}
+
+		nav {
+			margin: 20px;
+			padding: 12px;
+			@include border(none, 2px, solid, black, 12px);
+			display: inline-block;
+			width: 75%;
+
+			ul#main-nav-list {
+				list-style: none;
+				@include clearfix;
+
+					& > li {
+						float: left;
+
+						a {
+							font-size: 1.2em;
+							padding: 0px 10px;
+							color: #fff;
+							text-decoration: none;
+						}
+
+						&:hover > a {
+							color: #a8a8a8;
+							text-decoration: underline;
+
+							& + ul {
+								display: block;
+
+								& li:hover a {
+									color: #a8a8a8;
+									text-decoration: underline;
+								}
+							}
+						}
+					}	
+
+				ul.sub-nav-list {
+					list-style: none;
+					position: absolute;
+                    display: none;
+					@include border(rgba(179, 94, 243, 0.9), 0px, none, black, 5px);
+
+					li {
+						margin: 0 15px;
+						padding: 10px 0;
+						border-bottom: 1px solid black;
+						font-size: 0.8em;
+
+						&:last-of-type {
+							border-bottom: none;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	section {
+		float: left;
+		width: 75%;
+
+		article {
+			margin: 20px;
+            padding: 20px;
+			@include border(none, 1px, solid, black, 12px);
+
+			p {
+				font-size: 0.7em;
+			}
+
+			header {
+				font-size: 1.0em;
+				padding: 5px;
+			}
+
+			footer {
+				padding: 5px;
+
+				p {
+					font-size: 16px;
+                    text-align: right;
+
+					a {
+						text-decoration: none;
+						color: #a8a8a8;
+
+						&:hover {
+							text-decoration: underline;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	aside {
+		float: right;
+		width: 20%;
+		margin: 20px;
+
+		& > ul {
+			list-style: none;
+
+			& > li {
+				margin: 15px 0;
+                padding: 15px;
+				@include border(none, 1px, solid, black, 5px);
+
+				h2 {
+					font-size: 1.0em;
+                    font-weight: bold;
+				}
+
+				p {
+					margin-top: 10px;
+                    margin-right: 5px;
+                    margin-bottom: 10px;
+                    margin-left: 5px;
+                    font-size: 12px;
+
+					a {
+						color: #aaaaaa;
+                        text-decoration: none;
+					}
+
+					strong {
+						color: #cccccc;
+                        font-weight: bold;
+                        font-style: normal;
+					}
+
+					em {
+						color: #cccccc;
+                        font-weight: normal;
+                        font-style: italic;
+					}
+				}
+
+				ul {
+					list-style-type: none;
+                    margin-top: 10px;
+                    margin-right: 0;
+                    margin-bottom: 10px;
+                    margin-left: 0px;
+                    font-size: 12px;
+
+					li {
+						margin-top: 5px;
+                        margin-left: 10px;
+                        margin-bottom: 0px;
+                        margin-right: 0px;
+                        background: url(../images/li-dot.png) no-repeat;
+                        background-position: 0 50%;
+                        padding-left: 25px;
+					}
+				}
+			}
+		}
+	}
+
+	footer {
+		clear: both;
+		padding: 15 0 25 0;
+
+		p {
+			font-size: 1.1em;
+            font-weight: bold;
+            text-align: center;
+		}
+	}
+}

@@ -1,0 +1,51 @@
+﻿body {
+    font-family: Arial;
+    background-color: #595959;
+}
+
+th,td {
+    padding: 5px;
+    text-align: left;
+}
+
+thead th {
+    font-size: 1.4em;
+    font-weight: normal;
+    color: #ABACA3;
+    padding-right: 150px;
+}
+
+tbody th {
+    font-style: italic;
+    font-weight: normal;
+    color: white;
+}
+
+.lightyellow {
+    color: #EAECA7;
+}
+
+.gray {
+    color: #ABACA3;
+}
+
+.orange {
+    color: orange;
+}
+
+.red {
+    color: red;
+}
+
+#name {
+    vertical-align: text-top;
+}
+
+#circle {
+    width: 40px;
+    height: 40px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%; 
+    background-color: #71B47A;
+}

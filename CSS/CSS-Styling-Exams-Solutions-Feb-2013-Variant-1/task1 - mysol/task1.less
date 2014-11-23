@@ -1,0 +1,103 @@
+﻿.linearGradient(@color1, @location1, @color2, @location2) {
+    background: @color1; /* Old browsers */
+    background: -moz-linear-gradient(top, @color1 @location1, @color2 @location2); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(@location1,@color1), color-stop( @location2,@color2)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, @color1 @location1,@color2 @location2); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, @color1 @location1,@color2 @location2); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, @color1 @location1,@color2 @location2); /* IE10+ */
+    background: linear-gradient(to bottom, @color1 @location1,@color2 @location2); /* W3C */
+}
+
+body, div, aside, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    font-size: 16px;
+
+    div#wrapper {
+        width: 960px;
+
+        aside {
+            margin-top: 10px;
+            margin-left: 20px;
+            border: none;
+            border-radius: 10px;
+            height: 227px;
+            width: 185px;
+            padding: 5px 15px 0;
+            .linearGradient(#d29bff, 0%, #8977ff, 100%);
+
+            & > ul {
+                list-style-type: none;
+                margin-top: 0px;
+
+                & > li {
+                    padding: 5px 15px;
+                    border-bottom: 1px solid #9d00ff;
+                    position: relative;
+
+                    a {
+                        text-decoration: none;
+                        color: black;
+                        font-size: 1.4em;
+                    }
+
+                    & > ul {
+                        display: none;
+                    }
+
+                    &:last-of-type {
+                        border-bottom: none;
+                    }
+
+                    &:hover {
+                        border: 1px solid #9d00ff;
+                        border-radius: 5px;
+
+                        & ul {
+                            display: block;
+                        }
+                    }
+
+
+
+                    ul {
+                        list-style-type: none;
+                        position: absolute;
+                        left: 191px;
+                        top: -4px;
+                        border: none;
+                        border-radius: 10px;
+                        width: 212px;
+                        padding: 5px 5px 5px 20px;
+                        background: url(/imgs/arrow.png) no-repeat 5px 15px #b5aaff;
+
+                        li {
+                            padding: 5px 15px 5px 20px;
+                            border-bottom: 1px solid #9d00ff;
+                            position: relative;
+
+                            a {
+                                text-decoration: none;
+                                color: black;
+                                font-size: 1.1em;
+                            }
+
+                            &:last-of-type {
+                                border-bottom: none;
+                            }
+
+                            &:hover {
+                                border: 1px solid #9d00ff;
+                                border-radius: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>HW Design2</title>
+    <style>
+        header, section, footer, nav, article {
+            display: block;
+        }
+        header {
+            font-family: 'Century Gothic';
+            background-color: lightcyan;
+        } /*semantic tag styling test*/
+    </style>
+    <!--[if lt IE 9]>
+         <script src="/html5shiv.js" type="text/javascript"></script>
+    <![endif]-->
+    <script>
+        document.createElement("header");
+    </script>
+</head>
+<body>
+    <header>
+        <h1><a href="#">LinkedIn</a></h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">What is LinkedIn</a></li>
+                <li><a href="#">Join Today</a></li>
+                <li>
+                    Sign in today
+                    <form>
+                        <ul>
+                            <li>
+                                <label for="email">Email</label>
+                                <input type="email" id="email" />
+                            </li>
+                            <li>
+                                <label for="pass">Password</label>
+                                <input type="password" id="pass" />
+                            </li>
+                            <li>
+                                <input type="button" value="Sign In" />
+                            </li>
+                        </ul>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr />
+
+    <article>
+        <header>
+            <h1>Over 175 million professionals use LinkedIn to exchange information, ideas and opportunities</h1>
+        </header>
+        <section>
+            <ul>
+                <li>Stay informed about your contacts and industry</li>
+                <li>Find the people and knowledge you need to achieve your goals</li>
+                <li>Control your professional identity online</li>
+            </ul>
+        </section>
+    </article>
+
+    <section>
+        <header>
+            <h2>Join linked in today</h2>
+        </header>
+        <form>
+            <header>
+                <h3>Sign up</h3>
+            </header>
+            <section>
+                <ul>
+                    <li>
+                        <label for="signupFN">First name:</label>
+                        <br />
+                        <input type="text" id="signupFN" />
+                    </li>
+                    <li>
+                        <label for="signupLN">Last name:</label>
+                        <br />
+                        <input type="text" id="signupLN" />
+                    </li>
+                    <li>
+                        <label for="signupEmail">Email:</label>
+                        <br />
+                        <input type="email" id="signupEmail" />
+                    </li>
+                    <li>
+                        <label for="signupPass">Password:</label>
+                        <br />
+                        <input type="password" id="signupPass" />
+                        <br />
+                        6 or more characters
+                    </li>
+                </ul>
+                <input type="button" value="Join now!" />
+            </section>
+            <footer>
+                <p>Already on LinkedIn? <a href="#">Sign In</a></p>
+            </footer>
+        </form>
+    </section>
+    <footer>
+        <form>
+            <h3>Search for someone by name:</h3>
+            <ul>
+                <li>
+                    <label for="searchFN">First name:</label>
+                    <input type="text" id="searchFN" placeholder="First Name"/>
+                </li>
+                <li>
+                    <label for="searchLN">Last name:</label>
+                    <input type="text" id="searchLN" placeholder="Last Name"/>
+                </li>
+            </ul>
+            <input type="button" value="GO" />
+        </form>
+    </footer>
+</body>
+</html>

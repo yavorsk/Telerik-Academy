@@ -1,0 +1,122 @@
+﻿.clearfix() {
+    zoom: 1;
+
+    &:after {
+        content: "";
+        display: block;
+        height: 0;
+        clear: both;
+    }
+}
+
+.linearGradient(@color1, @location1, @color2, @location2) {
+    background: @color1; /* Old browsers */
+    background: -moz-linear-gradient(top, @color1 @location1, @color2 @location2); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(@location1,@color1), color-stop( @location2,@color2)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, @color1 @location1,@color2 @location2); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, @color1 @location1,@color2 @location2); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, @color1 @location1,@color2 @location2); /* IE10+ */
+    background: linear-gradient(to bottom, @color1 @location1,@color2 @location2); /* W3C */
+}
+
+body, p, hgroup, h2, h3, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-seri;
+    font-size: 16px;
+
+    div#wrapper {
+        width: 960px;
+        padding-left: 22px;
+        padding-top: 20px;
+
+        & > div {
+            float: left;
+            width: 148px;
+            border: 2px solid #d3d7da;
+            margin-left: -2px;
+
+            &:nth-child(even) {
+                height: 280px;
+                .linearGradient(#ffffff, 0%, #f1f2f3, 100%);
+            }
+
+            &:nth-child(odd) {
+                height: 260px;
+                background: white;
+            }
+
+            &:nth-child(1) hgroup {
+                background: url(/imgs/install.png) no-repeat 4px 14px;
+            }
+
+            &:nth-child(2) hgroup {
+                background: url(/imgs/tuneUp.png) no-repeat 4px 14px;
+            }
+            &:nth-child(3) hgroup {
+                background: url(/imgs/manage.png) no-repeat 4px 14px;
+            }
+            &:nth-child(4) hgroup {
+                background: url(/imgs/openSource.png) no-repeat 4px 14px;
+            }
+            &:nth-child(5) hgroup {
+                background: url(/imgs/twitter.png) no-repeat 4px 14px;
+            }
+            &:nth-child(6) hgroup {
+                background: url(/imgs/about.png) no-repeat 4px 14px;
+            }
+
+            hgroup {
+                height: 65px;
+                display: block;
+                position: relative;
+
+                h2, h3 {
+                    font-size: 16px;
+                    margin-left: 44px;
+                    position: absolute;
+                }
+
+                h2 {
+                    bottom: 15px;
+                }
+
+                h3 {
+                    bottom: 35px;
+                }
+            }
+
+            p {
+                margin: 1px 4px 5px;
+            }
+
+            div {
+                margin-top: 1px;
+                a {
+                    text-decoration: none;
+                    color: #d02d2f;
+                    margin: 0px 4px 0px;
+                    display: block;
+
+                    span {
+                        text-transform: uppercase;
+                    }
+                }
+            }
+
+            div.yellowBox {
+                border: 1px solid #ffff00;
+                margin: -4px 4px 4px 4px;
+                background: #ffffdd;
+
+                a {
+                    display: inline;
+                    margin: 0;
+                }
+            }
+        }
+    }
+}

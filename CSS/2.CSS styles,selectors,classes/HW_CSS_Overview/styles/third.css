@@ -1,0 +1,50 @@
+﻿body {
+    background-color: #A9A9A9;
+    font-size: small;
+}
+
+header h1 {
+    text-align: center;
+    color: #FAFAD2;
+    font-size: x-large;
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+    color: white;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+}
+
+a:hover {
+    background-color: #D3D3D3;
+}
+
+a:visited, a:active {
+    text-decoration: underline;
+}
+
+article header h1 {
+    text-align: left;
+    font-size: large;
+}
+
+article footer {
+    font-size: smaller;
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    font-size: smaller;
+}

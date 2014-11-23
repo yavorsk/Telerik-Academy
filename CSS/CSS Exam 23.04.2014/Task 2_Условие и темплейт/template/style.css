@@ -1,0 +1,110 @@
+﻿body,
+ul,
+li,
+div,
+a,
+p,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Courier New', Courier, 'Nimbus Mono L', monospace;
+  font-size: 16px;
+}
+body div#wrapper {
+  width: 960px;
+}
+body div#wrapper ul.menu {
+  margin-top: 5px;
+  margin-left: 5px;
+  position: relative;
+  list-style-type: none;
+}
+body div#wrapper ul.menu > li {
+  display: inline block;
+  float: left;
+  margin-right: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px 20px;
+  background: #25dcf2;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #25dcf2 0%, #7995e2 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #25dcf2), color-stop(100%, #7995e2));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #25dcf2 0%, #7995e2 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #25dcf2 0%, #7995e2 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #25dcf2 0%, #7995e2 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #25dcf2 0%, #7995e2 100%);
+  /* W3C */
+}
+body div#wrapper ul.menu > li:last-of-type {
+  margin-right: 0;
+}
+body div#wrapper ul.menu > li a {
+  text-decoration: none;
+  color: #1c00fd;
+}
+body div#wrapper ul.menu > li div.content {
+  display: none;
+  position: absolute;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 29px 20px 16px;
+  margin-left: -25px;
+  background: #feffff;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #feffff 0%, #a0d8ef 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #feffff), color-stop(100%, #a0d8ef));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #feffff 0%, #a0d8ef 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #feffff 0%, #a0d8ef 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #feffff 0%, #a0d8ef 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #feffff 0%, #a0d8ef 100%);
+  /* W3C */
+}
+body div#wrapper ul.menu > li div.content h3 {
+  text-decoration: underline;
+}
+body div#wrapper ul.menu > li div.content p {
+  margin-top: 18px;
+  margin-bottom: 10px;
+}
+body div#wrapper ul.menu > li div.content p span.bold {
+  font-weight: bold;
+}
+body div#wrapper ul.menu > li div.content p a {
+  font-size: 1em;
+}
+body div#wrapper ul.menu > li div.content p a:hover {
+  text-decoration: underline;
+}
+body div#wrapper ul.menu > li div.content ul {
+  margin-top: 18px;
+  list-style-type: square;
+}
+body div#wrapper ul.menu > li div.content ul li a {
+  font-size: 1em;
+}
+body div#wrapper ul.menu > li div.content ul li a:hover {
+  text-decoration: underline;
+}
+body div#wrapper ul.menu > li:hover {
+  padding: 10px 45px;
+}
+body div#wrapper ul.menu > li:hover a {
+  font-size: 1.5em;
+}
+body div#wrapper ul.menu > li:hover div.content {
+  display: block;
+}
+/*# sourceMappingURL=style1.css.map */

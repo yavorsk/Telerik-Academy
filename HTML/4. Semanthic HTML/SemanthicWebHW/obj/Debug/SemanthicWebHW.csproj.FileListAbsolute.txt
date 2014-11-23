@@ -1,0 +1,6 @@
+C:\Users\yavor\Google Drive\TelerikAcademy\HTML\4. Semanthic HTML\HW SemanthicWeb\SemanthicWebHW\SemanthicWebHW\bin\SemanthicWebHW.dll.config
+C:\Users\yavor\Google Drive\TelerikAcademy\HTML\4. Semanthic HTML\HW SemanthicWeb\SemanthicWebHW\SemanthicWebHW\bin\SemanthicWebHW.dll
+C:\Users\yavor\Google Drive\TelerikAcademy\HTML\4. Semanthic HTML\HW SemanthicWeb\SemanthicWebHW\SemanthicWebHW\bin\SemanthicWebHW.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\HTML\4. Semanthic HTML\HW SemanthicWeb\SemanthicWebHW\SemanthicWebHW\obj\Debug\SemanthicWebHW.csprojResolveAssemblyReference.cache
+C:\Users\yavor\Google Drive\TelerikAcademy\HTML\4. Semanthic HTML\HW SemanthicWeb\SemanthicWebHW\SemanthicWebHW\obj\Debug\SemanthicWebHW.dll
+C:\Users\yavor\Google Drive\TelerikAcademy\HTML\4. Semanthic HTML\HW SemanthicWeb\SemanthicWebHW\SemanthicWebHW\obj\Debug\SemanthicWebHW.pdb

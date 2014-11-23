@@ -1,0 +1,107 @@
+﻿.linearGradient(@color1, @location1, @color2, @location2) {
+    background: @color1; /* Old browsers */
+    background: -moz-linear-gradient(top, @color1 @location1, @color2 @location2); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(@location1,@color1), color-stop( @location2,@color2)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, @color1 @location1,@color2 @location2); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, @color1 @location1,@color2 @location2); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, @color1 @location1,@color2 @location2); /* IE10+ */
+    background: linear-gradient(to bottom, @color1 @location1,@color2 @location2); /* W3C */
+}
+
+body, ul, li, div, a, p, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, 'Nimbus Mono L', monospace;
+    font-size: 16px;
+
+    div#wrapper {
+        width: 960px;
+
+        ul.menu {
+            margin-top: 5px;
+            margin-left: 5px;
+            position: relative;
+            list-style-type: none;
+
+            & > li {
+                display: inline block;
+                float: left;
+                margin-right: 10px;
+                border: 1px solid black;
+                border-radius: 10px;
+                padding: 10px 20px;
+                .linearGradient(#25dcf2,0%, #7995e2, 100%);
+
+                &:last-of-type {
+                    margin-right: 0;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: #1c00fd;
+                }
+
+                div.content {
+                    display: none;
+                    position: absolute;
+                    border: 1px solid black;
+                    border-radius: 10px;
+                    padding: 29px 20px 16px;
+                    margin-left: -25px;
+                    .linearGradient(#feffff, 0%, #a0d8ef, 100%);
+
+                    h3 {
+                        text-decoration: underline;
+                    }
+
+                    p {
+                        margin-top: 18px;
+                        margin-bottom: 10px;
+
+                        span.bold {
+                            font-weight: bold;
+                        }
+
+                        a {
+                            font-size: 1em;
+
+                            &:hover {
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+
+                    ul {
+                        margin-top: 18px;
+                        list-style-type: square;
+
+                        li {
+                            a {
+                                font-size: 1em;
+
+                                &:hover {
+                                    text-decoration: underline;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                &:hover {
+                    padding: 10px 45px;
+
+                    a {
+                        font-size: 1.5em;
+                    }
+
+                    div.content {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}

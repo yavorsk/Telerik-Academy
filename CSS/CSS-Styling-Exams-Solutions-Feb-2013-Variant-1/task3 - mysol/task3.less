@@ -1,0 +1,132 @@
+﻿.linearGradient(@color1, @location1, @color2, @location2) {
+    background: @color1; /* Old browsers */
+    background: -moz-linear-gradient(top, @color1 @location1, @color2 @location2); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(@location1,@color1), color-stop( @location2,@color2)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, @color1 @location1,@color2 @location2); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, @color1 @location1,@color2 @location2); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, @color1 @location1,@color2 @location2); /* IE10+ */
+    background: linear-gradient(to bottom, @color1 @location1,@color2 @location2); /* W3C */
+}
+
+body, div, h1, ul, li, button, input, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Cambria, 'Times New Roman', 'Nimbus Roman No9 L', 'Freeserif', Times, serif;
+    font-size: 16px;
+
+    div#wrapper {
+        width: 960px;
+
+        div{
+            margin-top: 30px;
+            margin-left: 30px;
+            width: 380px;
+            height: 463px;
+
+            border: 1px solid black;
+            border-radius: 15px;
+
+            color: #555555;
+            .linearGradient(#eeeeee, 0%, #aaaaaa, 100%);
+
+            h1 {
+                margin-left: 22px;
+                margin-top: 15px;
+                margin-bottom: 10px;
+                font-size: 29px;
+            }
+
+            ul{
+                list-style-type: none;
+
+                li{
+                    border: 1px solid black;
+                    border-radius: 15px;
+                    margin: 0px 15px 5px 15px;
+                    padding: 5px 15px;
+
+                    height: 55px;
+                    width:200px;
+
+                    &.me-item {
+                        float: right;
+                        .linearGradient(#29edff, 0%, #c0faff, 100%);
+
+                        span {
+                            font-size: 1.1em;
+                            font-weight: bold;
+                            float: left;
+                            clear:both;
+                        }
+
+                        p {
+                            float: left;
+                            clear: both;
+                        }
+
+                        span.date {
+                            font-size: 0.8em;
+                            font-weight: normal;
+                            float: right;
+                            font-family: Consolas;
+                        }
+                    }
+
+                    &.toshko-item {
+                        float: left;
+                        .linearGradient(#dfffd2, 0%, #6fff3b, 100%);
+
+                        span {
+                            font-size: 1.1em;
+                            font-weight: bold;
+                            float: right;
+                            clear:both;
+                        }
+
+                        p {
+                            float: left;
+                            clear: both;
+                        }
+
+                        span.date {
+                            font-size: 0.8em;
+                            font-weight: normal;
+                            float: left;
+                            font-family: Consolas;
+                        }
+                    }
+
+                    clear: both;
+                }
+            }
+
+            input {
+                border: none;
+                border-radius: 5px;
+                padding: 9px 15px 10px;
+                background: #eeeeee;
+                margin-left: 15px;
+                margin-top: 2px;
+                color: #555555;
+                width: 245px;
+            }
+
+            button {
+                font-size: 1.1em;
+                padding: 5px 15px;
+                margin-top: 4px;
+                border: none;
+                border-radius: 5px;
+                .linearGradient(#ededed, 0%, #ababab, 100%);
+
+                &:hover{
+					background:#eee;
+
+				}
+            }
+        }
+    }
+}

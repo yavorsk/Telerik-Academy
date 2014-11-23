@@ -1,0 +1,14 @@
+﻿body div p {
+    font-family: Consolas;
+    color: #0094ff;
+}
+
+body div p:first-letter {
+    font-family: 'Edwardian Script ITC';
+    font-size: 2.5em;
+}
+
+body div p::first-line {
+    font-weight: bold;
+    line-height: 3em;
+}

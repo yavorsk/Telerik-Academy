@@ -1,0 +1,94 @@
+﻿body {
+    font-family: Tahoma;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 605px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body > header {
+    text-align: center;
+}
+
+    body > header a {
+        color: #1db7f1;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+body hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+article > section {
+    float: left;
+}
+
+article section.products {
+    border: 1px solid black;
+    padding-left: 6px;
+    padding-bottom: 6px;
+    margin-top: 3px;
+}
+
+article div {
+    border: 1px solid black;
+    padding: 5px;
+    width: 200px;
+    margin-top: 15px;
+    float: left;
+    margin-right: 6px;
+}
+
+    article div.left {
+        clear: left;
+    }
+
+    article div h2 {
+        font-size: 1em;
+        font-weight: normal;
+        background-color: white;
+        text-align: center;
+        padding-left: 5px;
+        padding-right: 5px;
+        float: left;
+        margin-top: -15px;
+    }
+
+    article div img {
+        float: left;
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+
+    article div ul {
+        list-style: none;
+        margin-top: 35px;
+    }
+
+    article div li {
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-right: 5px;
+        padding-left: 5px;
+        display: inline-block;
+    }
+
+section.sliders {
+    margin-left: 5px;
+    margin-top: 10%;
+    font-size: 1em;
+    text-align: center;
+    line-height: 220%;
+}
+
+    section.sliders input {
+        width: 90%;
+    }

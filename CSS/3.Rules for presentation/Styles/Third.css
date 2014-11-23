@@ -1,0 +1,8 @@
+﻿body div {
+    margin: 0px 7% 0px 0px;
+    padding: 0px;
+    border: 1px solid red;
+    border-radius: 10em;
+    background-color: black;
+    vertical-align: central;
+}

@@ -1,0 +1,62 @@
+﻿body,
+div,
+h1,
+img,
+p {
+  margin: 0;
+  padding: 0;
+}
+div#wrapper {
+  width: 960px;
+  font-family: Constantina, Georgia, 'Nimbus Roman No9 L', serif;
+  font-size: 16px;
+  position: relative;
+}
+div#wrapper div {
+  margin-left: 25px;
+  margin-top: 25px;
+  border: 1px solid black;
+  border-radius: 15px;
+  background: #de28ff;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #de28ff 15%, #f9dbff 75%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(15%, #de28ff), color-stop(75%, #f9dbff));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #de28ff 15%, #f9dbff 75%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #de28ff 15%, #f9dbff 75%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #de28ff 15%, #f9dbff 75%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #de28ff 15%, #f9dbff 75%);
+  /* W3C */
+  padding: 15px 35px 31px 35px;
+}
+div#wrapper div h1 {
+  font-size: 1.8em;
+}
+div#wrapper div p.postedby {
+  display: inline-block;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 5px 15px;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+div#wrapper div p.info {
+  margin-top: 21px;
+  text-align: justify;
+}
+div#wrapper img {
+  position: absolute;
+}
+div#wrapper img.left-arrow {
+  top: 84px;
+  left: 26px;
+}
+div#wrapper img.right-arrow {
+  top: 84px;
+  left: 929px;
+}
+/*# sourceMappingURL=task1.css.map */

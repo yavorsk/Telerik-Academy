@@ -1,0 +1,157 @@
+﻿.linearGradient(@color1, @location1, @color2, @location2) {
+    background: @color1; /* Old browsers */
+    background: -moz-linear-gradient(top, @color1 @location1, @color2 @location2); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(@location1,@color1), color-stop( @location2,@color2)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, @color1 @location1,@color2 @location2); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, @color1 @location1,@color2 @location2); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, @color1 @location1,@color2 @location2); /* IE10+ */
+    background: linear-gradient(to bottom, @color1 @location1,@color2 @location2); /* W3C */
+}
+
+.clearfix() {
+    zoom: 1;
+
+    &:after {
+        content: "";
+        display: block;
+        height: 0;
+        clear: both;
+    }
+}
+
+body, div, h1, h2, ul, li, input, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+    font-size: 18px;
+
+    div#root {
+        width: 610px;
+        text-align: center;
+
+        div#me {
+            div.messages {
+
+                ul {
+                    .clearfix;
+
+                    li.me {
+                        display: block;
+                        text-align: left;
+                    }
+
+                    li.other {
+                        display: block;
+                        text-align: right;
+                    }
+                }
+            }
+        }
+
+        div#other {
+            div.messages {
+                .clearfix;
+
+                li.me {
+                    display: block;
+                    text-align: left;
+                }
+
+                li.other {
+                    display: block;
+                    text-align: right;
+                }
+            }
+        }
+
+        h1 {
+            color: #2aa0bd;
+            font-style: italic;
+            margin-top: 8px;
+            margin-left: 16px;
+            margin-bottom: 23px;
+            font-size: 34px;
+        }
+
+        div.chat-container {
+            border: 1px solid #cccccc;
+            border-radius: 5px;
+            height: 500px;
+            width: 298px;
+            margin-left: 5px;
+            float: left;
+            color: #2aa0bd;
+            .linearGradient(#4ae871,40%,#f1ffbc,80%);
+            position: relative;
+
+
+
+            h2 {
+                margin-top: 22px;
+            }
+
+            div {
+                div.messages {
+                    ul {
+                        list-style-type: none;
+                        margin: 40px 15px 20px;
+
+                        li {
+                            border-bottom: 1px solid black;
+                            overflow-wrap:break-word;
+
+                            strong {
+                                font-style: italic;
+                                font-weight: lighter;
+                                font-size: 0.95em;
+                                display: block;
+                            }
+
+                            span {
+                                display: block;
+                            }
+
+                            &:last-of-type {
+                                border-bottom: none;
+                            }
+                        }
+                    }
+                }
+
+                div.sent-message {
+                    position: absolute;
+                    bottom: 0px;
+                    left: 5px;
+
+                    input {
+                        padding: 5px 15px;
+                        border: 1px solid #cccccc;
+                        border-top-left-radius: 10px;
+                        border-top-right-radius: 10px;
+                        font-size: 1.1em;
+                        color: #2aa0bd;
+                        width: 170px;
+                        background: none;
+                    }
+
+                    button {
+                        padding: 5px 15px;
+                        border: 1px solid #cccccc;
+                        border-top-left-radius: 10px;
+                        border-top-right-radius: 10px;
+                        font-size: 1.1em;
+                        color: #2aa0bd;
+                        background: none;
+
+                        &:hover {
+                            .linearGradient(#4ae871,15%,#f1ffbc,80%);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

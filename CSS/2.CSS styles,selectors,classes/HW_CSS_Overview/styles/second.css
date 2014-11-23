@@ -1,0 +1,48 @@
+﻿body {
+    font-family: Arial;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px inset #BEBCA1;
+}
+
+th {
+    text-align: left;
+    padding: 5px;
+    border: 2px inset #BEBCA1;
+    color: white;
+    font-weight: normal;
+    background-color: #55B806;
+}
+
+td {
+    padding: 5px;
+    border-right: 2px inset #BEBCA1;
+    border-left: 2px inset #BEBCA1;
+}
+
+tr:nth-child(2n) {
+    background-color: #ECECD8;
+}
+
+img {
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.firstcol {
+    width: 200px;
+}
+
+.secondcol {
+    width: 150px;
+}
+
+.thirdcol {
+    width: 200px;
+}
+
+.fourthcol {
+    width: 100px;
+}

@@ -1,0 +1,71 @@
+﻿body {
+    font-family: 'Times New Roman';
+    background-color: #3b3b3b;
+    width: 680px;
+}
+
+body, header, section, article, div, input, p {
+    padding: 0;
+    margin: 0;
+}
+
+    body > header {
+        height: 80px;
+        padding-top: 22px;
+        padding-bottom: 18px;
+        padding-right: 20px;
+        height: 40px;
+        padding-left: 60px;
+        display: inline-block;
+        vertical-align: middle;
+        background: #3b3b3b; /* Old browsers */
+        background: url(../img/monitor.png) no-repeat 15px, -moz-linear-gradient(top, #3b3b3b 0%, #3b3b3b 76%, #292929 100%); /* FF3.6+ */
+        background: url(../img/monitor.png) no-repeat 15px, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3b3b3b), color-stop(76%,#3b3b3b), color-stop(100%,#292929)); /* Chrome,Safari4+ */
+        background: url(../img/monitor.png) no-repeat 15px, -webkit-linear-gradient(top, #3b3b3b 0%,#3b3b3b 76%,#292929 100%); /* Chrome10+,Safari5.1+ */
+        background: url(../img/monitor.png) no-repeat 15px, -o-linear-gradient(top, #3b3b3b 0%,#3b3b3b 76%,#292929 100%); /* Opera 11.10+ */
+        background: url(../img/monitor.png) no-repeat 15px, -ms-linear-gradient(top, #3b3b3b 0%,#3b3b3b 76%,#292929 100%); /* IE10+ */
+        background: url(../img/monitor.png) no-repeat 15px, linear-gradient(to bottom, #3b3b3b 0%,#3b3b3b 76%,#292929 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b3b3b', endColorstr='#292929',GradientType=0 ); /* IE6-9 */
+    }
+
+        body > header form {
+        }
+
+            body > header form label {
+                color: white;
+                font-weight: bold;
+                font-size: 1.2em;
+                vertical-align: middle;
+            }
+
+    label, input[type=text], input[type=email] {
+        margin-left: 10px;
+        padding-left: 10px;
+    }
+
+    input[type=image] {
+        margin-left: 10px;
+        vertical-align: bottom;
+    }
+
+article {
+    margin-left: 15px;
+}
+
+    article header h1 {
+        color: #fbcc2f;
+        font-weight: normal;
+        font-size: 1.5em;
+    }
+
+    article p {
+        font-family: Verdana;
+        font-size: 0.8em;
+        color: gray;
+        line-height: 20px;
+    }
+
+        article p strong {
+            color: #f2fff2;
+            font-weight: normal;
+        }

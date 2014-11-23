@@ -1,0 +1,102 @@
+﻿.linearGradient(@color1, @location1, @color2, @location2) {
+    background: @color1; /* Old browsers */
+    background: -moz-linear-gradient(top, @color1 @location1, @color2 @location2); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(@location1,@color1), color-stop( @location2,@color2)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, @color1 @location1,@color2 @location2); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, @color1 @location1,@color2 @location2); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, @color1 @location1,@color2 @location2); /* IE10+ */
+    background: linear-gradient(to bottom, @color1 @location1,@color2 @location2); /* W3C */
+}
+
+body, div, a, ul, li, table, td, tr, thead, tbody, th, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, 'Nimbus Mono L', monospace;
+    font-size: 16px;
+
+    div#wrapper {
+        width: 960px;
+
+        ul.notification-list {
+            margin-top: 25px;
+            margin-left: 25px;
+            list-style-type: none;
+            border: 1px solid black;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            border-bottom: none;
+            width: 470px;
+            .linearGradient(#ababab, 0%, #dddddd, 80%);
+
+            & > li {
+                display: inline-block;
+                padding: 5px 15px 4px 15px;
+                border-right: 1px solid black;
+                border-bottom: 1px solid black;
+
+                &:last-of-type {
+                    border-right: none;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: #777777;
+                    font-size: 1.2em;
+
+
+                    img {
+                        width: 15px;
+                        height: 15px;
+                    }
+                }
+
+                /*&:first-of-type div {
+                    display: block;
+                }*/
+
+                div {
+                    display: none;
+                    position: absolute;
+                    top: 57px;
+                    left: 25px;
+                    border: 1px solid black;
+                    border-top: none;
+                    padding: 4px 15px 5px;
+                    width: 440px;
+                    font-size: 0.85em;
+                    .linearGradient(#dddddd, 0%, #cccccc, 100%);
+
+                    ul {
+                        list-style-type: none;
+                        padding-top: 1px;
+
+                        li {
+                            margin-bottom: 10px;
+
+                            &:last-of-type {
+                                margin-bottom: 0;
+                            }
+
+                            a {
+                                img {
+                                    margin-right: 5px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                &:hover {
+                    border-bottom: none;
+
+                    div {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}

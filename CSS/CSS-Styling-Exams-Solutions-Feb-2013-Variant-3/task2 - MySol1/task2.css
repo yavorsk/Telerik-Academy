@@ -1,0 +1,58 @@
+﻿body,
+div,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+div#wrapper {
+  width: 960px;
+  font-family: Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+  font-size: 16px;
+  color: black;
+  padding-left: 25px;
+  padding-top: 25px;
+}
+div#wrapper div.select-list {
+  vertical-align: central;
+}
+div#wrapper div.select-list ul {
+  border-top-left-radius: 5px;
+  display: inline-block;
+  list-style: none;
+  width: 150px;
+  height: 200px;
+  overflow-y: scroll;
+  background: #8168ff;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #8168ff 0, #ffffff 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #8168ff), color-stop(100%, #ffffff));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #8168ff 0, #ffffff 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #8168ff 0, #ffffff 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #8168ff 0, #ffffff 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #8168ff 0, #ffffff 100%);
+  /* W3C */
+}
+div#wrapper div.select-list ul li {
+  padding: 5px 15px;
+  border-bottom: 1px solid black;
+}
+div#wrapper div.select-list ul li:last-of-type {
+  border-bottom: none;
+}
+div#wrapper div.select-list ul li.selected {
+  background: #6c4eff;
+}
+div#wrapper div.select-list ul li:first-letter {
+  text-decoration: underline;
+}
+div#wrapper div.select-list a {
+  position: relative;
+  top: -80px;
+}
+/*# sourceMappingURL=task2.css.map */

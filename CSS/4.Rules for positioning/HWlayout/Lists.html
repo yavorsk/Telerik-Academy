@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <style>
+        ul {
+            list-style: none;
+        }
+
+        ul li a {
+            color: black;
+        }
+
+        li a {
+            text-decoration: none;
+        }
+
+            li a:hover {
+                text-decoration: underline;
+            }
+
+        ul li ul li a{
+            color: gray;
+        }
+
+            ul li ul {
+                display: none;
+            }
+
+            ul li:hover > ul {
+                display: block;
+            }
+    </style>
+    <title>Lists</title>
+</head>
+<body>
+    <div>
+        <ul>
+            <li>
+                <a href="#">List Item</a>
+                <ul>
+                    <li>
+                        <a href="#">SubList Item</a>
+                        <ul>
+                            <li><a href="#">SubSubList Item</a></li>
+                            <li><a href="#">SubSubList Item</a></li>
+                            <li><a href="#">SubSubList Item</a></li>
+                            <li><a href="#">SubSubList Item</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">SubList Item</a>
+                        <ul>
+                            <li><a href="#">SubList Item</a></li>
+                            <li><a href="#">SubList Item</a></li>
+                            <li>
+                                <a href="#">SubList Item</a>
+                                <ul>
+                                    <li><a href="#">SubSubList Item</a></li>
+                                    <li><a href="#">SubSubList Item</a></li>
+                                    <li><a href="#">SubSubList Item</a></li>
+                                    <li><a href="#">SubSubList Item</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">SubList Item</a></li>
+                            <li><a href="#">SubList Item</a></li>
+                            <li>
+                                <a href="#">SubList Item</a>
+                                <ul>
+                                    <li><a href="#">SubSubList Item</a></li>
+                                    <li><a href="#">SubSubList Item</a></li>
+                                    <li><a href="#">SubSubList Item</a></li>
+                                    <li><a href="#">SubSubList Item</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">SubList Item</a></li>
+                    <li><a href="#">SubList Item</a></li>
+                </ul>
+            </li>
+            <li><a href="#">List Item</a></li>
+            <li><a href="#">List Item</a></li>
+            <li><a href="#">List Item</a></li>
+            <li>
+                <a href="#">List Item</a>
+                <ul>
+                    <li><a href="#">SubList Item</a></li>
+                    <li><a href="#">SubList Item</a></li>
+                    <li><a href="#">SubList Item</a></li>
+                    <li><a href="#">SubList Item</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

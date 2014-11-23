@@ -1,0 +1,141 @@
+﻿body,
+div,
+a,
+ul,
+li,
+table,
+td,
+tr,
+thead,
+tbody,
+th,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+  font-size: 18px;
+}
+body div#wrapper {
+  width: 960px;
+}
+body div#wrapper ul.accordion {
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 400px;
+  list-style-type: none;
+  color: #444444;
+}
+body div#wrapper ul.accordion li {
+  border: 1px solid black;
+  text-align: center;
+}
+body div#wrapper ul.accordion li a.accordion-btn {
+  display: block;
+  text-decoration: none;
+  color: #444444;
+  font-size: 1.3em;
+  font-weight: bold;
+  background: #eeeeee;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #eeeeee 25%, #aaaaaa 75%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #eeeeee), color-stop(75%, #aaaaaa));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #eeeeee 25%, #aaaaaa 75%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #eeeeee 25%, #aaaaaa 75%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #eeeeee 25%, #aaaaaa 75%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #eeeeee 25%, #aaaaaa 75%);
+  /* W3C */
+}
+body div#wrapper ul.accordion li a.accordion-btn:hover {
+  background: #aaaaaa;
+}
+body div#wrapper ul.accordion li div.accordion-content {
+  display: none;
+  text-align: left;
+  padding: 5px 15px;
+  background: #aaaaaa;
+}
+body div#wrapper ul.accordion li div.accordion-content h1 {
+  text-align: center;
+  color: #5e5e5e;
+  font-size: 1.6em;
+  padding: 5px 0;
+}
+body div#wrapper ul.accordion li div.accordion-content p {
+  text-align: justify;
+}
+body div#wrapper ul.accordion li div.accordion-content table {
+  border-collapse: collapse;
+  border: 1px solid black;
+  margin: 15px 0px 15px 6px;
+}
+body div#wrapper ul.accordion li div.accordion-content table thead tr {
+  background: #ececec;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #ececec 0%, #898989 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ececec), color-stop(100%, #898989));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ececec 0%, #898989 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ececec 0%, #898989 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ececec 0%, #898989 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #ececec 0%, #898989 100%);
+  /* W3C */
+}
+body div#wrapper ul.accordion li div.accordion-content table thead tr th:first-child {
+  border-top-left-radius: 15px;
+}
+body div#wrapper ul.accordion li div.accordion-content table tbody tr:nth-child(odd) {
+  background: #cbcbcb;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #cbcbcb 0%, #898989 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #cbcbcb), color-stop(100%, #898989));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #cbcbcb 0%, #898989 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #cbcbcb 0%, #898989 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #cbcbcb 0%, #898989 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #cbcbcb 0%, #898989 100%);
+  /* W3C */
+}
+body div#wrapper ul.accordion li div.accordion-content table tbody tr:nth-child(even) {
+  background: #898989;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #898989 0%, #cbcbcb 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #898989), color-stop(100%, #cbcbcb));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #898989 0%, #cbcbcb 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #898989 0%, #cbcbcb 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #898989 0%, #cbcbcb 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #898989 0%, #cbcbcb 100%);
+  /* W3C */
+}
+body div#wrapper ul.accordion li div.accordion-content table th,
+body div#wrapper ul.accordion li div.accordion-content table td {
+  padding: 5px 5px;
+  border: 1px solid black;
+}
+body div#wrapper ul.accordion li div.accordion-content table td {
+  color: white;
+}
+body div#wrapper ul.accordion li.current div.accordion-content {
+  display: block;
+}
+/*# sourceMappingURL=task1.css.map */

@@ -1,0 +1,149 @@
+﻿body,
+div,
+h1,
+h2,
+ul,
+li,
+input,
+button {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial;
+  font-size: 18px;
+}
+body div#root {
+  width: 610px;
+  text-align: center;
+}
+body div#root div#me div.messages ul {
+  zoom: 1;
+}
+body div#root div#me div.messages ul:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+}
+body div#root div#me div.messages ul li.me {
+  display: block;
+  text-align: left;
+}
+body div#root div#me div.messages ul li.other {
+  display: block;
+  text-align: right;
+}
+body div#root div#other div.messages {
+  zoom: 1;
+}
+body div#root div#other div.messages:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+}
+body div#root div#other div.messages li.me {
+  display: block;
+  text-align: left;
+}
+body div#root div#other div.messages li.other {
+  display: block;
+  text-align: right;
+}
+body div#root h1 {
+  color: #2aa0bd;
+  font-style: italic;
+  margin-top: 8px;
+  margin-left: 16px;
+  margin-bottom: 23px;
+  font-size: 34px;
+}
+body div#root div.chat-container {
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  height: 500px;
+  width: 298px;
+  margin-left: 5px;
+  float: left;
+  color: #2aa0bd;
+  background: #4ae871;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #4ae871 40%, #f1ffbc 80%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(40%, #4ae871), color-stop(80%, #f1ffbc));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #4ae871 40%, #f1ffbc 80%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #4ae871 40%, #f1ffbc 80%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #4ae871 40%, #f1ffbc 80%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #4ae871 40%, #f1ffbc 80%);
+  /* W3C */
+  position: relative;
+}
+body div#root div.chat-container h2 {
+  margin-top: 22px;
+}
+body div#root div.chat-container div div.messages ul {
+  list-style-type: none;
+  margin: 40px 15px 20px;
+}
+body div#root div.chat-container div div.messages ul li {
+  border-bottom: 1px solid black;
+  overflow-wrap: break-word;
+}
+body div#root div.chat-container div div.messages ul li strong {
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 0.95em;
+  display: block;
+}
+body div#root div.chat-container div div.messages ul li span {
+  display: block;
+}
+body div#root div.chat-container div div.messages ul li:last-of-type {
+  border-bottom: none;
+}
+body div#root div.chat-container div div.sent-message {
+  position: absolute;
+  bottom: 0px;
+  left: 5px;
+}
+body div#root div.chat-container div div.sent-message input {
+  padding: 5px 15px;
+  border: 1px solid #cccccc;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-size: 1.1em;
+  color: #2aa0bd;
+  width: 170px;
+  background: none;
+}
+body div#root div.chat-container div div.sent-message button {
+  padding: 5px 15px;
+  border: 1px solid #cccccc;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-size: 1.1em;
+  color: #2aa0bd;
+  background: none;
+}
+body div#root div.chat-container div div.sent-message button:hover {
+  background: #4ae871;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #4ae871 15%, #f1ffbc 80%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(15%, #4ae871), color-stop(80%, #f1ffbc));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #4ae871 15%, #f1ffbc 80%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #4ae871 15%, #f1ffbc 80%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #4ae871 15%, #f1ffbc 80%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #4ae871 15%, #f1ffbc 80%);
+  /* W3C */
+}
+/*# sourceMappingURL=style1.css.map */

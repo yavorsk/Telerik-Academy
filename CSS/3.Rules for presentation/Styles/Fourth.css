@@ -1,0 +1,282 @@
+﻿body {
+}
+
+#calc-window {
+    background-color: #3d639c;
+    width: 421px;
+    height: 387px;
+    border: 1px solid #2f4c77;
+}
+
+#work-window {
+    width: 407px;
+    height: 350px;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    margin-top: 0px;
+    padding: 0px;
+    border: 1px solid #2f4c77;
+    background-color: white;
+}
+
+#header-container {
+    margin-left: 9px;
+    margin-right: 7px;
+    line-height: 29px;
+    align-content: center;
+}
+
+    #header-container div {
+        display: inline-block;
+    }
+
+    #header-container #calc-icon {
+        margin-left: 2px;
+    }
+
+    #header-container #title {
+        margin-left: 148px;
+    }
+
+    #header-container #con-buttons {
+        margin-left: 62px;
+        vertical-align: top;
+    }
+
+        #header-container #con-buttons #max {
+            margin-left: -4px;
+        }
+
+        #header-container #con-buttons #max:hover {
+            
+        }
+
+        #header-container #con-buttons #close {
+            margin-left: -4px;
+        }
+
+#title {
+    font-size: 16px;
+    font-family: 'Microsoft NeoGothic';
+    color: #30283e;
+    text-align: center;
+}
+
+#menu {
+    padding: 0;
+    background-color: white;
+    border-bottom: 1px solid #e8e9ea;
+    height: 18px;
+    line-height: 12px;
+    font-size: 0px;
+}
+
+    #menu input {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin: 0px;
+        height: 19px;
+        border: 1px solid white;
+        border-bottom: 1px solid #e8e9ea;
+        background-color: white;
+        font-size: 12px;
+        vertical-align: top;
+    }
+
+        #menu input #edit {
+            margin-left: -1px;
+        }
+
+        #menu input #help {
+            margin-left: -2px;
+        }
+
+        #menu input:hover {
+            border: 1px solid #74aae2;
+            background-color: #d5e7f8;
+        }
+
+#calc {
+    padding: 11px 11px 6px 11px;
+    background: url(http://localhost:16236/images/calc-back.png) repeat-x #d9e4f1;
+}
+
+    #calc table {
+        padding: 0px;
+        margin-left: -3px;
+        margin-top: -3px;
+        border-collapse: collapse;
+    }
+
+        #calc table td {
+            padding: 3px;
+            color: #1e395b;
+            vertical-align: central;
+        }
+
+            #calc table td input[type=button] {
+                padding: 3px;
+                height: 25px;
+                width: 32px;
+                border-radius: 2px;
+                color: #1f3976;
+                font-family: 'Microsoft JhengHei UI';
+                line-height: 16px;
+            }
+
+            #calc table td input.inactive {
+                border: 1px solid #b4c2d1;
+                background: none;
+                font-size: 11px;
+            }
+
+            #calc table td input.active-func {
+                border: 1px solid #8797aa;
+                background: url(http://localhost:16236/images/active-func-back.png) repeat-x #d9e4f1;
+                font-size: 11px;
+            }
+
+            #calc table td input.active {
+                border: 1px solid #8797aa;
+                background: url(http://localhost:16236/images/active-back.png) repeat-x #d9e4f1;
+                font-size: 11px;
+            }
+
+            #calc table td input.digit {
+                border: 1px solid #8797aa;
+                background: url(http://localhost:16236/images/digit-back.png) repeat-x #d9e4f1;
+                font-size: 16px;
+                text-align: center;
+            }
+
+                #calc table td input.digit:hover, #calc table td input.active:hover, #calc table td input.active-func:hover {
+                    border-color: #ffdb00;
+                    background: url(http://localhost:16236/images/button-hover.png) repeat-x #ffdb00;
+                }
+
+
+    #calc #zero {
+        height: 25px;
+        width: 71px;
+    }
+
+    #calc #equals {
+        height: 57px;
+        width: 32px;
+        font-size: 26px;
+        font-weight: bold;
+        background: url(http://localhost:16236/images/equals-back.png) repeat-x #d9e4f1;
+    }
+
+    #calc table td input.hexdigit {
+        font-size: 16px;
+    }
+
+#num-system-box-container {
+    height: 89px;
+    width: 71px;
+    border: 1px solid #8797aa;
+    border-radius: 2px;
+    background: none;
+}
+
+#num-system-box {
+    font-family: 'Microsoft JhengHei UI';
+    font-size: 11px;
+    color: #1e395b;
+    display: table-cell;
+    line-height: 15px;
+    padding-top: 2px;
+}
+
+    #num-system-box input[type=radio] {
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: 5px;
+    }
+
+    #num-system-box label {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 5px;
+    }
+
+#num-type-box-container {
+    height: 89px;
+    width: 71px;
+    border: 1px solid #8797aa;
+    border-radius: 2px;
+    background: none;
+}
+
+#num-type-box {
+    font-family: 'Microsoft JhengHei UI';
+    font-size: 11px;
+    color: #1e395b;
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 15px;
+    padding-top: 2px;
+}
+
+    #num-type-box input[type=radio] {
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: 5px;
+    }
+
+    #num-type-box label {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 5px;
+    }
+
+#input-box input {
+    padding-right: 5px;
+    padding-bottom: 8px;
+    padding-top: 18px;
+    height: 22px;
+    width: 378px;
+    border: 1px solid #8e9cad;
+    border-radius: 2px;
+    background: url(http://localhost:16236/images/input-back.png) repeat-x #d9e4f1;
+    text-align: right;
+    vertical-align: bottom;
+    font-size: 22px;
+    font-family: Consolas;
+    color: #333333;
+}
+
+#bits-box {
+    width: 383px;
+    height: 59px;
+    border: 1px solid #8696aa;
+    border-radius: 2px;
+    background: none;
+    font-size: 12px;
+    font-family: Consolas;
+    color: #1e395b;
+}
+
+    #bits-box table {
+        width: 367px;
+        height: 53px;
+        margin: 3px 8px 3px 8px;
+        padding: 0;
+        border-collapse: collapse;
+        line-height: 12px;
+    }
+
+        #bits-box table td {
+            padding-top: 0px;
+            padding-bottom: 0px;
+            padding-left: 7px;
+            padding-right: 7px;
+        }
+
+            #bits-box table td.td-al-left, #bits-box table td.td-al-right {
+                color: #666666;
+            }

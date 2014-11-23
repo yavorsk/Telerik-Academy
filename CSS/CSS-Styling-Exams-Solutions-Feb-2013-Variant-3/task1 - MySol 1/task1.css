@@ -1,0 +1,102 @@
+﻿body,
+div,
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+}
+div#wrapper {
+  width: 960px;
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'DejaVu Sans Condensed', sans-serif;
+  font-size: 16px;
+  color: #2394ff;
+  padding-left: 50px;
+  padding-top: 25px;
+}
+div#wrapper ul.msg-bar {
+  margin-top: 180px;
+}
+div#wrapper ul.msg-bar > li {
+  display: inline-block;
+  padding: 5px 15px;
+  border: 1px solid black;
+  background: #aaffef;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #aaffef 0%, #13ffd2 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #aaffef), color-stop(100%, #13ffd2));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #aaffef 0%, #13ffd2 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #aaffef 0%, #13ffd2 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #aaffef 0%, #13ffd2 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #aaffef 0%, #13ffd2 100%);
+  /* W3C */
+}
+div#wrapper ul.msg-bar > li:hover {
+  background: #00ddb3;
+  border-top: none;
+}
+div#wrapper ul.msg-bar > li:hover > div.msg-bar-content {
+  visibility: visible;
+}
+div#wrapper ul.msg-bar a {
+  text-decoration: none;
+  color: #2394ff;
+}
+div.msg-bar-content {
+  position: absolute;
+  top: 43px;
+  left: 50px;
+  visibility: hidden;
+  width: 460px;
+  height: 158px;
+  border: 1px solid black;
+  border-bottom: none;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background: #aaffef;
+}
+div.msg-bar-content ul {
+  padding: 10px 15px;
+}
+div.msg-bar-content ul li {
+  zoom: 1;
+}
+div.msg-bar-content ul li:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+}
+div.msg-bar-content ul li.me-item {
+  background: url(/imgs/me.png) no-repeat 6px 9px;
+}
+div.msg-bar-content ul li.other-item {
+  background: url(/imgs/male.png) no-repeat 6px 9px;
+}
+div.msg-bar-content ul li span.user {
+  float: left;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 5px 15px 5px 25px;
+  margin-bottom: 5px;
+}
+div.msg-bar-content ul li span:last-child {
+  float: right;
+  display: block;
+  padding: 5px 15px 5px 0px;
+  text-align: right;
+  width: 315px;
+  border-bottom: 1px solid black;
+}
+div.msg-bar-content ul li:last-child span:last-child {
+  border: none;
+}
+ul {
+  list-style-type: none;
+}
+/*# sourceMappingURL=task1.css.map */

@@ -1,0 +1,166 @@
+﻿body,
+div,
+form,
+fieldset,
+input,
+label {
+  margin: 0;
+  padding: 0;
+}
+div#wrapper {
+  width: 960px;
+  font-family: Cambria, 'Palatino Linotype', 'Book Antiqua', 'URW Palladio L', serif;
+  font-size: 18px;
+  color: white;
+}
+div#wrapper form {
+  margin-top: 25px;
+  margin-left: 25px;
+  padding: 15px;
+  width: 380px;
+  background-color: #cfe057;
+  border: 1px solid #444444;
+  border-radius: 15px;
+  text-align: right;
+  font-size: 16px;
+  background: #ebff5b;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #ebff5b 0%, #444444 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ebff5b), color-stop(100%, #444444));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ebff5b 0%, #444444 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ebff5b 0%, #444444 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ebff5b 0%, #444444 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #ebff5b 0%, #444444 100%);
+  /* W3C */
+}
+fieldset {
+  border: 3px solid #555555;
+  border-radius: 5px;
+  padding: 5px 15px;
+  text-align: right;
+}
+fieldset legend {
+  font-size: 21px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0 15px;
+}
+fieldset label {
+  font-size: 16px;
+}
+fieldset input[type="text"],
+fieldset input[type="password"] {
+  margin-top: 5px;
+  padding: 5px 15px;
+  width: 149px;
+  border: 2px solid #444444;
+  border-radius: 5px;
+  outline: none;
+  background: #ebff5b;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #ebff5b 0%, #444444 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ebff5b), color-stop(100%, #444444));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ebff5b 0%, #444444 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ebff5b 0%, #444444 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ebff5b 0%, #444444 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #ebff5b 0%, #444444 100%);
+  /* W3C */
+  color: white;
+}
+fieldset input[type="number"] {
+  margin-top: 5px;
+  padding: 5px 5px;
+  width: 35px;
+  border: 2px solid #444444;
+  border-radius: 5px;
+  outline: none;
+  background: #ebff5b;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #ebff5b 0%, #444444 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ebff5b), color-stop(100%, #444444));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ebff5b 0%, #444444 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ebff5b 0%, #444444 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ebff5b 0%, #444444 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #ebff5b 0%, #444444 100%);
+  /* W3C */
+  color: white;
+}
+form input[type="radio"] {
+  display: none;
+}
+form input[type="radio"]:checked + label {
+  font-size: 18px;
+  font-weight: bold;
+}
+form > label {
+  display: inline-block;
+  padding: 10px 0;
+}
+form button {
+  font-size: 19px;
+  color: #333333;
+  border-style: none;
+  border-radius: 5px;
+  margin: 5px 0 0 0;
+  padding: 5px 15px 6px 15px;
+  box-shadow: #000000 0 -1px inset;
+  background: #e3fd28;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #e3fd28 0%, #444444 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e3fd28), color-stop(100%, #444444));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #e3fd28 0%, #444444 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #e3fd28 0%, #444444 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #e3fd28 0%, #444444 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #e3fd28 0%, #444444 100%);
+  /* W3C */
+}
+form button:hover {
+  background: #f1ff8e;
+}
+form input[type="reset"] {
+  font-size: 19px;
+  color: #333333;
+  border-style: none;
+  border-radius: 5px;
+  margin: 5px 0 0 0;
+  padding: 5px 15px 6px 15px;
+  box-shadow: #000000 0 -1px inset;
+  background: #e3fd28;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #e3fd28 0%, #444444 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e3fd28), color-stop(100%, #444444));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #e3fd28 0%, #444444 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #e3fd28 0%, #444444 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #e3fd28 0%, #444444 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #e3fd28 0%, #444444 100%);
+  /* W3C */
+}
+form input[type="reset"]:hover {
+  background: #f1ff8e;
+}
+/*# sourceMappingURL=task3.css.map */

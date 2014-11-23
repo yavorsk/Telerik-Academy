@@ -1,0 +1,6 @@
+C:\Users\yavor\Google Drive\TelerikAcademy\HTML\2. Tables in HTML\HW 2 Tables\HW2 Tables\HW2 Tables\bin\HW2 Tables.dll.config
+C:\Users\yavor\Google Drive\TelerikAcademy\HTML\2. Tables in HTML\HW 2 Tables\HW2 Tables\HW2 Tables\bin\HW2 Tables.dll
+C:\Users\yavor\Google Drive\TelerikAcademy\HTML\2. Tables in HTML\HW 2 Tables\HW2 Tables\HW2 Tables\bin\HW2 Tables.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\HTML\2. Tables in HTML\HW 2 Tables\HW2 Tables\HW2 Tables\obj\Debug\HW2 Tables.csprojResolveAssemblyReference.cache
+C:\Users\yavor\Google Drive\TelerikAcademy\HTML\2. Tables in HTML\HW 2 Tables\HW2 Tables\HW2 Tables\obj\Debug\HW2 Tables.dll
+C:\Users\yavor\Google Drive\TelerikAcademy\HTML\2. Tables in HTML\HW 2 Tables\HW2 Tables\HW2 Tables\obj\Debug\HW2 Tables.pdb

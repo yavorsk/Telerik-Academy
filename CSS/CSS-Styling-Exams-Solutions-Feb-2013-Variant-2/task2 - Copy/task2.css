@@ -1,0 +1,113 @@
+﻿body,
+div,
+a,
+ul,
+li,
+table,
+td,
+tr,
+thead,
+tbody,
+th,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Courier New', Courier, 'Nimbus Mono L', monospace;
+  font-size: 16px;
+}
+body div#wrapper {
+  width: 960px;
+}
+body div#wrapper ul.notification-list {
+  margin-top: 25px;
+  margin-left: 25px;
+  list-style-type: none;
+  border: 1px solid black;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom: none;
+  width: 470px;
+  background: #ababab;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #ababab 0%, #dddddd 80%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ababab), color-stop(80%, #dddddd));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ababab 0%, #dddddd 80%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ababab 0%, #dddddd 80%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ababab 0%, #dddddd 80%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #ababab 0%, #dddddd 80%);
+  /* W3C */
+}
+body div#wrapper ul.notification-list > li {
+  display: inline-block;
+  padding: 5px 15px 4px 15px;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  /*&:first-of-type div {
+                    display: block;
+                }*/
+}
+body div#wrapper ul.notification-list > li:last-of-type {
+  border-right: none;
+}
+body div#wrapper ul.notification-list > li a {
+  text-decoration: none;
+  color: #777777;
+  font-size: 1.2em;
+}
+body div#wrapper ul.notification-list > li a img {
+  width: 15px;
+  height: 15px;
+}
+body div#wrapper ul.notification-list > li div {
+  display: none;
+  position: absolute;
+  top: 57px;
+  left: 25px;
+  border: 1px solid black;
+  border-top: none;
+  padding: 4px 15px 5px;
+  width: 440px;
+  font-size: 0.85em;
+  background: #dddddd;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #dddddd 0%, #cccccc 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #dddddd), color-stop(100%, #cccccc));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #dddddd 0%, #cccccc 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #dddddd 0%, #cccccc 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #dddddd 0%, #cccccc 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #dddddd 0%, #cccccc 100%);
+  /* W3C */
+}
+body div#wrapper ul.notification-list > li div ul {
+  list-style-type: none;
+  padding-top: 1px;
+}
+body div#wrapper ul.notification-list > li div ul li {
+  margin-bottom: 10px;
+}
+body div#wrapper ul.notification-list > li div ul li:last-of-type {
+  margin-bottom: 0;
+}
+body div#wrapper ul.notification-list > li div ul li a img {
+  margin-right: 5px;
+}
+body div#wrapper ul.notification-list > li:hover {
+  border-bottom: none;
+}
+body div#wrapper ul.notification-list > li:hover div {
+  display: block;
+}
+/*# sourceMappingURL=task2.css.map */

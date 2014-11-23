@@ -1,0 +1,122 @@
+﻿body,
+div,
+aside,
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Cambria, 'Times New Roman', 'Nimbus Roman No9 L', 'Freeserif', Times, serif;
+  font-size: 16px;
+}
+body div#wrapper {
+  width: 960px;
+}
+body div#wrapper ul.tab-strip {
+  margin-top: 15px;
+  margin-left: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  zoom: 1;
+  width: 340px;
+  height: 230px;
+}
+body div#wrapper ul.tab-strip:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+}
+body div#wrapper ul.tab-strip > li {
+  list-style-type: none;
+  float: left;
+}
+body div#wrapper ul.tab-strip > li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.4em;
+  display: block;
+  padding: 5px 15px;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-radius: 5px;
+  background: #ededed;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #ededed 0%, #ababab 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ededed), color-stop(100%, #ababab));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ededed 0%, #ababab 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ededed 0%, #ababab 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ededed 0%, #ababab 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #ededed 0%, #ababab 100%);
+  /* W3C */
+}
+body div#wrapper ul.tab-strip > li a:hover {
+  background: #eeeeee;
+}
+body div#wrapper ul.tab-strip > li:nth-child(4) a {
+  border-right: none;
+}
+body div#wrapper ul.tab-strip > li.current div.tab-content {
+  display: block;
+}
+body div#wrapper ul.tab-strip > li.current a {
+  font-weight: bold;
+  background: white;
+  border-right: 1px solid black;
+  border-bottom: none;
+  border-radius: 0;
+  border-top-left-radius: 5px;
+}
+body div#wrapper ul.tab-strip div.tab-content {
+  display: none;
+  position: absolute;
+  top: 66px;
+  left: 36px;
+}
+body div#wrapper ul.tab-strip div.tab-content ul {
+  list-style-type: disc;
+}
+body div#wrapper ul.tab-strip div.tab-content ul ul {
+  list-style-type: lower-latin;
+  position: relative;
+  left: 25px;
+}
+body div#wrapper ul.tab-strip div.tab-content table {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+body div#wrapper ul.tab-strip div.tab-content table thead {
+  background: #ababab;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #ababab 0%, #eeeeee 80%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ababab), color-stop(80%, #eeeeee));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ababab 0%, #eeeeee 80%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ababab 0%, #eeeeee 80%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ababab 0%, #eeeeee 80%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #ababab 0%, #eeeeee 80%);
+  /* W3C */
+}
+body div#wrapper ul.tab-strip div.tab-content table tbody {
+  background: #eeeeee;
+}
+body div#wrapper ul.tab-strip div.tab-content table th {
+  border: 1px solid black;
+  padding: 5px 15px;
+}
+body div#wrapper ul.tab-strip div.tab-content table td {
+  border: 1px solid black;
+  padding: 5px;
+}
+/*# sourceMappingURL=task2.css.map */

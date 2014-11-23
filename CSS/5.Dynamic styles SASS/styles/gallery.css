@@ -1,0 +1,28 @@
+body {
+  background-color: black; }
+  body nav {
+    margin-top: 10px;
+    text-align: center; }
+    body nav label img {
+      opacity: 0.6;
+      transition: opacity 1s, box-shadow 1s; }
+      body nav label img:hover {
+        opacity: 1;
+        box-shadow: 0px 0px 30px gray; }
+  body label {
+    margin-left: 10px; }
+  body div input {
+    display: none; }
+    body div input:checked + img {
+      opacity: 1; }
+  body div img {
+    position: absolute;
+    top: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 1.5s; }
+
+/*# sourceMappingURL=gallery.css.map */

@@ -1,0 +1,105 @@
+﻿body,
+p,
+hgroup,
+h2,
+h3,
+a {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-seri;
+  font-size: 16px;
+}
+body div#wrapper {
+  width: 960px;
+  padding-left: 22px;
+  padding-top: 20px;
+}
+body div#wrapper > div {
+  float: left;
+  width: 148px;
+  border: 2px solid #d3d7da;
+  margin-left: -2px;
+}
+body div#wrapper > div:nth-child(even) {
+  height: 280px;
+  background: #ffffff;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #ffffff 0%, #f1f2f3 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #f1f2f3));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ffffff 0%, #f1f2f3 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ffffff 0%, #f1f2f3 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ffffff 0%, #f1f2f3 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #ffffff 0%, #f1f2f3 100%);
+  /* W3C */
+}
+body div#wrapper > div:nth-child(odd) {
+  height: 260px;
+  background: white;
+}
+body div#wrapper > div:nth-child(1) hgroup {
+  background: url(/imgs/install.png) no-repeat 4px 14px;
+}
+body div#wrapper > div:nth-child(2) hgroup {
+  background: url(/imgs/tuneUp.png) no-repeat 4px 14px;
+}
+body div#wrapper > div:nth-child(3) hgroup {
+  background: url(/imgs/manage.png) no-repeat 4px 14px;
+}
+body div#wrapper > div:nth-child(4) hgroup {
+  background: url(/imgs/openSource.png) no-repeat 4px 14px;
+}
+body div#wrapper > div:nth-child(5) hgroup {
+  background: url(/imgs/twitter.png) no-repeat 4px 14px;
+}
+body div#wrapper > div:nth-child(6) hgroup {
+  background: url(/imgs/about.png) no-repeat 4px 14px;
+}
+body div#wrapper > div hgroup {
+  height: 65px;
+  display: block;
+  position: relative;
+}
+body div#wrapper > div hgroup h2,
+body div#wrapper > div hgroup h3 {
+  font-size: 16px;
+  margin-left: 44px;
+  position: absolute;
+}
+body div#wrapper > div hgroup h2 {
+  bottom: 15px;
+}
+body div#wrapper > div hgroup h3 {
+  bottom: 35px;
+}
+body div#wrapper > div p {
+  margin: 1px 4px 5px;
+}
+body div#wrapper > div div {
+  margin-top: 1px;
+}
+body div#wrapper > div div a {
+  text-decoration: none;
+  color: #d02d2f;
+  margin: 0px 4px 0px;
+  display: block;
+}
+body div#wrapper > div div a span {
+  text-transform: uppercase;
+}
+body div#wrapper > div div.yellowBox {
+  border: 1px solid #ffff00;
+  margin: -4px 4px 4px 4px;
+  background: #ffffdd;
+}
+body div#wrapper > div div.yellowBox a {
+  display: inline;
+  margin: 0;
+}
+/*# sourceMappingURL=task3.css.map */

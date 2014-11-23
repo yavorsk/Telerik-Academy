@@ -1,0 +1,6 @@
+C:\Users\yavor\Google Drive\TelerikAcademy\CSS\4.Rules for positioning\HW layout\HWlayout\HWlayout\bin\HWlayout.dll.config
+C:\Users\yavor\Google Drive\TelerikAcademy\CSS\4.Rules for positioning\HW layout\HWlayout\HWlayout\bin\HWlayout.dll
+C:\Users\yavor\Google Drive\TelerikAcademy\CSS\4.Rules for positioning\HW layout\HWlayout\HWlayout\bin\HWlayout.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\CSS\4.Rules for positioning\HW layout\HWlayout\HWlayout\obj\Debug\HWlayout.csprojResolveAssemblyReference.cache
+C:\Users\yavor\Google Drive\TelerikAcademy\CSS\4.Rules for positioning\HW layout\HWlayout\HWlayout\obj\Debug\HWlayout.dll
+C:\Users\yavor\Google Drive\TelerikAcademy\CSS\4.Rules for positioning\HW layout\HWlayout\HWlayout\obj\Debug\HWlayout.pdb
