@@ -1,0 +1,5 @@
+global.asax --> aspplicationStart() -->
+	Database.SetInitializer(new DropCreateDatabaseIfModelChanges<DataContext>());
+global.asax --> aspplicationStart() -->
+	ViewEngines.Engines.Clear();
+	ViewEngines.Engines.Add(new RazorViewEngine());
