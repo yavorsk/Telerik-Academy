@@ -1,0 +1,42 @@
+Design pattern: Simple Factory
+	* ManufacturerFactory
+
+Design pattern: Strategy
+	* 
+
+Design pattern: Template Method
+	* 
+
+Design pattern: Abstract factory
+	* IComputerManufacturer, DellComputerManufacturer, HPComputerManufacturer
+
+Design pattern: Composite
+	* 
+
+Design pattern: Mediator
+	* 
+
+Found bottlenecks:
+	* getRandomNumber method in cpu class, may lead to a lot of uneccesarry looping
+	* unnecessary loop in squareNumber method in Cpu
+	* printing on the console is slow we should use stringBuilder
+
+Found bugs:
+	* in CPU - videoCard was not initialized in the constructor and threw argument null exception
+	* bug in calculating squareNumber method in Cpu
+	* 
+
+Single responsibility principle
+	* solved the Divergent change code smell - extracted VideoCard class from HDD class
+
+Open/closed principle
+	* Oppenes of the application is provided through the Factory design patterns - it is easy to add other manufacturers and computer types
+
+Liskov substitution principle
+	* 
+
+Interface segregation principle
+	* All classes implement all of the methods, which are given by the interface, which they implement
+
+Dependency inversion principle
+	* Where possible objects on which a given object depends are passed to it through its constructor
