@@ -1,0 +1,20 @@
+Connection string for "Company" database: (.) 
+	<connectionStrings>
+    		<add name="CompanyEntities" connectionString="metadata=res://*/CompanyEntities.csdl|res://*/CompanyEntities.ssdl|res://*/CompanyEntities.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=.;initial catalog=Company;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />
+  	</connectionStrings>
+
+Connection string for "Cars" database: (.)
+	  <connectionStrings>
+    		<add name="CarsConnection" connectionString="Data Source=.;Initial Catalog=Cars;Integrated Security=true" providerName="System.Data.SqlClient"/>
+ 	  </connectionStrings>
+
+Relationships for "Company" database: Employees : Reports - one to many
+					Employees : Departments - one to many
+					Employees : Employees - one to many (some employees have managers) 
+					Employees : Projects - many to many (through EmployeesProjects table)
+
+Relationships for "Cars" database: Manufacturers : Cars - one to many
+					Dealers : Cars - one to many
+					Dealers : Cities - many to many	
+
+Query files: SolutionCompany\Quieries\

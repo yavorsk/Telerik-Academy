@@ -1,0 +1,6 @@
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Bases\7. ADO.NET\HW\ADO.NET\01.RetrieveNumOfRows\bin\x86\Debug\01.RetrieveNumOfRows.exe.config
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Bases\7. ADO.NET\HW\ADO.NET\01.RetrieveNumOfRows\bin\x86\Debug\01.RetrieveNumOfRows.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Bases\7. ADO.NET\HW\ADO.NET\01.RetrieveNumOfRows\bin\x86\Debug\01.RetrieveNumOfRows.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Bases\7. ADO.NET\HW\ADO.NET\01.RetrieveNumOfRows\obj\x86\Debug\01.RetrieveNumOfRows.csprojResolveAssemblyReference.cache
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Bases\7. ADO.NET\HW\ADO.NET\01.RetrieveNumOfRows\obj\x86\Debug\01.RetrieveNumOfRows.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Bases\7. ADO.NET\HW\ADO.NET\01.RetrieveNumOfRows\obj\x86\Debug\01.RetrieveNumOfRows.pdb

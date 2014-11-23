@@ -1,0 +1,6 @@
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Bases\7. ADO.NET\HW\ADO.NET\02.RetrieveNameAndDescr\bin\Debug\02.RetrieveNameAndDescr.exe.config
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Bases\7. ADO.NET\HW\ADO.NET\02.RetrieveNameAndDescr\bin\Debug\02.RetrieveNameAndDescr.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Bases\7. ADO.NET\HW\ADO.NET\02.RetrieveNameAndDescr\bin\Debug\02.RetrieveNameAndDescr.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Bases\7. ADO.NET\HW\ADO.NET\02.RetrieveNameAndDescr\obj\Debug\02.RetrieveNameAndDescr.csprojResolveAssemblyReference.cache
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Bases\7. ADO.NET\HW\ADO.NET\02.RetrieveNameAndDescr\obj\Debug\02.RetrieveNameAndDescr.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Bases\7. ADO.NET\HW\ADO.NET\02.RetrieveNameAndDescr\obj\Debug\02.RetrieveNameAndDescr.pdb

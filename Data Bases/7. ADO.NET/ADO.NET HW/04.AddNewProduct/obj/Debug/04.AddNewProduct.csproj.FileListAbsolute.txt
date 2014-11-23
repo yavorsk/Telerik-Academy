@@ -1,0 +1,6 @@
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Bases\7. ADO.NET\HW\ADO.NET\04.AddNewProduct\bin\Debug\04.AddNewProduct.exe.config
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Bases\7. ADO.NET\HW\ADO.NET\04.AddNewProduct\bin\Debug\04.AddNewProduct.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Bases\7. ADO.NET\HW\ADO.NET\04.AddNewProduct\bin\Debug\04.AddNewProduct.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Bases\7. ADO.NET\HW\ADO.NET\04.AddNewProduct\obj\Debug\04.AddNewProduct.csprojResolveAssemblyReference.cache
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Bases\7. ADO.NET\HW\ADO.NET\04.AddNewProduct\obj\Debug\04.AddNewProduct.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Bases\7. ADO.NET\HW\ADO.NET\04.AddNewProduct\obj\Debug\04.AddNewProduct.pdb

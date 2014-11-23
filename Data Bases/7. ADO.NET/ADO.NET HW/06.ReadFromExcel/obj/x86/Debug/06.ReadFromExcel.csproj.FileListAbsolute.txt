@@ -1,0 +1,5 @@
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Bases\7. ADO.NET\HW\ADO.NET\06.ReadFromExcel\bin\x86\Debug\06.ReadFromExcel.exe.config
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Bases\7. ADO.NET\HW\ADO.NET\06.ReadFromExcel\bin\x86\Debug\06.ReadFromExcel.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Bases\7. ADO.NET\HW\ADO.NET\06.ReadFromExcel\bin\x86\Debug\06.ReadFromExcel.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Bases\7. ADO.NET\HW\ADO.NET\06.ReadFromExcel\obj\x86\Debug\06.ReadFromExcel.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Bases\7. ADO.NET\HW\ADO.NET\06.ReadFromExcel\obj\x86\Debug\06.ReadFromExcel.pdb

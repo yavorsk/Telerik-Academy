@@ -1,0 +1,6 @@
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Bases\7. ADO.NET\HW\ADO.NET\03.CategoriesAndProducts\bin\x86\Debug\03.CategoriesAndProducts.exe.config
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Bases\7. ADO.NET\HW\ADO.NET\03.CategoriesAndProducts\bin\x86\Debug\03.CategoriesAndProducts.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Bases\7. ADO.NET\HW\ADO.NET\03.CategoriesAndProducts\bin\x86\Debug\03.CategoriesAndProducts.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Bases\7. ADO.NET\HW\ADO.NET\03.CategoriesAndProducts\obj\x86\Debug\03.CategoriesAndProducts.csprojResolveAssemblyReference.cache
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Bases\7. ADO.NET\HW\ADO.NET\03.CategoriesAndProducts\obj\x86\Debug\03.CategoriesAndProducts.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Bases\7. ADO.NET\HW\ADO.NET\03.CategoriesAndProducts\obj\x86\Debug\03.CategoriesAndProducts.pdb

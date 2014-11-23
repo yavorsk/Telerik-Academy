@@ -1,0 +1,6 @@
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Bases\7. ADO.NET\HW\ADO.NET\05.RetreiveImages\bin\Debug\05.RetreiveImages.exe.config
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Bases\7. ADO.NET\HW\ADO.NET\05.RetreiveImages\obj\Debug\05.RetreiveImages.csprojResolveAssemblyReference.cache
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Bases\7. ADO.NET\HW\ADO.NET\05.RetreiveImages\bin\Debug\05.RetreiveImages.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Bases\7. ADO.NET\HW\ADO.NET\05.RetreiveImages\bin\Debug\05.RetreiveImages.pdb
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Bases\7. ADO.NET\HW\ADO.NET\05.RetreiveImages\obj\Debug\05.RetreiveImages.exe
+C:\Users\yavor\Google Drive\TelerikAcademy\Data Bases\7. ADO.NET\HW\ADO.NET\05.RetreiveImages\obj\Debug\05.RetreiveImages.pdb

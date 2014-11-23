@@ -1,0 +1,62 @@
+CREATE TABLE Logs(
+  Id int NOT NULL IDENTITY,
+  LogDate datetime,
+  MsgText nvarchar(300),
+  CONSTRAINT PK_Logs_Id PRIMARY KEY (Id)
+)
+
+GO
+
+ALTER PROC usp_AddoneMilionLogs
+AS
+DECLARE @counter int
+SET @counter = 1;
+WHILE(@counter < 1000000)
+BEGIN
+  DECLARE @Date datetime
+  DECLARE @MsgText nvarchar(300)
+	SET @Date = DATEADD(month, CONVERT(varbinary, newid()) % (50 * 12), getdate())
+	SET @MsgText = 'msg text ' + CONVERT(nvarchar(300), @counter)
+	INSERT INTO Logs (LogDate, MsgText)
+	VALUES(@Date, @MsgText)
+	SET @counter = @counter + 1;
+END
+GO
+--filled 2 000 000 logs for 12 minutes...and i have stopped it
+
+EXEC usp_AddoneMilionLogs
+
+
+CHECKPOINT; DBCC DROPCLEANBUFFERS; -- Empty the SQL Server cache
+
+--TASK 1--------------------------------
+SELECT l.LogDate
+FROM Logs l
+WHERE YEAR(l.LogDate) < 2012 AND YEAR(l.LogDate) > 2001
+
+--RESULT:
+-- 4sec. without cache
+-- 0.6sec. with cache
+
+----------------------------TASK 2--------------------------------
+
+CREATE INDEX IDX_Logs_LogDate ON Logs(LogDate)
+DROP INDEX Logs.IDX_Logs_LogDate
+--indexes created for 8sec.
+SELECT l.LogDate
+FROM Logs l
+WHERE YEAR(l.LogDate) < 2012 AND YEAR(l.LogDate) > 2001
+-- 2sec. without cache
+
+----------------------------TASK 3--------------------------------
+CREATE FULLTEXT CATALOG LogsFullTextForLogText
+WITH ACCENT_SENSITIVITY = OFF
+
+CREATE FULLTEXT INDEX ON Logs(MsgText)
+KEY INDEX PK_Logs_Id
+ON LogsFullTextForLogText
+WITH CHANGE_TRACKING AUTO
+
+SELECT * FROM Logs
+WHERE MsgText LIKE 'msg text 1256%'
+-- 1sec. without cache

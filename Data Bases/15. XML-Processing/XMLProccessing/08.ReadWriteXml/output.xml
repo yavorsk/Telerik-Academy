@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<albums>
+	<album>
+		<albumName>The black album</albumName>
+		<artist>Metallica</artist>
+	</album>
+	<album>
+		<albumName>Helligoland</albumName>
+		<artist>Massive attack</artist>
+	</album>
+	<album>
+		<albumName>Master of puppets</albumName>
+		<artist>Metallica</artist>
+	</album>
+</albums>

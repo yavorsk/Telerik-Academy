@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<students xmlns:students="urn:blabla.com:StudentsNS"
+          xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <student>
+    <name>Pesho</name>
+    <sex>male</sex>
+    <birth-date>12-06-2000</birth-date>
+    <phone>0889786545</phone>
+    <email>pesho@abv.bg</email>
+    <course>4</course>
+    <speciality>Structural Engineering</speciality>
+    <exams>
+      <exam>
+        <name>Structural dynamics</name>
+        <tutor>Gosho</tutor>
+        <score>67</score>
+      </exam>
+      <exam>
+        <exam-name>Structural chemistry</exam-name>
+        <tutor>Pepa</tutor>
+        <score>12</score>
+      </exam>
+    </exams>
+  </student>
+  <student>
+    <name>Ivanka</name>
+    <sex>female</sex>
+    <birth-date>06-07-1996</birth-date>
+    <phone>0889232323</phone>
+    <email>vania@abv.bg</email>
+    <course>3</course>
+    <speciality>Structural Engineering</speciality>
+    <exams>
+      <exam>
+        <exam-name>Concrete</exam-name>
+        <tutor>Tosho</tutor>
+        <score>80</score>
+      </exam>
+      <exam>
+        <exam-name>Iconomics</exam-name>
+        <tutor>Lola</tutor>
+        <score>12</score>
+      </exam>
+    </exams>
+  </student>
+</students>

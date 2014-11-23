@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<catalogue>
+  <album>
+    <albumName>The black album</albumName>
+    <artist>Metallica</artist>
+    <year>1991</year>
+    <producer>Bob Rock</producer>
+    <price>9.99</price>
+    <songs>
+      <song duration="4:66">Through the never</song>
+      <song duration="5:33">The unforgiven</song>
+      <song duration="3:22">Nothing else matters</song>
+      <song duration="6:44">Don't thread on me</song>
+      <song duration="6:44">My friend of misery</song>
+    </songs>
+  </album>
+  <album>
+    <albumName>Helligoland</albumName>
+    <artist>Massive attack</artist>
+    <year>2012</year>
+    <producer>Rick Rubin</producer>
+    <price>12.99</price>
+    <songs>
+      <song duration="2:66">Paradise circus</song>
+      <song duration="7:33">Prayer for England</song>
+      <song duration="4:22">Inertia creeps</song>
+      <song duration="5:44">Splitting the atom</song>
+      <song duration="3:44">Safe from harm</song>
+    </songs>
+  </album>
+  <album>
+    <albumName>Master of puppets</albumName>
+    <artist>Metallica</artist>
+    <year>1985</year>
+    <producer>Rick Rubin</producer>
+    <price>14.99</price>
+    <songs>
+      <song duration="4:54">Battery</song>
+      <song duration="5:32">Sanitarium</song>
+      <song duration="3:43">Orion</song>
+      <song duration="6:50">The thing that should not be</song>
+      <song duration="4:44">Damage Inc.</song>
+    </songs>
+  </album>
+</catalogue>

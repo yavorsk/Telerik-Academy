@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="urn:blabla.com:StudentsNS"
+           xmlns:students="urn:blabla.com:StudentsNS"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:element name="name" type="xs:string" />
+  <xs:element name="sex" type="xs:string" />
+  <xs:element name="birth-date" type="xs:date" />
+  <xs:element name="phone" type="xs:string" />
+  <xs:element name="email" type="xs:string" />
+  <xs:element name="course" type="xs:string" />
+  <xs:element name="speciality" type="xs:string" />
+
+  <xs:element name="exam-name" type="xs:string" />
+  <xs:element name="tutor" type="xs:string" />
+  <xs:element name="score" type="xs:int" />
+
+  <xs:element name="students">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="student" maxOccurs="unbounded">
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="student">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="name" maxOccurs="1"/>
+        <xs:element ref="sex" maxOccurs="1"/>
+        <xs:element ref="birth-date" maxOccurs="1"/>
+        <xs:element ref="phone" maxOccurs="1"/>
+        <xs:element ref="email" maxOccurs="unbounded"/>
+        <xs:element ref="course" maxOccurs="1"/>
+        <xs:element ref="speciality" maxOccurs="1"/>
+        <xs:element ref="exams" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="exams">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="exam-name" />
+        <xs:element ref="tutor" />
+        <xs:element ref="score" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+</xs:schema>

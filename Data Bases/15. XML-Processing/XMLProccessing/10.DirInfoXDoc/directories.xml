@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<directories>
+  <file name="10.DirInfoXDoc.csproj" />
+  <file name="10.DirInfoXDoc.csproj.user" />
+  <file name="App.config" />
+  <file name="directories.xml" />
+  <file name="DirInfoXDoc.cs" />
+  <directory name="bin">
+    <directory name="Debug">
+      <file name="10.DirInfoXDoc.exe" />
+      <file name="10.DirInfoXDoc.exe.config" />
+      <file name="10.DirInfoXDoc.pdb" />
+      <file name="10.DirInfoXDoc.vshost.exe" />
+      <file name="10.DirInfoXDoc.vshost.exe.config" />
+    </directory>
+    <directory name="Release" />
+  </directory>
+  <directory name="obj">
+    <directory name="Debug">
+      <file name="10.DirInfoXDoc.csproj.FileListAbsolute.txt" />
+      <file name="10.DirInfoXDoc.csprojResolveAssemblyReference.cache" />
+      <file name="10.DirInfoXDoc.exe" />
+      <file name="10.DirInfoXDoc.pdb" />
+      <file name="DesignTimeResolveAssemblyReferencesInput.cache" />
+      <file name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+      <file name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+      <file name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+      <directory name="TempPE" />
+    </directory>
+  </directory>
+  <directory name="Properties">
+    <file name="AssemblyInfo.cs" />
+  </directory>
+</directories>
