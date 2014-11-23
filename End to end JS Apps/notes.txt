@@ -1,0 +1,148 @@
+1. Intro --------------------------------------
+	- Node.js tools for visual studio
+	- promenlivite ne sa globalni. za da sa globalni triabva da gi attachnem kym globals object
+	- require na moduli ot failovata sistema pravim kato zadavame path
+		module.exports = {
+		car: car,
+		pilots: pilots
+		}
+	- Third party modules - install through Node Package Manager - npm
+		npm init    --> package.json (inicializira proekt)
+		npm install [package] -g (for global installation) --save (zapazva dependancitata v package.json)
+		
+2. NodeJs web server
+	
+3. MongoDb & mongoose
+	mongo db install
+		mongod --dbpath "c:/mongodb/data"
+	mongodb as service
+	umongo - kato management studio
+	mongovue - kato management studio
+	npm install mongodb
+	
+	npm nodemon
+		nodemon app.js
+		
+	once installed mongodb must be started - go to mongodb installation folder and: mondgod
+	
+	var mongodb = require('mongodb');
+	var server = new mongodb.Server('localhost', 27017);
+	var mongoClient = new mongodb.MongoClient(server);
+	mongoClient.open(function(err, client){
+		var db = client.db('database_name');
+		//queries over the db
+	})
+	
+	find({$or: [{name: 'asdasd'}, {name: 'bbvccbxv'}]}) // or query
+	
+	npm install mongoose
+	var  mogoose = require('mongoose');
+	mogoose.connect(mongoDbPath); //connect to the database
+	var db = mongoose.connection;
+	var Unit = mongoose.model('Unit', {type: Strong});
+	new Unit({type: 'warrior'}).save(callback); //create
+	Unit.find({type: 'warrior'}).exec(callback); //fetch
+	
+	search mongoose queries;
+	http://mongoosejs.com/docs/queries.html
+	http://mongoosejs.com/docs/2.7.x/docs/query.html
+	
+	https://github.com/flextry/RateMyX flextry project
+	
+4. NodeJs debugging
+	npm install -g node-inspector
+	node-inspector //startirame go
+	node --debug-brk [app.js] //startirame preilojenieto v debug mode
+	
+5. View engines
+	npm install jade
+	
+	jade [index].jade
+	jade [index].jade --pretty
+	
+		var jade = require('jade');
+		var fs = require('fs');
+
+		fs.readFile('index.jade', 'UTF8',
+			function (err, templateHTML) {
+				var template =
+					jade.compile(templateHTML, {
+						pretty: true
+					});
+				var model = {
+					title: 'Model Title',
+					url: 'http://gosho.net',
+					types: [
+						'pesho',
+						'gosho',
+						'stamat'
+					]
+				};
+
+				var readyHTML = template(model);
+
+				fs.writeFile('index.html', readyHTML, 'UTF8', function (err) {
+					console.log('File written');
+				});
+			});
+6. ExpressJS
+	- middleware:
+		npm install connect
+
+		var connect = require('connect');
+
+		var app = connect()
+		  .use(connect.logger('dev'))		//middleware
+		  .use(connect.static('public'))	//middleware
+		  .use(function(req, res){
+			res.end('hello world\n');
+		  })
+
+		http.createServer(app).listen(3000);
+	-first express app:
+		var express = require('express');
+
+		var app = express();
+
+		app.get('/', function (request, response) {
+			response.send('Welcome to Express!');
+		});
+
+		app.get('/customer/:id', function (req, res) {    res.send('Customer requested is ' + req.params['id']);
+		});
+
+		app.listen(3000);
+	- __dirname
+	- app.set('title', 'production app') - setvane na constanti v express
+		app.get('title')
+		
+	- jade 
+		app.get('/', function (req, res) {
+		res.render('index');				//default renderer is jade
+		});
+		-------------------
+		var express = require('express'),
+			path = require('path');
+		var app = express();
+		app.configure(function () {
+			app.set('views', __dirname + '/views');
+			app.set('view engine', 'jade');
+			app.use(express.static(path.join(__dirname, 'public')));
+		});
+		app.get('/', function (req, res) {
+			res.render('empty');
+		});
+		app.listen(3000);
+
+	- get-post-get / get-post-redirect
+	
+7. MEAN workshop
+
+8. Exam prep
+	UOW - 1h27min
+	error handler - 2h16min
+	skeleton - do 2h24min
+	fs - 3h37min 3h39min20sec
+
+	https://www.npmjs.org/package/apicache
+

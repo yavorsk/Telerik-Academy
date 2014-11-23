@@ -1,0 +1,18 @@
+extends ../shared/layout
+block main-content
+    h1 Welcome!
+    br
+    if (passedEvents)
+        h3 Passed events:
+            ul
+                each event in passedEvents
+                    li
+                        h2 Title: #{event.title}
+                        p Description #{event.description}
+                        h3 Comments:
+                        ul
+                            each comment in passedEvents.comments
+                                li comment
+    else
+        h3 There are no passed Events!
+

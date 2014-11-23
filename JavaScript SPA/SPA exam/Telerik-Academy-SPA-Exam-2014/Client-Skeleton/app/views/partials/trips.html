@@ -1,0 +1,105 @@
+﻿<div class="container" ng-hide="isAuthenticated">
+    <div>
+        <h1 class="text-center">Trips</h1>
+    </div>
+    <div>
+        <table class="table table-striped table-hover text-center">
+            <thead>
+                <tr>
+                    <th class="text-center">Driver</th>
+                    <th class="text-center">From</th>
+                    <th class="text-center">To</th>
+                    <th class="text-center">Departure Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="trip in trips">
+                    <td><a ng-href="#/drivers/{{trip.driverId}}">{{trip.driverName}}</a></td>
+                    <td>{{trip.from}}</td>
+                    <td>{{trip.to}}</td>
+                    <td><a ng-href="#/trips/{{trip.id}}">{{trip.departureDate | date:'medium'}}</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="container" ng-show="isAuthenticated">
+    <div>
+        <h1 class="text-center">Trips</h1>
+    </div>
+    <div>
+        <div class="row text-center well">
+            <div class="col-md-3">
+                <p>Sort</p>
+                <select ng-model="sort">
+                    <option value="">None</option>
+                    <option value="driver">Driver</option>
+                    <option value="date">Date</option>
+                    <option value="seats">Number Of Seats</option>
+                    <option value="from">From</option>
+                    <option value="to">To</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <p>Order</p>
+                <select ng-model="order">
+                    <option value="asc" selected="selected">Ascending</option>
+                    <option value="desc">Descending</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <p>From</p>
+                <select ng-model="fromCity">
+                    <option value="">None</option>
+                    <option ng-repeat="city in cities" value="{{city}}">{{city}}</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <p>To</p>
+                <select ng-model="toCity">
+                    <option value="">None</option>
+                    <option ng-repeat="city in cities" value="{{city}}">{{city}}</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 pull-left">
+                <p>
+                    <input type="checkbox" ng-model="finished" value="finished" />Include Finished
+                </p>
+                <p>
+                    <input type="checkbox" ng-model="isMine" value="onlyMine" />Only Mine
+                </p>
+            </div>
+            <div class="col-md-2 pull-left">
+                <button ng-click="getTripsParams()">Filter</button>
+            </div>
+            <div class="col-md-4 pull-right">
+                <input type="number" value="" ng-model="page" min="1" />
+                <button ng-click="getTripsByPage(page)">Page</button>
+            </div>
+        </div>
+
+        <table class="table table-striped table-hover text-center well">
+            <thead>
+                <tr>
+                    <th class="text-center">Driver</th>
+                    <th class="text-center">From</th>
+                    <th class="text-center">To</th>
+                    <th class="text-center">Departure Time</th>
+                    <th class="text-center">Is Mine</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="trip in trips">
+                    <td><a ng-href="#/drivers/{{trip.driverId}}">{{trip.driverName}}</a></td>
+                    <td>{{trip.from}}</td>
+                    <td>{{trip.to}}</td>
+                    <td><a ng-href="#/trips/{{trip.id}}">{{trip.departureDate | date:'medium'}}</a></td>
+                    <td>{{trip.isMine | filter: isMine}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -1,0 +1,46 @@
+extends ../shared/layout
+
+block main-content
+    h2 Hello #{currentUser.firstName} !
+    br
+    span Username: #{currentUser.username}
+    br
+    span First name: #{currentUser.firstName}
+    br
+    span Last name: #{currentUser.lastName}
+    br
+    span Phone number: #{currentUser.phoneNumber}
+    br
+    span Event points: #{currentUser.eventPoints}
+    br
+    img(src="#{currentUser.profileImage}")
+    br
+    if (currentUser.fbProfile)
+        span Facebook: #{currentUser.fbProfile}
+    else
+        span No Facebook profile!
+    br
+    if (currentUser.twitterProfile)
+        span Twitter: #{currentUser.twitterProfile}
+    else
+        span No Twitter profile!
+    br
+    if (currentUser.linkedInProfile)
+        span LinkedIn: #{currentUser.linkedInProfile}
+    else
+        span No LinkedIn profile!
+    br
+    if (currentUser.googlePlusProfile)
+        span Google plus: #{currentUser.googlePlusProfile}
+    else
+        span No Google plus profile!
+    br
+    br
+    a(href="/profile/changeInfo") Change account info
+    br
+    a(href="/profile/createdEvents") List Events created by you
+    br
+    a(href="/profile/joinedEvents") List Events joined by you
+    br
+    a(href="/profile/pastEvents") List past events
+

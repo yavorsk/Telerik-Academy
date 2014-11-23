@@ -1,0 +1,9 @@
+extends ../shared/layout
+block main-content
+    h2 Title: #{eventModel.title}
+        p Description #{eventModel.description}
+        span Event points: #{eventModel.eventPoints}
+        h3 Comments:
+        ul
+            each comment in eventModel.comments
+                li #{comment}

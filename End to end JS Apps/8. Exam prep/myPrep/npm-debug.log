@@ -1,0 +1,259 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'express',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json myPrep@0.0.0 No description
+6 warn package.json myPrep@0.0.0 No repository field.
+7 warn package.json myPrep@0.0.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'express', null ]
+10 verbose cache add name=undefined spec="express" args=["express",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'express',
+11 verbose parsed url   path: 'express',
+11 verbose parsed url   href: 'express' }
+12 silly lockFile f3c62de4-express express
+13 verbose lock express C:\Users\yavor\AppData\Roaming\npm-cache\f3c62de4-express.lock
+14 silly lockFile f3c62de4-express express
+15 silly lockFile f3c62de4-express express
+16 verbose addNamed [ 'express', '' ]
+17 verbose addNamed [ null, '*' ]
+18 silly lockFile 64a534c1-express express@
+19 verbose lock express@ C:\Users\yavor\AppData\Roaming\npm-cache\64a534c1-express.lock
+20 silly addNameRange { name: 'express', range: '*', hasData: false }
+21 verbose url raw express
+22 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+23 verbose url resolved https://registry.npmjs.org/express
+24 info trying registry request attempt 1 at 10:45:49
+25 verbose etag "2OON596QC4OHXI1VLNWUC43ZH"
+26 http GET https://registry.npmjs.org/express
+27 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+28 info trying registry request attempt 2 at 10:46:10
+29 verbose etag "2OON596QC4OHXI1VLNWUC43ZH"
+30 http GET https://registry.npmjs.org/express
+31 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+32 info trying registry request attempt 3 at 10:47:21
+33 verbose etag "2OON596QC4OHXI1VLNWUC43ZH"
+34 http GET https://registry.npmjs.org/express
+35 silly registry.get cb [ 304, undefined ]
+36 verbose etag express from cache
+37 silly addNameRange number 2 { name: 'express', range: '*', hasData: true }
+38 silly addNameRange versions [ 'express',
+38 silly addNameRange   [ '0.14.0',
+38 silly addNameRange     '0.14.1',
+38 silly addNameRange     '1.0.0',
+38 silly addNameRange     '1.0.1',
+38 silly addNameRange     '1.0.2',
+38 silly addNameRange     '1.0.3',
+38 silly addNameRange     '1.0.4',
+38 silly addNameRange     '1.0.5',
+38 silly addNameRange     '1.0.6',
+38 silly addNameRange     '1.0.7',
+38 silly addNameRange     '1.0.8',
+38 silly addNameRange     '2.0.0',
+38 silly addNameRange     '2.1.0',
+38 silly addNameRange     '2.1.1',
+38 silly addNameRange     '2.2.0',
+38 silly addNameRange     '2.2.1',
+38 silly addNameRange     '2.2.2',
+38 silly addNameRange     '2.3.0',
+38 silly addNameRange     '2.3.1',
+38 silly addNameRange     '2.3.2',
+38 silly addNameRange     '2.3.3',
+38 silly addNameRange     '2.3.4',
+38 silly addNameRange     '2.3.5',
+38 silly addNameRange     '2.3.6',
+38 silly addNameRange     '2.3.7',
+38 silly addNameRange     '2.3.8',
+38 silly addNameRange     '2.3.9',
+38 silly addNameRange     '2.3.10',
+38 silly addNameRange     '2.3.11',
+38 silly addNameRange     '2.3.12',
+38 silly addNameRange     '2.4.0',
+38 silly addNameRange     '2.4.1',
+38 silly addNameRange     '2.4.2',
+38 silly addNameRange     '2.4.3',
+38 silly addNameRange     '2.4.4',
+38 silly addNameRange     '2.4.5',
+38 silly addNameRange     '2.4.6',
+38 silly addNameRange     '2.4.7',
+38 silly addNameRange     '2.5.0',
+38 silly addNameRange     '2.5.1',
+38 silly addNameRange     '2.5.2',
+38 silly addNameRange     '2.5.3',
+38 silly addNameRange     '2.5.4',
+38 silly addNameRange     '2.5.5',
+38 silly addNameRange     '2.5.6',
+38 silly addNameRange     '2.5.7',
+38 silly addNameRange     '2.5.8',
+38 silly addNameRange     '2.5.9',
+38 silly addNameRange     '2.5.10',
+38 silly addNameRange     '2.5.11',
+38 silly addNameRange     '3.0.0',
+38 silly addNameRange     '3.0.1',
+38 silly addNameRange     '3.0.2',
+38 silly addNameRange     '3.0.3',
+38 silly addNameRange     '3.0.4',
+38 silly addNameRange     '3.0.5',
+38 silly addNameRange     '3.0.6',
+38 silly addNameRange     '3.1.0',
+38 silly addNameRange     '3.1.1',
+38 silly addNameRange     '3.1.2',
+38 silly addNameRange     '3.2.0',
+38 silly addNameRange     '3.2.1',
+38 silly addNameRange     '3.2.2',
+38 silly addNameRange     '3.2.3',
+38 silly addNameRange     '3.2.4',
+38 silly addNameRange     '3.2.5',
+38 silly addNameRange     '3.2.6',
+38 silly addNameRange     '3.3.0',
+38 silly addNameRange     '3.3.1',
+38 silly addNameRange     '3.3.2',
+38 silly addNameRange     '3.3.3',
+38 silly addNameRange     '3.3.4',
+38 silly addNameRange     '3.3.5',
+38 silly addNameRange     '3.3.6',
+38 silly addNameRange     '1.0.0-beta',
+38 silly addNameRange     '1.0.0-beta2',
+38 silly addNameRange     '1.0.0-rc',
+38 silly addNameRange     '1.0.0-rc2',
+38 silly addNameRange     '1.0.0-rc3',
+38 silly addNameRange     '1.0.0-rc4',
+38 silly addNameRange     '2.0.0-beta',
+38 silly addNameRange     '2.0.0-beta2',
+38 silly addNameRange     '2.0.0-beta3',
+38 silly addNameRange     '2.0.0-rc',
+38 silly addNameRange     '2.0.0-rc2',
+38 silly addNameRange     '2.0.0-rc3',
+38 silly addNameRange     '3.0.0-alpha1',
+38 silly addNameRange     '3.0.0-alpha2',
+38 silly addNameRange     '3.0.0-alpha3',
+38 silly addNameRange     '3.0.0-alpha4',
+38 silly addNameRange     '3.0.0-alpha5',
+38 silly addNameRange     '3.0.0-beta1',
+38 silly addNameRange     '3.0.0-beta2',
+38 silly addNameRange     '3.0.0-beta3',
+38 silly addNameRange     '3.0.0-beta4',
+38 silly addNameRange     '3.0.0-beta6',
+38 silly addNameRange     '3.0.0-beta7',
+38 silly addNameRange     '3.0.0-rc1',
+38 silly addNameRange     '3.0.0-rc2',
+38 silly addNameRange     '3.0.0-rc3',
+38 silly addNameRange     '3.0.0-rc4',
+38 silly addNameRange     '3.0.0-rc5',
+38 silly addNameRange     '3.3.7',
+38 silly addNameRange     '3.3.8',
+38 silly addNameRange     '3.4.0',
+38 silly addNameRange     '3.4.1',
+38 silly addNameRange     '3.4.2',
+38 silly addNameRange     '3.4.3',
+38 silly addNameRange     '3.4.4',
+38 silly addNameRange     '3.4.5',
+38 silly addNameRange     '3.4.6',
+38 silly addNameRange     '3.4.7',
+38 silly addNameRange     '3.4.8',
+38 silly addNameRange     '4.0.0-rc1',
+38 silly addNameRange     '4.0.0-rc2',
+38 silly addNameRange     '3.5.0',
+38 silly addNameRange     '4.0.0-rc3',
+38 silly addNameRange     '4.0.0-rc4',
+38 silly addNameRange     '3.5.1',
+38 silly addNameRange     '4.0.0',
+38 silly addNameRange     '3.5.2',
+38 silly addNameRange     '4.1.0',
+38 silly addNameRange     '4.1.1',
+38 silly addNameRange     '3.5.3',
+38 silly addNameRange     '4.1.2',
+38 silly addNameRange     '3.6.0',
+38 silly addNameRange     '4.2.0',
+38 silly addNameRange     '3.7.0',
+38 silly addNameRange     '3.8.0',
+38 silly addNameRange     '4.3.0',
+38 silly addNameRange     '4.3.1',
+38 silly addNameRange     '3.8.1',
+38 silly addNameRange     '4.3.2',
+38 silly addNameRange     '3.9.0',
+38 silly addNameRange     '4.4.0',
+38 silly addNameRange     '4.4.1',
+38 silly addNameRange     '3.10.0',
+38 silly addNameRange     '3.10.1',
+38 silly addNameRange     '3.10.2',
+38 silly addNameRange     '3.10.3',
+38 silly addNameRange     '3.10.4',
+38 silly addNameRange     '4.4.2',
+38 silly addNameRange     '3.10.5',
+38 silly addNameRange     '4.4.3',
+38 silly addNameRange     '3.11.0',
+38 silly addNameRange     '4.4.4',
+38 silly addNameRange     '3.12.0',
+38 silly addNameRange     '3.12.1',
+38 silly addNameRange     '4.4.5',
+38 silly addNameRange     '3.13.0',
+38 silly addNameRange     '4.5.0',
+38 silly addNameRange     '4.5.1',
+38 silly addNameRange     '3.14.0',
+38 silly addNameRange     '4.6.0',
+38 silly addNameRange     '4.6.1',
+38 silly addNameRange     '3.15.0',
+38 silly addNameRange     '4.7.0',
+38 silly addNameRange     '3.15.1',
+38 silly addNameRange     '4.7.1',
+38 silly addNameRange     '3.15.2',
+38 silly addNameRange     '4.7.2' ] ]
+39 verbose addNamed [ 'express', '4.7.2' ]
+40 verbose addNamed [ '4.7.2', '4.7.2' ]
+41 silly lockFile 9f40efcd-express-4-7-2 express@4.7.2
+42 verbose lock express@4.7.2 C:\Users\yavor\AppData\Roaming\npm-cache\9f40efcd-express-4-7-2.lock
+43 silly lockFile 8b2a7e84-js-org-express-express-4-7-2-tgz https://registry.npmjs.org/express/-/express-4.7.2.tgz
+44 verbose lock https://registry.npmjs.org/express/-/express-4.7.2.tgz C:\Users\yavor\AppData\Roaming\npm-cache\8b2a7e84-js-org-express-express-4-7-2-tgz.lock
+45 verbose addRemoteTarball [ 'https://registry.npmjs.org/express/-/express-4.7.2.tgz',
+45 verbose addRemoteTarball   '2cbae61efab6c2db72a547ff3bf380e637c08590' ]
+46 info retry fetch attempt 1 at 10:47:32
+47 verbose fetch to= C:\Users\yavor\AppData\Local\Temp\npm-11216-X3_olDMU\1412927252756-0.9214492987375706\tmp.tgz
+48 http GET https://registry.npmjs.org/express/-/express-4.7.2.tgz
+49 error fetch failed https://registry.npmjs.org/express/-/express-4.7.2.tgz
+50 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+51 info retry fetch attempt 2 at 10:47:53
+52 verbose fetch to= C:\Users\yavor\AppData\Local\Temp\npm-11216-X3_olDMU\1412927252756-0.9214492987375706\tmp.tgz
+53 http GET https://registry.npmjs.org/express/-/express-4.7.2.tgz
+54 error fetch failed https://registry.npmjs.org/express/-/express-4.7.2.tgz
+55 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+56 info retry fetch attempt 3 at 10:49:04
+57 verbose fetch to= C:\Users\yavor\AppData\Local\Temp\npm-11216-X3_olDMU\1412927252756-0.9214492987375706\tmp.tgz
+58 http GET https://registry.npmjs.org/express/-/express-4.7.2.tgz
+59 error fetch failed https://registry.npmjs.org/express/-/express-4.7.2.tgz
+60 silly lockFile 8b2a7e84-js-org-express-express-4-7-2-tgz https://registry.npmjs.org/express/-/express-4.7.2.tgz
+61 silly lockFile 8b2a7e84-js-org-express-express-4-7-2-tgz https://registry.npmjs.org/express/-/express-4.7.2.tgz
+62 silly lockFile 9f40efcd-express-4-7-2 express@4.7.2
+63 silly lockFile 9f40efcd-express-4-7-2 express@4.7.2
+64 silly lockFile 64a534c1-express express@
+65 silly lockFile 64a534c1-express express@
+66 error network getaddrinfo ENOTFOUND
+66 error network This is most likely not a problem with npm itself
+66 error network and is related to network connectivity.
+66 error network In most cases you are behind a proxy or have bad network settings.
+66 error network
+66 error network If you are behind a proxy, please make sure that the
+66 error network 'proxy' config is set properly.  See: 'npm help config'
+67 error System Windows_NT 6.2.9200
+68 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "express" "--save"
+69 error cwd C:\Users\yavor\Google Drive\TelerikAcademy\End to end JS Apps\8. Exam prep\myPrep
+70 error node -v v0.10.28
+71 error npm -v 1.4.9
+72 error syscall getaddrinfo
+73 error code ENOTFOUND
+74 error errno ENOTFOUND
+75 verbose exit [ 1, true ]
